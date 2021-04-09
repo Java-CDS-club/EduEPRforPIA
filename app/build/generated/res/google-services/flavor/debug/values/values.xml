@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">56118066242-ndqa7sis300o0ce5otglegn629ktmjj5.apps.googleusercontent.com</string>
-    <string name="firebase_database_url" translatable="false">https://ensyfiapp.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">56118066242</string>
-    <string name="google_api_key" translatable="false">AIzaSyBHdz61li9XMLbGQfSQ67G6xjV0jJ0d_8g</string>
-    <string name="google_app_id" translatable="false">1:56118066242:android:7fcce8c548ce6a4e</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBHdz61li9XMLbGQfSQ67G6xjV0jJ0d_8g</string>
-    <string name="google_storage_bucket" translatable="false">ensyfiapp.appspot.com</string>
-    <string name="project_id" translatable="false">ensyfiapp</string>
+    <string name="default_web_client_id" translatable="false">642355516705-g2nvkpimpj6a35ti1n5h0lfc01mc7voj.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">642355516705</string>
+    <string name="google_api_key" translatable="false">AIzaSyC5fYJU5jthbZ7LULQXGERagrDYINmKVBA</string>
+    <string name="google_app_id" translatable="false">1:642355516705:android:0b5ebe68aabc348515da60</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC5fYJU5jthbZ7LULQXGERagrDYINmKVBA</string>
+    <string name="google_storage_bucket" translatable="false">eduerp-ee93d.appspot.com</string>
+    <string name="project_id" translatable="false">eduerp-ee93d</string>
 </resources>

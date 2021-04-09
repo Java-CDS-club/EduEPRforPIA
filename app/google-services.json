@@ -1,64 +1,44 @@
 {
   "project_info": {
-    "project_number": "56118066242",
-    "firebase_url": "https://ensyfiapp.firebaseio.com",
-    "project_id": "ensyfiapp",
-    "storage_bucket": "ensyfiapp.appspot.com"
+    "project_number": "642355516705",
+    "project_id": "eduerp-ee93d",
+    "storage_bucket": "eduerp-ee93d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:56118066242:android:7fcce8c548ce6a4e",
+        "mobilesdk_app_id": "1:642355516705:android:0b5ebe68aabc348515da60",
         "android_client_info": {
-          "package_name": "com.palprotech.ensyfi"
+          "package_name": "com.edu.erp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "56118066242-ndqa7sis300o0ce5otglegn629ktmjj5.apps.googleusercontent.com",
-          "client_type": 3
-        },
-        {
-          "client_id": "56118066242-nnkk59h8nc40nsvfhtdsq8m0r4mlmhe1.apps.googleusercontent.com",
+          "client_id": "642355516705-2m4tro9a3t0kvs8rpdqqs5f5071in3sq.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.palprotech.ensyfi",
-            "certificate_hash": "7fa736848b086fd7b9713048684d8cd594c20606"
+            "package_name": "com.edu.erp",
+            "certificate_hash": "83123ff7d5aec11df606b92d1f1538aabcd20ce8"
           }
         },
         {
-          "client_id": "56118066242-hu0kg6bqntd9gka8npahedmrf9nc2mps.apps.googleusercontent.com",
+          "client_id": "642355516705-g2nvkpimpj6a35ti1n5h0lfc01mc7voj.apps.googleusercontent.com",
           "client_type": 3
-        },
-        {
-          "client_id": "56118066242-refs52psneoh13so136fpsac2rfg75se.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.palprotech.ensyfi",
-            "certificate_hash": "0359e7dc48fefeb14bc7b8d941c6ca08301ad167"
-          }
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBHdz61li9XMLbGQfSQ67G6xjV0jJ0d_8g"
+          "current_key": "AIzaSyC5fYJU5jthbZ7LULQXGERagrDYINmKVBA"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "56118066242-ndqa7sis300o0ce5otglegn629ktmjj5.apps.googleusercontent.com",
+              "client_id": "642355516705-g2nvkpimpj6a35ti1n5h0lfc01mc7voj.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     }
