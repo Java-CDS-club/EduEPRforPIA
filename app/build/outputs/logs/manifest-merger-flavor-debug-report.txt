@@ -1,0 +1,1400 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:32:9-40:20
+	android:grantUriPermissions
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:36:13-47
+	android:authorities
+		INJECTED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:34:13-60
+	android:exported
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:33:13-62
+manifest
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:2:1-696:12
+INJECTED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:2:1-696:12
+INJECTED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:2:1-696:12
+INJECTED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:2:1-696:12
+MERGED from [com.google.android.material:material:1.1.0-alpha10] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\c72bf9076e2b00bd5344511c34546fcf\material-1.1.0-alpha10\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.yalantis:ucrop:2.2.2] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\60fbbed19767dd9ebf2d923e94d7c011\jetified-ucrop-2.2.2\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\81efca949d99855e5e3f6d718bc8d1fe\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f319f4e705845345185a2930257f4eaa\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\b8e3f88deaac84c5c53da3909c368847\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\1054b9a7bc0c8d6162723e6e7d9abf12\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\66e80c673f910f969ac8fb3bb7bf5917\play-services-gcm-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d731b8274f3d1836a4f427e299c7bd6\play-services-auth-17.0.0\AndroidManifest.xml:17:1-39:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta03] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\cddfa8fd9ef815bc6ac1336cbc1007ad\viewpager2-1.0.0-beta03\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\49e26a9cfd21dbd4d7e032e6162173bc\firebase-common-19.0.0\AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\37a320c08773907a04450e32444d7d0f\play-services-iid-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\8bdc3c9d168478924f6c09fcff4be523\play-services-auth-api-phone-17.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\8148be13da2855073fcbdea2218be5a1\play-services-auth-base-17.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\78db740c19a196b459a25ab99877008e\firebase-iid-interop-17.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\64aa804a65a9e3423a6cc11b33d51f06\play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\61d3968245f74ab9218fe596b90ab91d\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3b311680b5f1ad0d5bfb60b120b90b98\firebase-measurement-connector-18.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\23ffd703bc709830a07f336779aa9404\play-services-stats-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3ff6e13e0880d2ff341e1f95c6d0b875\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\ce4ce388f070e7043e7faf2537f9f4e5\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f61bf784d1be7301bbea8bf839cf5b8e\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f330e45c03470d275232a067b7f3089b\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\6615af1bdee197967a7669472684dd88\coordinatorlayout-1.1.0-beta01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\1ce0fb9322f033f19ec5cd07267b1fc1\transition-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\6fd1b24342c4c048116fe3fde4ca9371\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\613f5b4ea4ae1b7984d896c2c3c29c82\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\a8ea34bfede5b807a1a2d831c22e62fd\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\264b47ccad9a6aa32f17afeae79f113a\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\b2565286077ed87a2970493be547faf9\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\cf640c26fce5eb365811c1a31a57f790\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\ead2f46ccc7ff4992feb7ada5ee058c1\recyclerview-1.1.0-beta01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\8b353b1bff74eaf8362baa0ca006c8b1\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2111d963c95cc6e94705fb367f0a0943\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\fd064047dcc5c760ea467e29ddd27dd5\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\954eb4de376a16100305e40e836d40c1\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\230313de9faf5048d07def2904a74dff\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0e75880822db093dee974fe8bfb42759\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\6bb6cee3325dcdf5ab46767b08e4cd0f\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\6b67bedd4974e34662f82886747b126b\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\9ac0b1e720bf067c18aa62bc27a1d134\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d3cab600207e13492ad06a23af94442e\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0be6e0442721491acd10ff0f0bef9761\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0c941d6820f951830db1838fc989db31\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\248f34d6e745ff7b377a47dfdb400c77\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d556953526fb41bc1ab3b01dce6d0792\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\be5a5565423dba7182cc194900f6e21a\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\11f3eb4d1dafa9959d7c3957dd94fa8f\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:2:1-696:12
+INJECTED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:2:1-696:12
+INJECTED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:2:1-696:12
+	package
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml
+		INJECTED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:2:1-696:12
+		INJECTED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:2:1-696:12
+		INJECTED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\66e80c673f910f969ac8fb3bb7bf5917\play-services-gcm-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\66e80c673f910f969ac8fb3bb7bf5917\play-services-gcm-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\37a320c08773907a04450e32444d7d0f\play-services-iid-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\37a320c08773907a04450e32444d7d0f\play-services-iid-17.0.0\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:7:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:8:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:8:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:9:22-63
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:10:5-98
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:10:22-95
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:12:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:13:22-77
+uses-permission#android.permission.CAMERA
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:14:5-65
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:14:22-62
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:15:5-82
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\66e80c673f910f969ac8fb3bb7bf5917\play-services-gcm-17.0.0\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\66e80c673f910f969ac8fb3bb7bf5917\play-services-gcm-17.0.0\AndroidManifest.xml:23:5-82
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\37a320c08773907a04450e32444d7d0f\play-services-iid-17.0.0\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\37a320c08773907a04450e32444d7d0f\play-services-iid-17.0.0\AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:15:22-79
+permission#com.palprotech.ensyfi.permission.C2D_MESSAGE
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:17:5-19:47
+	android:protectionLevel
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:19:9-44
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:18:9-68
+uses-permission#com.palprotech.ensyfi.permission.C2D_MESSAGE
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:20:5-84
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:20:22-81
+application
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:22:5-694:19
+MERGED from [com.google.android.material:material:1.1.0-alpha10] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\c72bf9076e2b00bd5344511c34546fcf\material-1.1.0-alpha10\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha10] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\c72bf9076e2b00bd5344511c34546fcf\material-1.1.0-alpha10\AndroidManifest.xml:22:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f319f4e705845345185a2930257f4eaa\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f319f4e705845345185a2930257f4eaa\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\1054b9a7bc0c8d6162723e6e7d9abf12\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\1054b9a7bc0c8d6162723e6e7d9abf12\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\66e80c673f910f969ac8fb3bb7bf5917\play-services-gcm-17.0.0\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\66e80c673f910f969ac8fb3bb7bf5917\play-services-gcm-17.0.0\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d731b8274f3d1836a4f427e299c7bd6\play-services-auth-17.0.0\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d731b8274f3d1836a4f427e299c7bd6\play-services-auth-17.0.0\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\49e26a9cfd21dbd4d7e032e6162173bc\firebase-common-19.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\49e26a9cfd21dbd4d7e032e6162173bc\firebase-common-19.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\37a320c08773907a04450e32444d7d0f\play-services-iid-17.0.0\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\37a320c08773907a04450e32444d7d0f\play-services-iid-17.0.0\AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\78db740c19a196b459a25ab99877008e\firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\78db740c19a196b459a25ab99877008e\firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\64aa804a65a9e3423a6cc11b33d51f06\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\64aa804a65a9e3423a6cc11b33d51f06\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\61d3968245f74ab9218fe596b90ab91d\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\61d3968245f74ab9218fe596b90ab91d\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3b311680b5f1ad0d5bfb60b120b90b98\firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3b311680b5f1ad0d5bfb60b120b90b98\firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\23ffd703bc709830a07f336779aa9404\play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\23ffd703bc709830a07f336779aa9404\play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3ff6e13e0880d2ff341e1f95c6d0b875\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3ff6e13e0880d2ff341e1f95c6d0b875\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2111d963c95cc6e94705fb367f0a0943\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2111d963c95cc6e94705fb367f0a0943\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0e75880822db093dee974fe8bfb42759\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0e75880822db093dee974fe8bfb42759\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2111d963c95cc6e94705fb367f0a0943\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:29:9-35
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:27:9-41
+	android:fullBackupContent
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:25:9-42
+	android:roundIcon
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:28:9-46
+	android:icon
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:26:9-41
+	android:allowBackup
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:24:9-35
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:30:9-40
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:23:9-42
+activity#com.yalantis.ucrop.UCropActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:42:9-45:71
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:44:13-49
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:45:13-69
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:43:13-60
+activity#com.palprotech.ensyfi.activity.loginmodule.SplashScreenActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:47:9-55:20
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:49:13-54
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:48:13-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:50:13-54:29
+action#android.intent.action.MAIN
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:51:17-69
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:51:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:53:17-77
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:53:27-74
+activity#com.palprotech.ensyfi.activity.loginmodule.SchoolIdLoginActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:58:9-62:70
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:61:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:60:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:62:13-67
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:59:13-71
+activity#com.palprotech.ensyfi.activity.loginmodule.UserLoginActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:64:9-68:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:67:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:66:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:68:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:65:13-67
+activity#com.palprotech.ensyfi.activity.loginmodule.ForgotPasswordActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:70:9-74:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:73:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:72:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:74:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:71:13-72
+activity#com.palprotech.ensyfi.activity.loginmodule.ResetPasswordActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:76:9-80:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:79:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:78:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:80:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:77:13-71
+activity#com.palprotech.ensyfi.activity.loginmodule.ChangePasswordActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:82:9-86:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:85:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:84:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:86:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:83:13-72
+activity#com.palprotech.ensyfi.activity.loginmodule.SettingsActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:88:9-92:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:91:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:90:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:92:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:89:13-66
+activity#com.palprotech.ensyfi.activity.loginmodule.ProfileActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:94:9-99:57
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:97:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:96:13-45
+	android:windowSoftInputMode
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:99:13-54
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:98:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:95:13-65
+activity#com.palprotech.ensyfi.activity.loginmodule.ProfileActivityNew
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:101:9-106:57
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:104:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:103:13-45
+	android:windowSoftInputMode
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:106:13-54
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:105:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:102:13-68
+activity#com.palprotech.ensyfi.activity.loginmodule.ParentInfoActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:108:9-112:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:111:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:110:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:112:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:109:13-68
+activity#com.palprotech.ensyfi.activity.loginmodule.GuardianInfoActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:114:9-118:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:117:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:116:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:118:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:115:13-70
+activity#com.palprotech.ensyfi.activity.studentmodule.StudentDetailActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:120:9-124:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:123:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:122:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:124:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:121:13-73
+activity#com.palprotech.ensyfi.activity.loginmodule.TeacherInfoActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:126:9-130:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:129:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:128:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:130:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:127:13-69
+activity#com.palprotech.ensyfi.activity.parentsmodule.ParentDashBoardActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:136:9-140:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:139:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:138:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:140:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:137:13-75
+activity#com.palprotech.ensyfi.activity.parentsmodule.ParentsCommunicationActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:142:9-146:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:145:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:144:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:146:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:143:13-80
+activity#com.palprotech.ensyfi.activity.loginmodule.StudentInfoActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:151:9-155:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:154:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:153:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:155:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:152:13-69
+activity#com.palprotech.ensyfi.activity.studentmodule.AttendanceActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:157:9-161:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:160:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:159:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:161:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:158:13-70
+activity#com.palprotech.ensyfi.activity.studentmodule.StudentTimeTableActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:163:9-167:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:166:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:165:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:167:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:164:13-76
+activity#com.palprotech.ensyfi.activity.studentmodule.StudentTimeTableAcitivityNewnew
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:169:9-173:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:172:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:171:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:173:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:170:13-83
+activity#com.palprotech.ensyfi.activity.studentmodule.ClassTestHomeworkActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:175:9-179:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:178:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:177:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:179:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:176:13-77
+activity#com.palprotech.ensyfi.activity.studentmodule.ClassTestDetailActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:181:9-185:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:184:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:183:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:185:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:182:13-75
+activity#com.palprotech.ensyfi.activity.studentmodule.ExamsResultActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:187:9-191:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:190:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:189:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:191:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:188:13-71
+activity#com.palprotech.ensyfi.activity.studentmodule.ExamDetailActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:193:9-197:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:196:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:195:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:197:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:194:13-70
+activity#com.palprotech.ensyfi.activity.studentmodule.ExamMarksActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:199:9-203:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:202:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:201:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:203:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:200:13-69
+activity#com.palprotech.ensyfi.activity.studentmodule.ExamOnlyTotalMarksActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:205:9-209:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:208:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:207:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:209:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:206:13-78
+activity#com.palprotech.ensyfi.activity.studentmodule.FeeStatusActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:211:9-215:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:214:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:213:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:215:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:212:13-69
+activity#com.palprotech.ensyfi.activity.teachermodule.AttendanceStatusActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:217:9-221:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:220:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:219:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:221:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:218:13-76
+activity#com.palprotech.ensyfi.activity.teachermodule.AttendanceMonthViewActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:223:9-227:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:226:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:225:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:227:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:224:13-79
+activity#com.palprotech.ensyfi.activity.teachermodule.ClassTeacherAttendanceView
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:229:9-233:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:232:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:231:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:233:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:230:13-78
+activity#com.palprotech.ensyfi.activity.teachermodule.ClassTeacherAttendanceOverview
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:235:9-239:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:238:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:237:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:239:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:236:13-82
+activity#com.palprotech.ensyfi.activity.teachermodule.ClassTeacherAttendanceDetailView
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:241:9-245:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:244:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:243:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:245:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:242:13-84
+activity#com.palprotech.ensyfi.activity.teachermodule.ClassTeacherCtHwOverallView
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:247:9-251:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:250:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:249:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:251:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:248:13-79
+activity#com.palprotech.ensyfi.activity.teachermodule.ClassTeacherCtHwDaywiseView
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:253:9-257:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:256:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:255:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:257:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:254:13-79
+activity#com.palprotech.ensyfi.activity.teachermodule.ClassTeacherCtHwDetailView
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:259:9-263:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:262:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:261:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:263:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:260:13-78
+activity#com.palprotech.ensyfi.activity.general.EventsActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:268:9-272:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:271:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:270:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:272:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:269:13-60
+activity#com.palprotech.ensyfi.activity.general.EventDetailActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:274:9-278:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:277:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:276:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:278:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:275:13-65
+activity#com.palprotech.ensyfi.activity.general.LeaveCalendarActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:280:9-284:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:283:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:282:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:284:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:281:13-67
+activity#com.palprotech.ensyfi.activity.general.EventOrganiserActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:286:9-290:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:289:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:288:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:290:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:287:13-68
+activity#com.palprotech.ensyfi.activity.general.OnDutyActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:292:9-296:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:295:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:294:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:296:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:293:13-60
+activity#com.palprotech.ensyfi.activity.general.GroupingActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:298:9-302:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:301:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:300:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:302:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:299:13-62
+activity#com.palprotech.ensyfi.activity.general.GroupingSendActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:304:9-308:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:307:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:306:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:308:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:305:13-66
+activity#com.palprotech.ensyfi.activity.general.OnDutyRequestActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:310:9-315:57
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:313:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:312:13-45
+	android:windowSoftInputMode
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:315:13-54
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:314:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:311:13-67
+activity#com.palprotech.ensyfi.activity.general.CircularActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:317:9-321:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:320:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:319:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:321:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:318:13-62
+activity#com.palprotech.ensyfi.activity.general.LeaveStatusActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:323:9-327:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:326:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:325:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:327:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:324:13-65
+activity#com.palprotech.ensyfi.activity.general.LeaveStatusDetailActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:329:9-333:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:332:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:331:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:333:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:330:13-71
+activity#com.palprotech.ensyfi.activity.general.LeaveApplyActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:335:9-339:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:338:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:337:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:339:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:336:13-64
+activity#com.palprotech.ensyfi.activity.teachermodule.TeacherDashBoardActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:344:9-348:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:347:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:346:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:348:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:345:13-76
+activity#com.palprotech.ensyfi.activity.teachermodule.TeacherTimeTableActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:350:9-354:62
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:352:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:354:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:351:13-76
+activity#com.palprotech.ensyfi.activity.teachermodule.TeacherTimeTableNewnew
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:356:9-360:62
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:358:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:360:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:357:13-74
+activity#com.palprotech.ensyfi.activity.general.SyncRecordsActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:362:9-366:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:365:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:364:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:366:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:363:13-65
+activity#com.palprotech.ensyfi.activity.teachermodule.ClassTestHomeWorkTeacherViewActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:368:9-372:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:371:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:370:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:372:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:369:13-88
+activity#com.palprotech.ensyfi.activity.teachermodule.ClassTestHomeWorkDetailPageActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:374:9-378:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:377:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:376:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:378:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:375:13-87
+activity#com.palprotech.ensyfi.activity.teachermodule.ClassTestHomeWorkAddActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:380:9-384:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:383:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:382:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:384:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:381:13-80
+activity#com.palprotech.ensyfi.activity.teachermodule.ViewClassTestMarkActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:386:9-390:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:389:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:388:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:390:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:387:13-77
+activity#com.palprotech.ensyfi.activity.teachermodule.AcademicExamViewActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:392:9-396:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:395:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:394:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:396:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:393:13-76
+activity#com.palprotech.ensyfi.activity.teachermodule.AcademicExamDetailPage
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:398:9-402:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:401:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:400:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:402:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:399:13-74
+activity#com.palprotech.ensyfi.activity.teachermodule.AcademicExamResultView
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:404:9-408:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:407:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:406:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:408:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:405:13-74
+activity#com.palprotech.ensyfi.activity.teachermodule.AcademicExamOnlyTotalResultView
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:410:9-414:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:413:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:412:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:414:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:411:13-83
+activity#com.palprotech.ensyfi.activity.teachermodule.TimeTableReviewAddActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:416:9-420:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:419:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:418:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:420:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:417:13-78
+activity#com.palprotech.ensyfi.activity.teachermodule.TimeTableReview
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:422:9-426:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:425:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:424:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:426:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:423:13-67
+activity#com.palprotech.ensyfi.activity.teachermodule.TimeTableReviewDetails
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:428:9-432:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:431:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:430:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:432:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:429:13-74
+activity#com.palprotech.ensyfi.activity.teachermodule.AddClassTestMarkActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:434:9-438:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:437:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:436:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:438:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:435:13-76
+activity#com.palprotech.ensyfi.activity.teachermodule.AddAcademicExamMarksActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:440:9-444:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:443:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:442:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:444:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:441:13-80
+activity#com.palprotech.ensyfi.activity.teachermodule.AddAcademicExamMarksOnlyTotalActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:446:9-450:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:449:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:448:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:450:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:447:13-89
+activity#com.palprotech.ensyfi.activity.teachermodule.TeacherAttendanceInsertActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:452:9-456:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:455:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:454:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:456:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:453:13-83
+activity#com.palprotech.ensyfi.activity.teachermodule.SpecialClassActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:458:9-462:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:461:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:460:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:462:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:459:13-72
+activity#com.palprotech.ensyfi.activity.teachermodule.SubstitutionActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:464:9-468:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:467:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:466:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:468:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:465:13-72
+activity#com.palprotech.ensyfi.activity.teachermodule.ExamDutyActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:470:9-476:20
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:473:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:472:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:474:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:471:13-68
+activity#com.palprotech.ensyfi.activity.adminmodule.AdminDashBoardActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:481:9-485:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:484:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:483:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:485:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:482:13-72
+activity#com.palprotech.ensyfi.activity.adminmodule.StudentsViewActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:487:9-491:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:490:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:489:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:491:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:488:13-70
+activity#com.palprotech.ensyfi.activity.adminmodule.ClassStudentDetailsActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:493:9-497:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:496:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:495:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:497:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:494:13-77
+activity#com.palprotech.ensyfi.activity.adminmodule.TeachersViewActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:499:9-503:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:502:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:501:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:503:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:500:13-70
+activity#com.palprotech.ensyfi.activity.adminmodule.TeacherViewDetailsActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:505:9-509:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:508:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:507:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:509:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:506:13-76
+activity#com.palprotech.ensyfi.activity.adminmodule.ParentsViewActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:511:9-515:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:514:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:513:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:515:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:512:13-69
+activity#com.palprotech.ensyfi.activity.adminmodule.ParentsViewDetailsActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:517:9-521:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:520:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:519:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:521:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:518:13-76
+activity#com.palprotech.ensyfi.activity.adminmodule.StudentsInfoActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:523:9-527:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:526:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:525:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:527:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:524:13-70
+activity#com.palprotech.ensyfi.activity.adminmodule.ClassBasedViewActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:529:9-533:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:532:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:531:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:533:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:530:13-72
+activity#com.palprotech.ensyfi.activity.adminmodule.ExamViewActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:535:9-539:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:538:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:537:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:539:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:536:13-66
+activity#com.palprotech.ensyfi.activity.adminmodule.ResultViewActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:541:9-545:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:544:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:543:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:545:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:542:13-68
+activity#com.palprotech.ensyfi.activity.adminmodule.StudentResultView
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:547:9-551:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:550:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:549:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:551:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:548:13-67
+activity#com.palprotech.ensyfi.activity.adminmodule.FeesViewActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:553:9-557:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:556:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:555:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:557:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:554:13-66
+activity#com.palprotech.ensyfi.activity.adminmodule.FeesStatusView
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:559:9-563:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:562:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:561:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:563:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:560:13-64
+activity#com.palprotech.ensyfi.activity.adminmodule.OnDutyViewActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:565:9-569:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:568:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:567:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:569:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:566:13-68
+activity#com.palprotech.ensyfi.activity.adminmodule.OnDutyDetailActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:571:9-575:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:574:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:573:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:575:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:572:13-70
+activity#com.palprotech.ensyfi.activity.adminmodule.GroupNotificationAdminViewActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:577:9-581:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:580:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:579:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:581:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:578:13-84
+activity#com.palprotech.ensyfi.activity.adminmodule.GroupNotificationCreationActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:583:9-587:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:586:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:585:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:587:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:584:13-83
+activity#com.palprotech.ensyfi.activity.adminmodule.GroupNotificationUpdateActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:589:9-593:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:592:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:591:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:593:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:590:13-81
+activity#com.palprotech.ensyfi.activity.adminmodule.GroupNotificationViewMemberActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:595:9-599:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:598:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:597:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:599:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:596:13-85
+activity#com.palprotech.ensyfi.activity.adminmodule.GroupNotificationAddMemberActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:601:9-605:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:604:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:603:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:605:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:602:13-84
+activity#com.palprotech.ensyfi.activity.adminmodule.GroupNotificationActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:607:9-611:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:610:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:609:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:611:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:608:13-75
+activity#com.palprotech.ensyfi.activity.adminmodule.CircularMasterCreationActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:613:9-618:57
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:616:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:615:13-45
+	android:windowSoftInputMode
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:618:13-54
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:617:13-66
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:614:13-80
+activity#com.palprotech.ensyfi.activity.adminmodule.CircularMasterListActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:620:9-624:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:623:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:622:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:624:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:621:13-76
+activity#com.palprotech.ensyfi.activity.adminmodule.ClassAttendanceActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:626:9-630:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:629:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:628:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:630:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:627:13-73
+activity#com.palprotech.ensyfi.activity.adminmodule.ClassAttendanceListActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:632:9-636:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:635:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:634:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:636:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:633:13-77
+activity#com.palprotech.ensyfi.activity.adminmodule.ClassAttendanceDetailActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:638:9-642:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:641:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:640:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:642:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:639:13-79
+activity#com.palprotech.ensyfi.activity.general.GroupingDetailActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:644:9-648:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:647:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:646:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:648:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:645:13-68
+activity#com.palprotech.ensyfi.activity.adminmodule.BoardMembersListActivity
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:650:9-654:62
+	android:screenOrientation
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:653:13-49
+	android:label
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:652:13-45
+	android:theme
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:654:13-59
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:651:13-74
+service#com.palprotech.ensyfi.servicehelpers.fcm.MyFirebaseMessagingService
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:688:9-692:19
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:688:18-79
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:689:13-691:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:690:17-78
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:690:25-75
+uses-sdk
+INJECTED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml
+INJECTED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.1.0-alpha10] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\c72bf9076e2b00bd5344511c34546fcf\material-1.1.0-alpha10\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha10] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\c72bf9076e2b00bd5344511c34546fcf\material-1.1.0-alpha10\AndroidManifest.xml:20:5-44
+MERGED from [com.github.yalantis:ucrop:2.2.2] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\60fbbed19767dd9ebf2d923e94d7c011\jetified-ucrop-2.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.2] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\60fbbed19767dd9ebf2d923e94d7c011\jetified-ucrop-2.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\81efca949d99855e5e3f6d718bc8d1fe\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\81efca949d99855e5e3f6d718bc8d1fe\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f319f4e705845345185a2930257f4eaa\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f319f4e705845345185a2930257f4eaa\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\b8e3f88deaac84c5c53da3909c368847\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\b8e3f88deaac84c5c53da3909c368847\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\1054b9a7bc0c8d6162723e6e7d9abf12\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\1054b9a7bc0c8d6162723e6e7d9abf12\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\66e80c673f910f969ac8fb3bb7bf5917\play-services-gcm-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\66e80c673f910f969ac8fb3bb7bf5917\play-services-gcm-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d731b8274f3d1836a4f427e299c7bd6\play-services-auth-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d731b8274f3d1836a4f427e299c7bd6\play-services-auth-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta03] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\cddfa8fd9ef815bc6ac1336cbc1007ad\viewpager2-1.0.0-beta03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta03] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\cddfa8fd9ef815bc6ac1336cbc1007ad\viewpager2-1.0.0-beta03\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\49e26a9cfd21dbd4d7e032e6162173bc\firebase-common-19.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\49e26a9cfd21dbd4d7e032e6162173bc\firebase-common-19.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\37a320c08773907a04450e32444d7d0f\play-services-iid-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\37a320c08773907a04450e32444d7d0f\play-services-iid-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\8bdc3c9d168478924f6c09fcff4be523\play-services-auth-api-phone-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\8bdc3c9d168478924f6c09fcff4be523\play-services-auth-api-phone-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\8148be13da2855073fcbdea2218be5a1\play-services-auth-base-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\8148be13da2855073fcbdea2218be5a1\play-services-auth-base-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\78db740c19a196b459a25ab99877008e\firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\78db740c19a196b459a25ab99877008e\firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\64aa804a65a9e3423a6cc11b33d51f06\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\64aa804a65a9e3423a6cc11b33d51f06\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\61d3968245f74ab9218fe596b90ab91d\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\61d3968245f74ab9218fe596b90ab91d\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3b311680b5f1ad0d5bfb60b120b90b98\firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3b311680b5f1ad0d5bfb60b120b90b98\firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\23ffd703bc709830a07f336779aa9404\play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\23ffd703bc709830a07f336779aa9404\play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3ff6e13e0880d2ff341e1f95c6d0b875\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3ff6e13e0880d2ff341e1f95c6d0b875\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\ce4ce388f070e7043e7faf2537f9f4e5\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\ce4ce388f070e7043e7faf2537f9f4e5\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f61bf784d1be7301bbea8bf839cf5b8e\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f61bf784d1be7301bbea8bf839cf5b8e\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f330e45c03470d275232a067b7f3089b\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f330e45c03470d275232a067b7f3089b\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\6615af1bdee197967a7669472684dd88\coordinatorlayout-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\6615af1bdee197967a7669472684dd88\coordinatorlayout-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\1ce0fb9322f033f19ec5cd07267b1fc1\transition-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\1ce0fb9322f033f19ec5cd07267b1fc1\transition-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\6fd1b24342c4c048116fe3fde4ca9371\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\6fd1b24342c4c048116fe3fde4ca9371\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\613f5b4ea4ae1b7984d896c2c3c29c82\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\613f5b4ea4ae1b7984d896c2c3c29c82\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\a8ea34bfede5b807a1a2d831c22e62fd\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\a8ea34bfede5b807a1a2d831c22e62fd\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\264b47ccad9a6aa32f17afeae79f113a\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\264b47ccad9a6aa32f17afeae79f113a\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\b2565286077ed87a2970493be547faf9\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\b2565286077ed87a2970493be547faf9\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\cf640c26fce5eb365811c1a31a57f790\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\cf640c26fce5eb365811c1a31a57f790\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\ead2f46ccc7ff4992feb7ada5ee058c1\recyclerview-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\ead2f46ccc7ff4992feb7ada5ee058c1\recyclerview-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\8b353b1bff74eaf8362baa0ca006c8b1\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\8b353b1bff74eaf8362baa0ca006c8b1\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2111d963c95cc6e94705fb367f0a0943\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2111d963c95cc6e94705fb367f0a0943\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\fd064047dcc5c760ea467e29ddd27dd5\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\fd064047dcc5c760ea467e29ddd27dd5\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\954eb4de376a16100305e40e836d40c1\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\954eb4de376a16100305e40e836d40c1\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\230313de9faf5048d07def2904a74dff\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\230313de9faf5048d07def2904a74dff\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0e75880822db093dee974fe8bfb42759\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0e75880822db093dee974fe8bfb42759\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\6bb6cee3325dcdf5ab46767b08e4cd0f\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\6bb6cee3325dcdf5ab46767b08e4cd0f\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\6b67bedd4974e34662f82886747b126b\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\6b67bedd4974e34662f82886747b126b\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\9ac0b1e720bf067c18aa62bc27a1d134\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\9ac0b1e720bf067c18aa62bc27a1d134\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d3cab600207e13492ad06a23af94442e\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d3cab600207e13492ad06a23af94442e\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0be6e0442721491acd10ff0f0bef9761\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0be6e0442721491acd10ff0f0bef9761\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0c941d6820f951830db1838fc989db31\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0c941d6820f951830db1838fc989db31\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\248f34d6e745ff7b377a47dfdb400c77\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\248f34d6e745ff7b377a47dfdb400c77\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d556953526fb41bc1ab3b01dce6d0792\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d556953526fb41bc1ab3b01dce6d0792\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\be5a5565423dba7182cc194900f6e21a\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\be5a5565423dba7182cc194900f6e21a\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\11f3eb4d1dafa9959d7c3957dd94fa8f\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\11f3eb4d1dafa9959d7c3957dd94fa8f\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+INJECTED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml
+INJECTED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml
+		INJECTED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml
+		INJECTED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:37:13-39:57
+	android:resource
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:39:17-55
+	android:name
+		ADDED from D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:38:17-67
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f319f4e705845345185a2930257f4eaa\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f319f4e705845345185a2930257f4eaa\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f319f4e705845345185a2930257f4eaa\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f319f4e705845345185a2930257f4eaa\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\1054b9a7bc0c8d6162723e6e7d9abf12\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\1054b9a7bc0c8d6162723e6e7d9abf12\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\1054b9a7bc0c8d6162723e6e7d9abf12\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:29:13-82
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d731b8274f3d1836a4f427e299c7bd6\play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d731b8274f3d1836a4f427e299c7bd6\play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d731b8274f3d1836a4f427e299c7bd6\play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d731b8274f3d1836a4f427e299c7bd6\play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d731b8274f3d1836a4f427e299c7bd6\play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d731b8274f3d1836a4f427e299c7bd6\play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d731b8274f3d1836a4f427e299c7bd6\play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d731b8274f3d1836a4f427e299c7bd6\play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d731b8274f3d1836a4f427e299c7bd6\play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:42:25-78
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\49e26a9cfd21dbd4d7e032e6162173bc\firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\49e26a9cfd21dbd4d7e032e6162173bc\firebase-common-19.0.0\AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\49e26a9cfd21dbd4d7e032e6162173bc\firebase-common-19.0.0\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\49e26a9cfd21dbd4d7e032e6162173bc\firebase-common-19.0.0\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\49e26a9cfd21dbd4d7e032e6162173bc\firebase-common-19.0.0\AndroidManifest.xml:13:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\64aa804a65a9e3423a6cc11b33d51f06\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\64aa804a65a9e3423a6cc11b33d51f06\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\64aa804a65a9e3423a6cc11b33d51f06\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\64aa804a65a9e3423a6cc11b33d51f06\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3ff6e13e0880d2ff341e1f95c6d0b875\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3ff6e13e0880d2ff341e1f95c6d0b875\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3ff6e13e0880d2ff341e1f95c6d0b875\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58

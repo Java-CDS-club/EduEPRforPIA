@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/tlbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/appColor"
+            android:minHeight="?android:attr/actionBarSize" />
+
+        <ImageView
+            android:id="@+id/back_res"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:contentDescription="@string/arrow_back"
+            android:minHeight="?android:attr/actionBarSize"
+            android:padding="5dp"
+            android:src="@drawable/ic_arrow_back_white_48dp" />
+
+        <TextView
+            android:id="@+id/tvtitletext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/back_res"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:minHeight="?android:attr/actionBarSize"
+            android:text="Exam Results"
+            android:textColor="@color/white"
+            android:textSize="@dimen/menuTextSize"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/reject"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="Select student to view result"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="1dp"
+            android:background="@color/new_gray"
+            android:layout_marginTop="2dp">
+
+            <TextView
+                android:id="@+id/ClassStudentRegId"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/ClassStdAdmnNo"
+                android:layout_alignTop="@+id/ClassStdAdmnNo"
+                android:layout_marginLeft="2dp"
+                android:background="@color/new_gray"
+                android:gravity="center"
+                android:text="S.No"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/ClassStdAdmnNo"
+                android:layout_alignTop="@+id/ClassStdAdmnNo"
+                android:layout_marginLeft="2dp"
+                android:layout_toLeftOf="@+id/ClassStdAdmnNo"
+                android:layout_toRightOf="@+id/ClassStudentRegId"
+                android:background="@color/new_gray"
+                android:gravity="center"
+                android:text="Student"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/ClassStdAdmnNo"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@color/new_gray"
+                android:gravity="center"
+                android:text="Admission No."
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/listView_events"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/background_grey"
+            android:dividerHeight="0dp">
+
+        </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>

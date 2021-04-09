@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:elevation="6dp"
+        android:padding="10dp"
+        android:background="@drawable/shadow_round">
+
+        <ImageView
+            android:id="@+id/img_mail"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_circular_email"/>
+
+        <TextView
+            android:id="@+id/txtCircularType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_alignTop="@+id/img_mail"
+            android:layout_toRightOf="@+id/img_mail"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="Test"
+            android:textAllCaps="true"
+            android:textColor="@color/appColor"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtCircularTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtCircularType"
+            android:layout_marginLeft="10dp"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:textStyle="bold"
+            android:text="Test"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtCircularDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtCircularDate"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:text="Test"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/txtCircularTitle"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:padding="3dp"
+            android:src="@drawable/ic_date" />
+
+        <TextView
+            android:id="@+id/txtCircularDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtCircularTitle"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:text="Test"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/select_button"
+            android:visibility="gone" />
+    </RelativeLayout>
+</LinearLayout>

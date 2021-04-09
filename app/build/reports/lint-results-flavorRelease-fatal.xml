@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint 4.0.1">
+
+    <issue
+        id="NotSibling"
+        severity="Fatal"
+        message="`@+id/TeacherMainSubject` is not a sibling in the same `RelativeLayout`"
+        category="Correctness"
+        priority="6"
+        summary="Invalid Constraints"
+        explanation="Layout constraints in a given `ConstraintLayout` or `RelativeLayout` should reference other views within the same relative layout (but not itself!)"
+        errorLine1="                android:layout_toLeftOf=&quot;@+id/TeacherMainSubject&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\res\layout\activity_board_member_list.xml"
+            line="78"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="NotSibling"
+        severity="Fatal"
+        message="`@+id/section_list_spinner` is not a sibling in the same `RelativeLayout`"
+        category="Correctness"
+        priority="6"
+        summary="Invalid Constraints"
+        explanation="Layout constraints in a given `ConstraintLayout` or `RelativeLayout` should reference other views within the same relative layout (but not itself!)"
+        errorLine1="            android:layout_below=&quot;@+id/section_list_spinner&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\res\layout\activity_on_duty_view.xml"
+            line="56"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="NotSibling"
+        severity="Fatal"
+        message="`@+id/txtTeacherMainSubject` is not a sibling in the same `RelativeLayout`"
+        category="Correctness"
+        priority="6"
+        summary="Invalid Constraints"
+        explanation="Layout constraints in a given `ConstraintLayout` or `RelativeLayout` should reference other views within the same relative layout (but not itself!)"
+        errorLine1="            android:layout_toLeftOf=&quot;@+id/txtTeacherMainSubject&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\res\layout\board_member_list_item.xml"
+            line="30"
+            column="13"/>
+    </issue>
+
+</issues>

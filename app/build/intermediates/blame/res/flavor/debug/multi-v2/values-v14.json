@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\HappySanzTech\\AppWorkSpace\\ENSYFI\\app\\build\\intermediates\\incremental\\mergeFlavorDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "map": [
+                {
+                    "source": "D:\\HappySanzTech\\AppWorkSpace\\ENSYFI\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "46,34,28,40,14,22,3,5,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2140,1541,1246,1848,518,932,59,123,343",
+                        "endLines": "52,38,32,44,20,26,3,8,12",
+                        "endColumns": "12,12,12,12,12,12,60,12,12",
+                        "endOffsets": "2499,1840,1533,2132,924,1238,115,335,510"
+                    },
+                    "to": {
+                        "startLines": "2,9,14,19,24,31,36,37,41",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,413,713,1001,1286,1691,1998,2058,2272",
+                        "endLines": "8,13,18,23,30,35,36,40,43",
+                        "endColumns": "12,12,12,12,12,12,59,12,12",
+                        "endOffsets": "408,708,996,1281,1686,1993,2053,2267,2437"
+                    }
+                }
+            ]
+        }
+    ]
+}

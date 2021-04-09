@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:elevation="6dp"
+        android:background="@drawable/shadow_round">
+
+        <ImageView
+            android:id="@+id/day_img"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:padding="3dp"
+            android:src="@drawable/ic_date" />
+
+        <ImageView
+            android:id="@+id/strength_img"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@id/class_strength"
+            android:layout_alignBottom="@id/class_strength"
+            android:layout_marginLeft="10dp"
+            android:padding="2dp"
+            android:src="@drawable/ic_class_strength" />
+
+        <ImageView
+            android:id="@+id/present_img"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@id/no_present"
+            android:layout_alignBottom="@id/no_present"
+            android:layout_marginLeft="10dp"
+            android:padding="2dp"
+            android:src="@drawable/ic_present" />
+
+        <ImageView
+            android:id="@+id/absent_img"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@id/no_absent"
+            android:layout_marginLeft="10dp"
+            android:padding="2dp"
+            android:layout_alignBottom="@+id/no_absent"
+            android:src="@drawable/ic_absent" />
+
+        <TextView
+            android:id="@+id/attendance_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/day_img"
+            android:layout_alignTop="@id/day_img"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/day_img"
+            android:gravity="center"
+            android:text="DD-MM-YYYY"
+            android:textColor="@color/new_gray"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/class_strength"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/txt_class_strength"
+            android:layout_alignTop="@+id/txt_class_strength"
+            android:layout_marginLeft="5dp"
+            android:text="000"
+            android:textColor="@color/new_gray" />
+
+        <TextView
+            android:id="@+id/txt_class_strength"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/day_img"
+            android:layout_toRightOf="@id/strength_img"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Class Strength :" />
+
+        <TextView
+            android:id="@+id/no_present"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/present_img"
+            android:layout_below="@id/class_strength"
+            android:text="No. of Present :"
+            android:textColor="@color/present" />
+
+        <TextView
+            android:id="@+id/txt_no_present"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/no_present"
+            android:layout_alignTop="@+id/no_present"
+            android:layout_marginLeft="5dp"
+            android:text="100"
+            android:textColor="@color/present" />
+
+        <TextView
+            android:id="@+id/no_absent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_no_present"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@id/absent_img"
+            android:text="No. of Absent :"
+            android:textColor="@color/absent" />
+
+        <TextView
+            android:id="@+id/txt_no_absent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/no_absent"
+            android:layout_alignTop="@+id/no_absent"
+            android:text="100"
+            android:textColor="@color/absent" />
+
+        <TextView
+            android:id="@+id/sep"
+            android:layout_width="1dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:background="@color/new_gray_bg"/>
+
+        <RelativeLayout
+            android:id="@+id/sent_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/day_img"
+            android:layout_marginRight="10dp">
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@id/sent"
+                android:src="@drawable/od_approved"/>
+
+            <TextView
+                android:id="@+id/sent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sent"
+                android:textSize="18sp"
+                android:layout_marginRight="30dp"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/new_gray" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
