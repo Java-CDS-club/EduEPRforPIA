@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/EduEPRforPIA.iml" filepath="$PROJECT_DIR$/.idea/modules/EduEPRforPIA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EduEPRforPIA.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EduEPRforPIA.app.iml" />
     </modules>
   </component>
 </project>

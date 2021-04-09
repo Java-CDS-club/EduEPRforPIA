@@ -53,7 +53,7 @@
             android:layout_height="wrap_content"
             android:gravity="center">
 
-            <com.palprotech.ensyfi.customview.CircleImageView
+            <com.edu.erp.customview.CircleImageView
                 android:id="@+id/img_student_profile"
                 android:layout_width="80dp"
                 android:layout_height="80dp"

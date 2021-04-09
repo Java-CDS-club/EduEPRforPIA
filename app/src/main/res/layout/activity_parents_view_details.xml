@@ -286,7 +286,7 @@
                 android:layout_marginTop="10dp"
                 android:gravity="center">
 
-                <com.palprotech.ensyfi.customview.CircleImageView
+                <com.edu.erp.customview.CircleImageView
                     android:id="@+id/img_father_profile"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
@@ -296,7 +296,7 @@
                     android:elevation="12dp"
                     android:src="@drawable/ic_father_deselect" />
 
-                <com.palprotech.ensyfi.customview.CircleImageView
+                <com.edu.erp.customview.CircleImageView
                     android:id="@+id/img_mother_profile"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
@@ -307,7 +307,7 @@
                     android:scaleType="centerCrop"
                     android:src="@drawable/ic_mother_deselect" />
 
-                <com.palprotech.ensyfi.customview.CircleImageView
+                <com.edu.erp.customview.CircleImageView
                     android:id="@+id/img_guardian_profile"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
@@ -376,7 +376,7 @@
         <!--android:layout_height="match_parent"-->
         <!--android:background="@color/background_grey">-->
 
-        <!--<com.palprotech.ensyfi.customview.CircleImageView-->
+        <!--<erpstomview.CircleImageView-->
             <!--android:id="@+id/img_profile_stud"-->
             <!--android:layout_width="100dp"-->
             <!--android:layout_height="100dp"-->

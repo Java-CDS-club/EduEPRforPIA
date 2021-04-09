@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.palprotech.ensyfi">
+    package="com.edu.erp">
 
     <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
 
@@ -20,12 +20,12 @@
     <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
 
     <permission
-        android:name="com.palprotech.ensyfi.permission.C2D_MESSAGE"
+        android:name="com.edu.erp.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
     <uses-permission android:name="com.palprotech.ensyfi.permission.C2D_MESSAGE" />
 
     <application
-        android:name=".app.AppController"
+        android:name="com.edu.erp.app.AppController"
         android:allowBackup="true"
         android:fullBackupContent="false"
         android:icon="@mipmap/ic_ensyfi"
@@ -45,12 +45,12 @@
         </provider>
 
         <provider
-            android:name=".syncadapter.MyContentProvider"
+            android:name="com.edu.erp.syncadapter.MyContentProvider"
             android:authorities="@string/content_authority"
             android:exported="false"
             android:syncable="true" />
 
-        <service android:name=".syncadapter.MyAuthenticatorService">
+        <service android:name="com.edu.erp.syncadapter.MyAuthenticatorService">
             <intent-filter>
                 <action android:name="android.accounts.AccountAuthenticator" />
             </intent-filter>
@@ -61,7 +61,7 @@
 
         <!-- The SyncAdapter service -->
         <service
-            android:name=".syncadapter.UploadDataSync"
+            android:name="com.edu.erp.syncadapter.UploadDataSync"
             android:exported="true"
             android:process=":sync">
             <intent-filter>
@@ -78,7 +78,7 @@
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
 
         <activity
-            android:name=".activity.loginmodule.SplashScreenActivity"
+            android:name="com.edu.erp.activity.loginmodule.SplashScreenActivity"
             android:theme="@style/AppFullScreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -89,82 +89,82 @@
 
         <!--Login Portion-->
         <activity
-            android:name=".activity.loginmodule.SchoolIdLoginActivity"
+            android:name="com.edu.erp.activity.loginmodule.SchoolIdLoginActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarEventDetails" />
 
         <activity
-            android:name=".activity.loginmodule.UserLoginActivity"
+            android:name="com.edu.erp.activity.loginmodule.UserLoginActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.loginmodule.ForgotPasswordActivity"
+            android:name="com.edu.erp.activity.loginmodule.ForgotPasswordActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.loginmodule.ResetPasswordActivity"
+            android:name="com.edu.erp.activity.loginmodule.ResetPasswordActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.loginmodule.ChangePasswordActivity"
+            android:name="com.edu.erp.activity.loginmodule.ChangePasswordActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.loginmodule.SettingsActivity"
+            android:name="com.edu.erp.activity.loginmodule.SettingsActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.loginmodule.AboutEnsyfiActivity"
+            android:name="com.edu.erp.activity.loginmodule.AboutEnsyfiActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey"
             android:windowSoftInputMode="stateHidden" />
 
         <activity
-            android:name=".activity.loginmodule.ProfileActivity"
+            android:name="com.edu.erp.activity.loginmodule.ProfileActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey"
             android:windowSoftInputMode="stateHidden" />
 
         <activity
-            android:name=".activity.loginmodule.ProfileActivityNew"
+            android:name="com.edu.erp.activity.loginmodule.ProfileActivityNew"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey"
             android:windowSoftInputMode="stateHidden" />
 
         <activity
-            android:name=".activity.loginmodule.ParentInfoActivity"
+            android:name="com.edu.erp.activity.loginmodule.ParentInfoActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.loginmodule.GuardianInfoActivity"
+            android:name="com.edu.erp.activity.loginmodule.GuardianInfoActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.studentmodule.StudentDetailActivity"
+            android:name="com.edu.erp.activity.studentmodule.StudentDetailActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.loginmodule.TeacherInfoActivity"
+            android:name="com.edu.erp.activity.loginmodule.TeacherInfoActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
@@ -174,13 +174,13 @@
         <!--Parent Module-->
 
         <activity
-            android:name=".activity.parentsmodule.ParentDashBoardActivity"
+            android:name="com.edu.erp.activity.parentsmodule.ParentDashBoardActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.parentsmodule.ParentsCommunicationActivity"
+            android:name="com.edu.erp.activity.parentsmodule.ParentsCommunicationActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
@@ -189,115 +189,115 @@
         <!---->
         <!--Student Module-->
         <activity
-            android:name=".activity.loginmodule.StudentInfoActivity"
+            android:name="com.edu.erp.activity.loginmodule.StudentInfoActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.studentmodule.AttendanceActivity"
+            android:name="com.edu.erp.activity.studentmodule.AttendanceActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.studentmodule.StudentTimeTableActivity"
+            android:name="com.edu.erp.activity.studentmodule.StudentTimeTableActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarPink" />
 
         <activity
-            android:name=".activity.studentmodule.StudentTimeTableAcitivityNewnew"
+            android:name="com.edu.erp.activity.studentmodule.StudentTimeTableAcitivityNewnew"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarPink" />
 
         <activity
-            android:name=".activity.studentmodule.ClassTestHomeworkActivity"
+            android:name="com.edu.erp.activity.studentmodule.ClassTestHomeworkActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.studentmodule.ClassTestDetailActivity"
+            android:name="com.edu.erp.activity.studentmodule.ClassTestDetailActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.studentmodule.ExamsResultActivity"
+            android:name="com.edu.erp.activity.studentmodule.ExamsResultActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.studentmodule.ExamDetailActivity"
+            android:name="com.edu.erp.activity.studentmodule.ExamDetailActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.studentmodule.ExamMarksActivity"
+            android:name="com.edu.erp.activity.studentmodule.ExamMarksActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.studentmodule.ExamOnlyTotalMarksActivity"
+            android:name="com.edu.erp.activity.studentmodule.ExamOnlyTotalMarksActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.studentmodule.FeeStatusActivity"
+            android:name="com.edu.erp.activity.studentmodule.FeeStatusActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.teachermodule.AttendanceStatusActivity"
+            android:name="com.edu.erp.activity.teachermodule.AttendanceStatusActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.teachermodule.AttendanceMonthViewActivity"
+            android:name="com.edu.erp.activity.teachermodule.AttendanceMonthViewActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.teachermodule.ClassTeacherAttendanceView"
+            android:name="com.edu.erp.activity.teachermodule.ClassTeacherAttendanceView"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.teachermodule.ClassTeacherAttendanceOverview"
+            android:name="com.edu.erp.activity.teachermodule.ClassTeacherAttendanceOverview"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.teachermodule.ClassTeacherAttendanceDetailView"
+            android:name="com.edu.erp.activity.teachermodule.ClassTeacherAttendanceDetailView"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.teachermodule.ClassTeacherCtHwOverallView"
+            android:name="com.edu.erp.activity.teachermodule.ClassTeacherCtHwOverallView"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.teachermodule.ClassTeacherCtHwDaywiseView"
+            android:name="com.edu.erp.activity.teachermodule.ClassTeacherCtHwDaywiseView"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.teachermodule.ClassTeacherCtHwDetailView"
+            android:name="com.edu.erp.activity.teachermodule.ClassTeacherCtHwDetailView"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
@@ -306,74 +306,74 @@
         <!---->
         <!--General-->
         <activity
-            android:name=".activity.general.EventsActivity"
+            android:name="com.edu.erp.activity.general.EventsActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.general.EventDetailActivity"
+            android:name="com.edu.erp.activity.general.EventDetailActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.general.LeaveCalendarActivity"
+            android:name="com.edu.erp.activity.general.LeaveCalendarActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.general.EventOrganiserActivity"
+            android:name="com.edu.erp.activity.general.EventOrganiserActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.general.OnDutyActivity"
+            android:name="com.edu.erp.activity.general.OnDutyActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.general.GroupingActivity"
+            android:name="com.edu.erp.activity.general.GroupingActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.general.GroupingSendActivity"
+            android:name="com.edu.erp.activity.general.GroupingSendActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.general.OnDutyRequestActivity"
+            android:name="com.edu.erp.activity.general.OnDutyRequestActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey"
             android:windowSoftInputMode="stateHidden" />
 
         <activity
-            android:name=".activity.general.CircularActivity"
+            android:name="com.edu.erp.activity.general.CircularActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.general.LeaveStatusActivity"
+            android:name="com.edu.erp.activity.general.LeaveStatusActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.general.LeaveStatusDetailActivity"
+            android:name="com.edu.erp.activity.general.LeaveStatusDetailActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.general.LeaveApplyActivity"
+            android:name="com.edu.erp.activity.general.LeaveApplyActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
@@ -382,139 +382,139 @@
         <!---->
         <!--Teacher Module-->
         <activity
-            android:name=".activity.teachermodule.TeacherDashBoardActivity"
+            android:name="com.edu.erp.activity.teachermodule.TeacherDashBoardActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.teachermodule.TeacherTimeTableActivity"
+            android:name="com.edu.erp.activity.teachermodule.TeacherTimeTableActivity"
             android:label="@string/app_name"
 
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.teachermodule.TeacherTimeTableNewnew"
+            android:name="com.edu.erp.activity.teachermodule.TeacherTimeTableNewnew"
             android:label="@string/app_name"
 
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.general.SyncRecordsActivity"
-            android:label="@string/app_name"
-            android:screenOrientation="unspecified"
-            android:theme="@style/AppThemeNoActionBarGrey" />
-
-        <activity
-            android:name=".activity.teachermodule.ClassTestHomeWorkTeacherViewActivity"
+            android:name="com.edu.erp.activity.general.SyncRecordsActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.teachermodule.ClassTestHomeWorkDetailPageActivity"
+            android:name="com.edu.erp.activity.teachermodule.ClassTestHomeWorkTeacherViewActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.teachermodule.ClassTestHomeWorkAddActivity"
+            android:name="com.edu.erp.activity.teachermodule.ClassTestHomeWorkDetailPageActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.teachermodule.ViewClassTestMarkActivity"
+            android:name="com.edu.erp.activity.teachermodule.ClassTestHomeWorkAddActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.teachermodule.AcademicExamViewActivity"
+            android:name="com.edu.erp.activity.teachermodule.ViewClassTestMarkActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.teachermodule.AcademicExamDetailPage"
+            android:name="com.edu.erp.activity.teachermodule.AcademicExamViewActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.teachermodule.AcademicExamResultView"
+            android:name="com.edu.erp.activity.teachermodule.AcademicExamDetailPage"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.teachermodule.AcademicExamOnlyTotalResultView"
+            android:name="com.edu.erp.activity.teachermodule.AcademicExamResultView"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.teachermodule.TimeTableReviewAddActivity"
+            android:name="com.edu.erp.activity.teachermodule.AcademicExamOnlyTotalResultView"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.teachermodule.TimeTableReview"
+            android:name="com.edu.erp.activity.teachermodule.TimeTableReviewAddActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.teachermodule.TimeTableReviewDetails"
+            android:name="com.edu.erp.activity.teachermodule.TimeTableReview"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.teachermodule.AddClassTestMarkActivity"
+            android:name="com.edu.erp.activity.teachermodule.TimeTableReviewDetails"
+            android:label="@string/app_name"
+            android:screenOrientation="unspecified"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+
+        <activity
+            android:name="com.edu.erp.activity.teachermodule.AddClassTestMarkActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarPink" />
 
         <activity
-            android:name=".activity.teachermodule.AddAcademicExamMarksActivity"
+            android:name="com.edu.erp.activity.teachermodule.AddAcademicExamMarksActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarPink" />
 
         <activity
-            android:name=".activity.teachermodule.AddAcademicExamMarksOnlyTotalActivity"
+            android:name="com.edu.erp.activity.teachermodule.AddAcademicExamMarksOnlyTotalActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarPink" />
 
         <activity
-            android:name=".activity.teachermodule.TeacherAttendanceInsertActivity"
+            android:name="com.edu.erp.activity.teachermodule.TeacherAttendanceInsertActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarPink" />
 
         <activity
-            android:name=".activity.teachermodule.SpecialClassActivity"
+            android:name="com.edu.erp.activity.teachermodule.SpecialClassActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarPink" />
 
         <activity
-            android:name=".activity.adminmodule.SpecialClassAdminActivity"
+            android:name="com.edu.erp.activity.adminmodule.SpecialClassAdminActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarPink" />
 
         <activity
-            android:name=".activity.teachermodule.SubstitutionActivity"
+            android:name="com.edu.erp.activity.teachermodule.SubstitutionActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarPink" />
 
         <activity
-            android:name=".activity.teachermodule.ExamDutyActivity"
+            android:name="com.edu.erp.activity.teachermodule.ExamDutyActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarPink">
@@ -525,176 +525,176 @@
         <!---->
         <!--Admin Module-->
         <activity
-            android:name=".activity.adminmodule.AdminDashBoardActivity"
+            android:name="com.edu.erp.activity.adminmodule.AdminDashBoardActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.adminmodule.StudentsViewActivity"
+            android:name="com.edu.erp.activity.adminmodule.StudentsViewActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.adminmodule.ClassStudentDetailsActivity"
+            android:name="com.edu.erp.activity.adminmodule.ClassStudentDetailsActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.adminmodule.TeachersViewActivity"
+            android:name="com.edu.erp.activity.adminmodule.TeachersViewActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.adminmodule.TeacherViewDetailsActivity"
+            android:name="com.edu.erp.activity.adminmodule.TeacherViewDetailsActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.adminmodule.ParentsViewActivity"
+            android:name="com.edu.erp.activity.adminmodule.ParentsViewActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.adminmodule.ParentsViewDetailsActivity"
+            android:name="com.edu.erp.activity.adminmodule.ParentsViewDetailsActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.adminmodule.StudentsInfoActivity"
+            android:name="com.edu.erp.activity.adminmodule.StudentsInfoActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.adminmodule.ClassBasedViewActivity"
+            android:name="com.edu.erp.activity.adminmodule.ClassBasedViewActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.adminmodule.ExamViewActivity"
+            android:name="com.edu.erp.activity.adminmodule.ExamViewActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.adminmodule.ResultViewActivity"
+            android:name="com.edu.erp.activity.adminmodule.ResultViewActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.adminmodule.StudentResultView"
+            android:name="com.edu.erp.activity.adminmodule.StudentResultView"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.adminmodule.FeesViewActivity"
+            android:name="com.edu.erp.activity.adminmodule.FeesViewActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.adminmodule.FeesStatusView"
+            android:name="com.edu.erp.activity.adminmodule.FeesStatusView"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.adminmodule.OnDutyViewActivity"
+            android:name="com.edu.erp.activity.adminmodule.OnDutyViewActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.adminmodule.OnDutyDetailActivity"
+            android:name="com.edu.erp.activity.adminmodule.OnDutyDetailActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.adminmodule.GroupNotificationAdminViewActivity"
+            android:name="com.edu.erp.activity.adminmodule.GroupNotificationAdminViewActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.adminmodule.GroupNotificationCreationActivity"
+            android:name="com.edu.erp.activity.adminmodule.GroupNotificationCreationActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.adminmodule.GroupNotificationUpdateActivity"
+            android:name="com.edu.erp.activity.adminmodule.GroupNotificationUpdateActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.adminmodule.GroupNotificationViewMemberActivity"
+            android:name="com.edu.erp.activity.adminmodule.GroupNotificationViewMemberActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.adminmodule.GroupNotificationAddMemberActivity"
+            android:name="com.edu.erp.activity.adminmodule.GroupNotificationAddMemberActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.adminmodule.GroupNotificationActivity"
+            android:name="com.edu.erp.activity.adminmodule.GroupNotificationActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.adminmodule.CircularMasterCreationActivity"
+            android:name="com.edu.erp.activity.adminmodule.CircularMasterCreationActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarForCircular"
             android:windowSoftInputMode="stateHidden" />
 
         <activity
-            android:name=".activity.adminmodule.CircularMasterListActivity"
+            android:name="com.edu.erp.activity.adminmodule.CircularMasterListActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.adminmodule.ClassAttendanceActivity"
+            android:name="com.edu.erp.activity.adminmodule.ClassAttendanceActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.adminmodule.ClassAttendanceListActivity"
+            android:name="com.edu.erp.activity.adminmodule.ClassAttendanceListActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.adminmodule.ClassAttendanceDetailActivity"
+            android:name="com.edu.erp.activity.adminmodule.ClassAttendanceDetailActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.general.GroupingDetailActivity"
+            android:name="com.edu.erp.activity.general.GroupingDetailActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
 
         <activity
-            android:name=".activity.adminmodule.BoardMembersListActivity"
+            android:name="com.edu.erp.activity.adminmodule.BoardMembersListActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
             android:theme="@style/AppThemeNoActionBarGrey" />
@@ -731,7 +731,7 @@
             </intent-filter>
         </service>-->
 
-        <service android:name=".servicehelpers.fcm.MyFirebaseMessagingService">
+        <service android:name="com.edu.erp.servicehelpers.fcm.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>

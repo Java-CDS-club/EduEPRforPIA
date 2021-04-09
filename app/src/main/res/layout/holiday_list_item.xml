@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:elevation="6dp"
+        android:background="@drawable/shadow_round">
+
+        <TextView
+            android:id="@+id/holiday_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="16sp"
+            android:textColor="@color/new_gray"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/holiday_reason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reason"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="@color/new_gray"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/holiday_title"
+            android:layout_alignLeft="@+id/holiday_title"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_above="@+id/holiday_date"
+            android:background="@color/text_gray" />
+
+        <ImageView
+            android:id="@+id/date_icon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/holiday_reason"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:padding="3dp"
+            android:src="@drawable/ic_date" />
+
+        <TextView
+            android:id="@+id/holiday_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DD-MM-YYYY"
+            android:layout_alignTop="@id/date_icon"
+            android:layout_alignBottom="@id/date_icon"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/new_gray"
+            android:textSize="14sp"
+            android:layout_below="@+id/holiday_reason"
+            android:layout_alignLeft="@+id/holiday_reason"/>
+
+        <TextView
+            android:id="@+id/holiday_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monday"
+            android:textSize="14sp"
+            android:textColor="@color/new_gray"
+            android:gravity="center"
+            android:layout_alignTop="@id/holiday_date"
+            android:layout_alignBottom="@id/holiday_date"
+            android:layout_toRightOf="@id/holiday_date"
+            android:layout_marginLeft="10dp"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

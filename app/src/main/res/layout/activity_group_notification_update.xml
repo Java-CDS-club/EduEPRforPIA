@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/appColor"
+            android:minHeight="?android:attr/actionBarSize" />
+
+        <ImageView
+            android:id="@+id/back_res"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:contentDescription="@string/arrow_back"
+            android:minHeight="?android:attr/actionBarSize"
+            android:padding="5dp"
+            android:src="@drawable/ic_arrow_back_white_48dp" />
+
+        <TextView
+            android:id="@+id/tvtitletext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/back_res"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:minHeight="?android:attr/actionBarSize"
+            android:text="Update Group"
+            android:textColor="@color/white"
+            android:textSize="@dimen/menuTextSize"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/back_res"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/back_res">
+
+            <ImageView
+                android:id="@+id/updateGroup"
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:layout_toLeftOf="@+id/addGroupMembers"
+                android:paddingBottom="17dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="17dp"
+                android:src="@drawable/ic_notes" />
+
+            <ImageView
+                android:id="@+id/addGroupMembers"
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:layout_toLeftOf="@+id/vierwGroupNotification"
+                android:paddingBottom="17dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="5dp"
+                android:paddingTop="17dp"
+                android:src="@drawable/ic_add_member" />
+
+            <ImageView
+                android:id="@+id/vierwGroupNotification"
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:paddingBottom="17dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="17dp"
+                android:src="@drawable/ic_notification_white" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:elevation="6dp"
+        android:background="@drawable/shadow_round">
+
+        <TextView
+            android:id="@+id/group_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:text="Title"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/group_title_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/group_lead_spinner"
+            android:layout_below="@id/group_title"
+            android:layout_alignStart="@id/group_title"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@id/group_title"
+            android:textSize="15dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/group_title_txt_disp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/group_title"
+            android:layout_alignTop="@id/group_title"
+            android:textColor="@color/black"
+            android:visibility="gone"
+            android:layout_alignStart="@+id/group_lead_spinner_txt"
+            android:layout_alignLeft="@+id/group_lead_spinner_txt"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@id/group_title"
+            android:gravity="center_vertical"
+            android:hint="ABBDKJANKJDBKAJDN"
+            android:singleLine="true"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/lead_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/group_title"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+            android:text="Group Admin"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+
+        <EditText
+            android:id="@+id/group_lead_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lead_type"
+            android:layout_alignStart="@id/lead_type"
+            android:layout_marginLeft="10dp"
+            android:spinnerMode="dialog"
+            style="@style/spinner_style"
+            android:focusable="false"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@id/lead_type"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/group_lead_spinner_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/lead_type"
+            android:layout_alignTop="@id/lead_type"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/lead_type"
+            android:gravity="center_vertical"
+            android:hint="ABBDKJANKJDBKAJDN"
+            android:singleLine="true"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/group_status_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lead_type"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Status"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <Switch
+            android:id="@+id/swStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:theme="@style/MySwitchTheme"
+            android:layout_alignBottom="@id/group_status_txt"
+            android:layout_alignTop="@id/group_status_txt"
+            android:layout_below="@+id/lead_type"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@id/lead_type"
+            android:checked="false"
+            android:visibility="gone"
+            android:textColor="@color/appColor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/radioStatusViewTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/group_status_txt"
+            android:layout_alignTop="@id/group_status_txt"
+            android:layout_below="@+id/lead_type"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@id/lead_type"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:hint="ABBDKJANKJDBKAJDN"
+            android:singleLine="true"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/update_group"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/group_status_txt"
+            android:textAllCaps="false"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/btn_square_fill_color"
+            android:text="Save"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/view_group_members"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_below="@+id/group_status_txt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="50dp"
+            android:textAllCaps="false"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:background="@drawable/btn_square_fill_color"
+            android:text="View Members"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,4 +1,0 @@
-#Tue Sep 15 17:10:13 IST 2020
-base.0=D\:\\HappySanzTech\\AppWorkSpace\\ENSYFI\\app\\build\\intermediates\\dex\\flavorRelease\\mergeDexFlavorRelease\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

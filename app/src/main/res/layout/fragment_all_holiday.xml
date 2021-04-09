@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/ic_background"
-    tools:context="com.palprotech.ensyfi.fragments.UpcomingHolidayListFragment">
+    tools:context="com.edu.erp.fragments.UpcomingHolidayListFragment">
 
     <RelativeLayout
         android:id="@+id/admin_view_holiday"
