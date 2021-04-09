@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.palprotech.ensyfi"
+    android:targetSandboxVersion="2"
+    android:versionCode="34"
+    android:versionName="1.0.283" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.palprotech.ensyfi.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.palprotech.ensyfi.permission.C2D_MESSAGE" />
+
+    <application
+        android:name="com.palprotech.ensyfi.app.AppController"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_ensyfi"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_ensyfi"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.palprotech.ensyfi.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.loginmodule.SplashScreenActivity"
+            android:theme="@style/AppFullScreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Login Portion -->
+        <activity
+            android:name="com.palprotech.ensyfi.activity.loginmodule.SchoolIdLoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarEventDetails" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.loginmodule.UserLoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.loginmodule.ForgotPasswordActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.loginmodule.ResetPasswordActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.loginmodule.ChangePasswordActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.loginmodule.SettingsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.loginmodule.ProfileActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.loginmodule.ProfileActivityNew"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.loginmodule.ParentInfoActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.loginmodule.GuardianInfoActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.studentmodule.StudentDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.loginmodule.TeacherInfoActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+
+        <!-- End -->
+        <!--  -->
+        <!-- Parent Module -->
+
+        <activity
+            android:name="com.palprotech.ensyfi.activity.parentsmodule.ParentDashBoardActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.parentsmodule.ParentsCommunicationActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+
+        <!-- End -->
+        <!--  -->
+        <!-- Student Module -->
+        <activity
+            android:name="com.palprotech.ensyfi.activity.loginmodule.StudentInfoActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.studentmodule.AttendanceActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.studentmodule.StudentTimeTableActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarPink" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.studentmodule.StudentTimeTableAcitivityNewnew"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarPink" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.studentmodule.ClassTestHomeworkActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.studentmodule.ClassTestDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.studentmodule.ExamsResultActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.studentmodule.ExamDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.studentmodule.ExamMarksActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.studentmodule.ExamOnlyTotalMarksActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.studentmodule.FeeStatusActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.AttendanceStatusActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.AttendanceMonthViewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.ClassTeacherAttendanceView"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.ClassTeacherAttendanceOverview"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.ClassTeacherAttendanceDetailView"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.ClassTeacherCtHwOverallView"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.ClassTeacherCtHwDaywiseView"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.ClassTeacherCtHwDetailView"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+
+        <!-- End -->
+        <!--  -->
+        <!-- General -->
+        <activity
+            android:name="com.palprotech.ensyfi.activity.general.EventsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.general.EventDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.general.LeaveCalendarActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.general.EventOrganiserActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.general.OnDutyActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.general.GroupingActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.general.GroupingSendActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.general.OnDutyRequestActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.general.CircularActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.general.LeaveStatusActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.general.LeaveStatusDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.general.LeaveApplyActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+
+        <!-- End -->
+        <!--  -->
+        <!-- Teacher Module -->
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.TeacherDashBoardActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.TeacherTimeTableActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.TeacherTimeTableNewnew"
+            android:label="@string/app_name"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.general.SyncRecordsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.ClassTestHomeWorkTeacherViewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.ClassTestHomeWorkDetailPageActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.ClassTestHomeWorkAddActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.ViewClassTestMarkActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.AcademicExamViewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.AcademicExamDetailPage"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.AcademicExamResultView"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.AcademicExamOnlyTotalResultView"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.TimeTableReviewAddActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.TimeTableReview"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.TimeTableReviewDetails"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.AddClassTestMarkActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarPink" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.AddAcademicExamMarksActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarPink" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.AddAcademicExamMarksOnlyTotalActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarPink" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.TeacherAttendanceInsertActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarPink" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.SpecialClassActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarPink" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.SubstitutionActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarPink" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.teachermodule.ExamDutyActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarPink" >
+        </activity>
+
+        <!-- End -->
+        <!--  -->
+        <!-- Admin Module -->
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.AdminDashBoardActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.StudentsViewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.ClassStudentDetailsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.TeachersViewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.TeacherViewDetailsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.ParentsViewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.ParentsViewDetailsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.StudentsInfoActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.ClassBasedViewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.ExamViewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.ResultViewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.StudentResultView"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.FeesViewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.FeesStatusView"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.OnDutyViewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.OnDutyDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.GroupNotificationAdminViewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.GroupNotificationCreationActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.GroupNotificationUpdateActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.GroupNotificationViewMemberActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.GroupNotificationAddMemberActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.GroupNotificationActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.CircularMasterCreationActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarForCircular"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.CircularMasterListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.ClassAttendanceActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.ClassAttendanceListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.ClassAttendanceDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.general.GroupingDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+        <activity
+            android:name="com.palprotech.ensyfi.activity.adminmodule.BoardMembersListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBarGrey" />
+
+        <!-- End -->
+        <!--  -->
+        <!-- GCM Receiver -->
+        <!--
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="com.gnirt69.gcmexample" />
+            </intent-filter>
+        </receiver>
+        -->
+
+
+        <!-- GCM Receiver Service -->
+        <!--
+        <service
+            android:name=".servicehelpers.gcm.GCMPushReceiverService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        -->
+
+
+        <!-- GCM Registration Intent Service -->
+        <!--
+        <service
+            android:name=".servicehelpers.gcm.GCMRegistrationIntentService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+        -->
+
+        <service android:name="com.palprotech.ensyfi.servicehelpers.fcm.MyFirebaseMessagingService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.palprotech.ensyfi.com.squareup.picasso"
+            android:exported="false" />
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             but set to not exported to explicitly avoid allowing another app to call it.
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="false" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.palprotech.ensyfi.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

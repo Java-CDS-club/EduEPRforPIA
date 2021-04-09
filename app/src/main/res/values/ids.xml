@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="my_edit_text_1" type="id" />
+    <item name="my_edit_text_2" type="id" />
+    <item name="my_text_1" type="id" />
+    <item name="my_text_2" type="id" />
+    <item name="member_name_txt" type="id" />
+    <item name="member_id_txt" type="id" />
+    <item name="member_status" type="id" />
+
+    <!--   Clas List   -->
+    <item name="class_section_name" type="id" />
+    <item name="class_section_status" type="id" />
+    <item name="class_section_go" type="id" />
+
+    <!--   Group List   -->
+    <item name="group_name_s" type="id" />
+    <item name="lead_name_s" type="id" />
+    <item name="status_s" type="id" />
+</resources>

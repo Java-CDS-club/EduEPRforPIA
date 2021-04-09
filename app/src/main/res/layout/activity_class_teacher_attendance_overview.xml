@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/tlbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/appColor"
+            android:minHeight="?android:attr/actionBarSize" />
+
+        <ImageView
+            android:id="@+id/back_res"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:contentDescription="@string/arrow_back"
+            android:minHeight="?android:attr/actionBarSize"
+            android:padding="5dp"
+            android:src="@drawable/ic_arrow_back_white_48dp" />
+
+        <TextView
+            android:id="@+id/tvtitletext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/back_res"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:minHeight="?android:attr/actionBarSize"
+            android:text="Attendance Overview"
+            android:textColor="@color/white"
+            android:textSize="@dimen/menuTextSize"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/class_attendance_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:elevation="12dp"
+        android:layout_below="@+id/tlbar"
+        android:background="@drawable/shadow_round">
+
+        <TextView
+            android:id="@+id/attendance_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Date"
+            android:textColor="@color/new_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_attendance_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/attendance_date"
+            android:layout_alignLeft="@+id/txt_class_strength"
+            android:layout_alignTop="@id/attendance_date"
+            android:layout_toRightOf="@id/attendance_date"
+            android:gravity="center"
+            android:text="DD-MM-YYYY"
+            android:textColor="@color/new_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_class_strength"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/class_strength"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/class_strength"
+            android:text="000"
+            android:textColor="@color/new_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/class_strength"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/attendance_date"
+            android:layout_below="@id/attendance_date"
+            android:layout_marginTop="10dp"
+            android:text="Class Strength"
+            android:textColor="@color/new_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/no_present"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/attendance_date"
+            android:layout_below="@id/class_strength"
+            android:layout_marginTop="10dp"
+            android:text="No. of Present"
+            android:textColor="@color/new_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_no_present"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txt_class_strength"
+            android:layout_alignTop="@+id/no_present"
+            android:layout_toRightOf="@id/no_present"
+            android:text="100"
+            android:textColor="@color/new_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/no_absent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/attendance_date"
+            android:layout_below="@id/txt_no_present"
+            android:layout_marginTop="10dp"
+            android:text="No. of Absent"
+            android:textColor="@color/new_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_no_absent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txt_class_strength"
+            android:layout_alignTop="@+id/no_absent"
+            android:layout_toRightOf="@id/no_absent"
+            android:text="100"
+            android:textColor="@color/new_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/taken_by"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/attendance_date"
+            android:layout_below="@id/no_absent"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Taken by"
+            android:textColor="@color/new_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/taken_by_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txt_class_strength"
+            android:layout_alignTop="@+id/taken_by"
+            android:layout_toRightOf="@id/taken_by"
+            android:text="ABCDEFGH"
+            android:textColor="@color/new_gray"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/taken_by"
+            android:weightSum="1"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:id="@+id/view_attendance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_view_attendance" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="View Attendance"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/new_gray"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/sep"
+                android:layout_width="1dp"
+                android:layout_height="30dp"
+                android:background="@color/background_grey"/>
+
+            <LinearLayout
+                android:id="@+id/send_attendance"
+                android:layout_width="match_parent"
+                android:layout_weight="0.5"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:padding="3dp"
+                    android:src="@drawable/ic_send_attendance" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:text="Send Attendance"
+                    android:textColor="@color/new_gray"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/report_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:visibility="gone"
+        android:elevation="12dp"
+        android:background="@drawable/shadow_round"
+        android:layout_below="@+id/class_attendance_layout">
+
+        <ImageView
+            android:id="@+id/close_popup"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_close"
+            android:visibility="gone"
+            android:elevation="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Notification Type :"
+            android:textColor="@color/new_gray"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/check_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layout_marginTop="40dp"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/sms_check"
+                android:layout_weight="0.3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/approve"
+                android:layout_marginLeft="20dp"
+                android:text="SMS"/>
+            <CheckBox
+                android:id="@+id/mail_check"
+                android:layout_width="wrap_content"
+                android:layout_weight="0.3"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/pending"
+                android:layout_centerHorizontal="true"
+                android:text="Mail"/>
+            <CheckBox
+                android:id="@+id/notification_check"
+                android:layout_width="wrap_content"
+                android:layout_weight="0.4"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/reject"
+                android:layout_marginRight="20dp"
+                android:layout_alignParentRight="true"
+                android:text="Notification"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/sms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:drawableLeft="@drawable/grouping_unchecked"
+                android:text="SMS"
+                android:drawablePadding="10dp"
+                android:textSize="16sp"
+                android:textColor="@color/new_gray"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/sms"
+                android:layout_marginLeft="40dp"
+                android:drawablePadding="10dp"
+                android:layout_alignTop="@+id/sms"
+                android:drawableLeft="@drawable/grouping_unchecked"
+                android:text="Mail"
+                android:textSize="16sp"
+                android:textColor="@color/new_gray"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/sms"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/grouping_unchecked"
+                android:text="Notification"
+                android:textSize="16sp"
+                android:textColor="@color/new_gray"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/send_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_square_fill_color"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_below="@+id/check_layout"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:textAllCaps="false"
+            android:layout_centerHorizontal="true"
+            android:text="Send"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

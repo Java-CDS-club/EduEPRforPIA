@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/shadow_round"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtEnrollId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:text="2"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/hyphen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txtLeaves"
+            android:layout_alignTop="@+id/txtLeaves"
+            android:layout_toRightOf="@+id/txtEnrollId"
+            android:gravity="center"
+            android:text="-"
+            android:visibility="gone"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtStudentName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txtLeaves"
+            android:layout_alignTop="@+id/txtLeaves"
+            android:layout_below="@+id/txtEnrollId"
+            android:layout_toRightOf="@+id/hyphen"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="Bala Murali Krishna"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txtLeaves"
+            android:layout_alignTop="@+id/txtLeaves"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/txtStudentName"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="-"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtLeaves"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/txtEnrollId"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:text="5 Days Leave"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+</LinearLayout>

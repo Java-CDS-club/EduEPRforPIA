@@ -1,0 +1,160 @@
+package com.edu.erp.activity.general;
+
+import android.content.Intent;
+import android.os.Bundle;
+
+import androidx.annotation.IdRes;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.RadioGroup;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.edu.erp.R;
+import com.edu.erp.bean.general.viewlist.LeaveStatus;
+import com.edu.erp.helper.AlertDialogHelper;
+import com.edu.erp.helper.ProgressDialogHelper;
+import com.edu.erp.interfaces.DialogClickListener;
+import com.edu.erp.servicehelpers.ServiceHelper;
+import com.edu.erp.serviceinterfaces.IServiceListener;
+import com.edu.erp.utils.CommonUtils;
+import com.edu.erp.utils.EnsyfiConstants;
+import com.edu.erp.utils.PreferenceStorage;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+public class LeaveStatusDetailActivity extends AppCompatActivity implements IServiceListener, DialogClickListener {
+
+    private LeaveStatus leaveStatus;
+    private TextView txtLeaveReason, txtLeaveStartDate, txtLeaveEndDate, txtLeaveStartTime, txtLeaveEndTime, txtLeaveType;
+    private Button btnSend;
+    private RadioGroup approve;
+    protected ProgressDialogHelper progressDialogHelper;
+    private ServiceHelper serviceHelper;
+    String leaveApprovalStatus = "";
+
+
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_leave_status_detail);
+        leaveStatus = (LeaveStatus) getIntent().getSerializableExtra("leaveObj");
+        initializeEventHelpers();
+        initializeViews();
+        populateData();
+        ImageView bckbtn = (ImageView) findViewById(R.id.back_res);
+
+        bckbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+                Intent intent = new Intent(getApplicationContext(), LeaveStatusActivity.class);
+                startActivity(intent);
+            }
+        });
+    }
+
+    protected void initializeEventHelpers() {
+        serviceHelper = new ServiceHelper(this);
+        serviceHelper.setServiceListener(this);
+        progressDialogHelper = new ProgressDialogHelper(this);
+    }
+
+    private void initializeViews() {
+        txtLeaveReason = (TextView) findViewById(R.id.txtLeaveFor);
+        txtLeaveType = (TextView) findViewById(R.id.txtLeaveType);
+        txtLeaveStartDate = (TextView) findViewById(R.id.txtFromDate);
+        txtLeaveEndDate = (TextView) findViewById(R.id.txtToDate);
+        approve = findViewById(R.id.status_layout);
+        approve.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, @IdRes int checkedId) {
+
+                switch (checkedId) {
+                    case R.id.txtStatusDecline:
+                        leaveApprovalStatus = "Rejected";
+                        break;
+
+                    case R.id.txtStatusApprove:
+                        leaveApprovalStatus = "Approved";
+                        break;
+                }
+            }
+        });
+        btnSend = (Button) findViewById(R.id.send_status);
+
+        btnSend.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sendLeaveStatus();
+                finish();
+                Intent intent = new Intent(getApplicationContext(), LeaveStatusActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                startActivity(intent);
+            }
+        });
+    }
+
+    private void populateData() {
+        txtLeaveType.setText(leaveStatus.getLeaveTitle());
+        String leaveType = leaveStatus.getLeaveType();
+        if (leaveType.equals("0")) {
+            txtLeaveStartDate.setText(leaveStatus.getFromTime());
+            txtLeaveEndDate.setText(leaveStatus.getToTime());
+        } else {
+            txtLeaveStartDate.setText(leaveStatus.getFromLeaveDate());
+            txtLeaveEndDate.setText(leaveStatus.getToLeaveDate());
+        }
+        txtLeaveReason.setText(leaveStatus.getLeaveDescription());
+    }
+
+    @Override
+    public void onAlertPositiveClicked(int tag) {
+
+    }
+
+    @Override
+    public void onAlertNegativeClicked(int tag) {
+
+    }
+
+    private void sendLeaveStatus() {
+        if (CommonUtils.isNetworkAvailable(this)) {
+
+            JSONObject jsonObject = new JSONObject();
+            try {
+                jsonObject.put(EnsyfiConstants.PARAMS_LEAVE_APPROVAL_STATUS, leaveApprovalStatus);
+                jsonObject.put(EnsyfiConstants.PARAMS_LEAVE_ID, leaveStatus.getLeaveId());
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+
+            progressDialogHelper.showProgressDialog(getString(R.string.progress_loading));
+            String url = EnsyfiConstants.BASE_URL + PreferenceStorage.getInstituteCode(this) + EnsyfiConstants.APPROVE_LEAVES_API;
+            serviceHelper.makeGetServiceCall(jsonObject.toString(), url);
+
+        } else {
+            AlertDialogHelper.showSimpleAlertDialog(this, "No Network connection");
+        }
+    }
+
+    @Override
+    public void onResponse(JSONObject response) {
+        try {
+            if (response.getString("status").equalsIgnoreCase("success")) {
+                Toast.makeText(this, "Leave " + leaveApprovalStatus, Toast.LENGTH_SHORT).show();
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void onError(String error) {
+
+    }
+}

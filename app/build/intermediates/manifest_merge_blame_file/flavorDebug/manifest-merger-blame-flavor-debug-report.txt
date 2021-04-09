@@ -1,0 +1,1266 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.palprotech.ensyfi"
+4    android:versionCode="34"
+5    android:versionName="1.0.283" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:6:5-79
+12-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:7:5-76
+13-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:8:5-68
+14-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:8:22-65
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:9:5-66
+15-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:9:22-63
+16    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+16-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:10:5-98
+16-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:10:22-95
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:11:5-81
+17-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:12:5-75
+18-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:12:22-72
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:13:5-80
+19-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:13:22-77
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:14:5-65
+20-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:14:22-62
+21    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+21-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:15:5-82
+21-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:15:22-79
+22
+23    <permission
+23-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:17:5-19:47
+24        android:name="com.palprotech.ensyfi.permission.C2D_MESSAGE"
+24-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:18:9-68
+25        android:protectionLevel="signature" />
+25-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:19:9-44
+26
+27    <uses-permission android:name="com.palprotech.ensyfi.permission.C2D_MESSAGE" />
+27-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:20:5-84
+27-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:20:22-81
+28
+29    <application
+29-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:22:5-694:19
+30        android:name="com.palprotech.ensyfi.app.AppController"
+30-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:23:9-42
+31        android:allowBackup="true"
+31-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:24:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2111d963c95cc6e94705fb367f0a0943\core-1.1.0\AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:fullBackupContent="false"
+34-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:25:9-42
+35        android:icon="@mipmap/ic_ensyfi"
+35-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:26:9-41
+36        android:label="@string/app_name"
+36-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:27:9-41
+37        android:roundIcon="@mipmap/ic_ensyfi"
+37-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:28:9-46
+38        android:supportsRtl="true"
+38-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:29:9-35
+39        android:theme="@style/AppTheme" >
+39-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:30:9-40
+40        <provider
+41            android:name="androidx.core.content.FileProvider"
+41-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:33:13-62
+42            android:authorities="com.palprotech.ensyfi.provider"
+42-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:34:13-60
+43            android:exported="false"
+43-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:35:13-37
+44            android:grantUriPermissions="true" >
+44-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:36:13-47
+45            <meta-data
+45-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:37:13-39:57
+46                android:name="android.support.FILE_PROVIDER_PATHS"
+46-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:38:17-67
+47                android:resource="@xml/provider_paths" />
+47-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:39:17-55
+48        </provider>
+49
+50        <activity
+50-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:42:9-45:71
+51            android:name="com.yalantis.ucrop.UCropActivity"
+51-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:43:13-60
+52            android:screenOrientation="portrait"
+52-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:44:13-49
+53            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+53-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:45:13-69
+54        <activity
+54-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:47:9-55:20
+55            android:name="com.palprotech.ensyfi.activity.loginmodule.SplashScreenActivity"
+55-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:48:13-70
+56            android:theme="@style/AppFullScreenTheme" >
+56-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:49:13-54
+57            <intent-filter>
+57-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:50:13-54:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:51:17-69
+58-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:51:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:53:17-77
+60-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:53:27-74
+61            </intent-filter>
+62        </activity>
+63
+64        <!-- Login Portion -->
+65        <activity
+65-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:58:9-62:70
+66            android:name="com.palprotech.ensyfi.activity.loginmodule.SchoolIdLoginActivity"
+66-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:59:13-71
+67            android:label="@string/app_name"
+67-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:60:13-45
+68            android:screenOrientation="portrait"
+68-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:61:13-49
+69            android:theme="@style/AppThemeNoActionBarEventDetails" />
+69-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:62:13-67
+70        <activity
+70-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:64:9-68:62
+71            android:name="com.palprotech.ensyfi.activity.loginmodule.UserLoginActivity"
+71-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:65:13-67
+72            android:label="@string/app_name"
+72-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:66:13-45
+73            android:screenOrientation="portrait"
+73-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:67:13-49
+74            android:theme="@style/AppThemeNoActionBarGrey" />
+74-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:68:13-59
+75        <activity
+75-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:70:9-74:62
+76            android:name="com.palprotech.ensyfi.activity.loginmodule.ForgotPasswordActivity"
+76-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:71:13-72
+77            android:label="@string/app_name"
+77-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:72:13-45
+78            android:screenOrientation="portrait"
+78-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:73:13-49
+79            android:theme="@style/AppThemeNoActionBarGrey" />
+79-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:74:13-59
+80        <activity
+80-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:76:9-80:62
+81            android:name="com.palprotech.ensyfi.activity.loginmodule.ResetPasswordActivity"
+81-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:77:13-71
+82            android:label="@string/app_name"
+82-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:78:13-45
+83            android:screenOrientation="portrait"
+83-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:79:13-49
+84            android:theme="@style/AppThemeNoActionBarGrey" />
+84-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:80:13-59
+85        <activity
+85-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:82:9-86:62
+86            android:name="com.palprotech.ensyfi.activity.loginmodule.ChangePasswordActivity"
+86-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:83:13-72
+87            android:label="@string/app_name"
+87-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:84:13-45
+88            android:screenOrientation="portrait"
+88-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:85:13-49
+89            android:theme="@style/AppThemeNoActionBarGrey" />
+89-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:86:13-59
+90        <activity
+90-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:88:9-92:62
+91            android:name="com.palprotech.ensyfi.activity.loginmodule.SettingsActivity"
+91-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:89:13-66
+92            android:label="@string/app_name"
+92-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:90:13-45
+93            android:screenOrientation="portrait"
+93-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:91:13-49
+94            android:theme="@style/AppThemeNoActionBarGrey" />
+94-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:92:13-59
+95        <activity
+95-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:94:9-99:57
+96            android:name="com.palprotech.ensyfi.activity.loginmodule.ProfileActivity"
+96-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:95:13-65
+97            android:label="@string/app_name"
+97-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:96:13-45
+98            android:screenOrientation="portrait"
+98-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:97:13-49
+99            android:theme="@style/AppThemeNoActionBarGrey"
+99-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:98:13-59
+100            android:windowSoftInputMode="stateHidden" />
+100-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:99:13-54
+101        <activity
+101-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:101:9-106:57
+102            android:name="com.palprotech.ensyfi.activity.loginmodule.ProfileActivityNew"
+102-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:102:13-68
+103            android:label="@string/app_name"
+103-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:103:13-45
+104            android:screenOrientation="portrait"
+104-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:104:13-49
+105            android:theme="@style/AppThemeNoActionBarGrey"
+105-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:105:13-59
+106            android:windowSoftInputMode="stateHidden" />
+106-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:106:13-54
+107        <activity
+107-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:108:9-112:62
+108            android:name="com.palprotech.ensyfi.activity.loginmodule.ParentInfoActivity"
+108-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:109:13-68
+109            android:label="@string/app_name"
+109-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:110:13-45
+110            android:screenOrientation="portrait"
+110-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:111:13-49
+111            android:theme="@style/AppThemeNoActionBarGrey" />
+111-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:112:13-59
+112        <activity
+112-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:114:9-118:62
+113            android:name="com.palprotech.ensyfi.activity.loginmodule.GuardianInfoActivity"
+113-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:115:13-70
+114            android:label="@string/app_name"
+114-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:116:13-45
+115            android:screenOrientation="portrait"
+115-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:117:13-49
+116            android:theme="@style/AppThemeNoActionBarGrey" />
+116-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:118:13-59
+117        <activity
+117-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:120:9-124:62
+118            android:name="com.palprotech.ensyfi.activity.studentmodule.StudentDetailActivity"
+118-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:121:13-73
+119            android:label="@string/app_name"
+119-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:122:13-45
+120            android:screenOrientation="portrait"
+120-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:123:13-49
+121            android:theme="@style/AppThemeNoActionBarGrey" />
+121-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:124:13-59
+122        <activity
+122-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:126:9-130:62
+123            android:name="com.palprotech.ensyfi.activity.loginmodule.TeacherInfoActivity"
+123-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:127:13-69
+124            android:label="@string/app_name"
+124-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:128:13-45
+125            android:screenOrientation="portrait"
+125-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:129:13-49
+126            android:theme="@style/AppThemeNoActionBarGrey" />
+126-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:130:13-59
+127
+128        <!-- End -->
+129        <!--  -->
+130        <!-- Parent Module -->
+131
+132        <activity
+132-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:136:9-140:62
+133            android:name="com.palprotech.ensyfi.activity.parentsmodule.ParentDashBoardActivity"
+133-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:137:13-75
+134            android:label="@string/app_name"
+134-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:138:13-45
+135            android:screenOrientation="portrait"
+135-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:139:13-49
+136            android:theme="@style/AppThemeNoActionBarGrey" />
+136-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:140:13-59
+137        <activity
+137-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:142:9-146:62
+138            android:name="com.palprotech.ensyfi.activity.parentsmodule.ParentsCommunicationActivity"
+138-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:143:13-80
+139            android:label="@string/app_name"
+139-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:144:13-45
+140            android:screenOrientation="portrait"
+140-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:145:13-49
+141            android:theme="@style/AppThemeNoActionBarGrey" />
+141-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:146:13-59
+142
+143        <!-- End -->
+144        <!--  -->
+145        <!-- Student Module -->
+146        <activity
+146-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:151:9-155:62
+147            android:name="com.palprotech.ensyfi.activity.loginmodule.StudentInfoActivity"
+147-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:152:13-69
+148            android:label="@string/app_name"
+148-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:153:13-45
+149            android:screenOrientation="portrait"
+149-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:154:13-49
+150            android:theme="@style/AppThemeNoActionBarGrey" />
+150-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:155:13-59
+151        <activity
+151-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:157:9-161:62
+152            android:name="com.palprotech.ensyfi.activity.studentmodule.AttendanceActivity"
+152-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:158:13-70
+153            android:label="@string/app_name"
+153-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:159:13-45
+154            android:screenOrientation="portrait"
+154-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:160:13-49
+155            android:theme="@style/AppThemeNoActionBarGrey" />
+155-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:161:13-59
+156        <activity
+156-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:163:9-167:62
+157            android:name="com.palprotech.ensyfi.activity.studentmodule.StudentTimeTableActivity"
+157-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:164:13-76
+158            android:label="@string/app_name"
+158-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:165:13-45
+159            android:screenOrientation="portrait"
+159-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:166:13-49
+160            android:theme="@style/AppThemeNoActionBarPink" />
+160-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:167:13-59
+161        <activity
+161-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:169:9-173:62
+162            android:name="com.palprotech.ensyfi.activity.studentmodule.StudentTimeTableAcitivityNewnew"
+162-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:170:13-83
+163            android:label="@string/app_name"
+163-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:171:13-45
+164            android:screenOrientation="portrait"
+164-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:172:13-49
+165            android:theme="@style/AppThemeNoActionBarPink" />
+165-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:173:13-59
+166        <activity
+166-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:175:9-179:62
+167            android:name="com.palprotech.ensyfi.activity.studentmodule.ClassTestHomeworkActivity"
+167-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:176:13-77
+168            android:label="@string/app_name"
+168-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:177:13-45
+169            android:screenOrientation="portrait"
+169-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:178:13-49
+170            android:theme="@style/AppThemeNoActionBarGrey" />
+170-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:179:13-59
+171        <activity
+171-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:181:9-185:62
+172            android:name="com.palprotech.ensyfi.activity.studentmodule.ClassTestDetailActivity"
+172-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:182:13-75
+173            android:label="@string/app_name"
+173-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:183:13-45
+174            android:screenOrientation="portrait"
+174-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:184:13-49
+175            android:theme="@style/AppThemeNoActionBarGrey" />
+175-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:185:13-59
+176        <activity
+176-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:187:9-191:62
+177            android:name="com.palprotech.ensyfi.activity.studentmodule.ExamsResultActivity"
+177-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:188:13-71
+178            android:label="@string/app_name"
+178-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:189:13-45
+179            android:screenOrientation="portrait"
+179-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:190:13-49
+180            android:theme="@style/AppThemeNoActionBarGrey" />
+180-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:191:13-59
+181        <activity
+181-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:193:9-197:62
+182            android:name="com.palprotech.ensyfi.activity.studentmodule.ExamDetailActivity"
+182-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:194:13-70
+183            android:label="@string/app_name"
+183-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:195:13-45
+184            android:screenOrientation="portrait"
+184-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:196:13-49
+185            android:theme="@style/AppThemeNoActionBarGrey" />
+185-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:197:13-59
+186        <activity
+186-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:199:9-203:62
+187            android:name="com.palprotech.ensyfi.activity.studentmodule.ExamMarksActivity"
+187-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:200:13-69
+188            android:label="@string/app_name"
+188-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:201:13-45
+189            android:screenOrientation="portrait"
+189-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:202:13-49
+190            android:theme="@style/AppThemeNoActionBarGrey" />
+190-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:203:13-59
+191        <activity
+191-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:205:9-209:62
+192            android:name="com.palprotech.ensyfi.activity.studentmodule.ExamOnlyTotalMarksActivity"
+192-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:206:13-78
+193            android:label="@string/app_name"
+193-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:207:13-45
+194            android:screenOrientation="portrait"
+194-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:208:13-49
+195            android:theme="@style/AppThemeNoActionBarGrey" />
+195-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:209:13-59
+196        <activity
+196-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:211:9-215:62
+197            android:name="com.palprotech.ensyfi.activity.studentmodule.FeeStatusActivity"
+197-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:212:13-69
+198            android:label="@string/app_name"
+198-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:213:13-45
+199            android:screenOrientation="portrait"
+199-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:214:13-49
+200            android:theme="@style/AppThemeNoActionBarGrey" />
+200-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:215:13-59
+201        <activity
+201-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:217:9-221:62
+202            android:name="com.palprotech.ensyfi.activity.teachermodule.AttendanceStatusActivity"
+202-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:218:13-76
+203            android:label="@string/app_name"
+203-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:219:13-45
+204            android:screenOrientation="portrait"
+204-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:220:13-49
+205            android:theme="@style/AppThemeNoActionBarGrey" />
+205-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:221:13-59
+206        <activity
+206-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:223:9-227:62
+207            android:name="com.palprotech.ensyfi.activity.teachermodule.AttendanceMonthViewActivity"
+207-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:224:13-79
+208            android:label="@string/app_name"
+208-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:225:13-45
+209            android:screenOrientation="portrait"
+209-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:226:13-49
+210            android:theme="@style/AppThemeNoActionBarGrey" />
+210-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:227:13-59
+211        <activity
+211-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:229:9-233:62
+212            android:name="com.palprotech.ensyfi.activity.teachermodule.ClassTeacherAttendanceView"
+212-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:230:13-78
+213            android:label="@string/app_name"
+213-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:231:13-45
+214            android:screenOrientation="portrait"
+214-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:232:13-49
+215            android:theme="@style/AppThemeNoActionBarGrey" />
+215-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:233:13-59
+216        <activity
+216-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:235:9-239:62
+217            android:name="com.palprotech.ensyfi.activity.teachermodule.ClassTeacherAttendanceOverview"
+217-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:236:13-82
+218            android:label="@string/app_name"
+218-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:237:13-45
+219            android:screenOrientation="portrait"
+219-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:238:13-49
+220            android:theme="@style/AppThemeNoActionBarGrey" />
+220-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:239:13-59
+221        <activity
+221-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:241:9-245:62
+222            android:name="com.palprotech.ensyfi.activity.teachermodule.ClassTeacherAttendanceDetailView"
+222-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:242:13-84
+223            android:label="@string/app_name"
+223-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:243:13-45
+224            android:screenOrientation="portrait"
+224-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:244:13-49
+225            android:theme="@style/AppThemeNoActionBarGrey" />
+225-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:245:13-59
+226        <activity
+226-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:247:9-251:62
+227            android:name="com.palprotech.ensyfi.activity.teachermodule.ClassTeacherCtHwOverallView"
+227-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:248:13-79
+228            android:label="@string/app_name"
+228-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:249:13-45
+229            android:screenOrientation="portrait"
+229-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:250:13-49
+230            android:theme="@style/AppThemeNoActionBarGrey" />
+230-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:251:13-59
+231        <activity
+231-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:253:9-257:62
+232            android:name="com.palprotech.ensyfi.activity.teachermodule.ClassTeacherCtHwDaywiseView"
+232-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:254:13-79
+233            android:label="@string/app_name"
+233-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:255:13-45
+234            android:screenOrientation="portrait"
+234-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:256:13-49
+235            android:theme="@style/AppThemeNoActionBarGrey" />
+235-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:257:13-59
+236        <activity
+236-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:259:9-263:62
+237            android:name="com.palprotech.ensyfi.activity.teachermodule.ClassTeacherCtHwDetailView"
+237-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:260:13-78
+238            android:label="@string/app_name"
+238-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:261:13-45
+239            android:screenOrientation="portrait"
+239-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:262:13-49
+240            android:theme="@style/AppThemeNoActionBarGrey" />
+240-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:263:13-59
+241
+242        <!-- End -->
+243        <!--  -->
+244        <!-- General -->
+245        <activity
+245-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:268:9-272:62
+246            android:name="com.palprotech.ensyfi.activity.general.EventsActivity"
+246-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:269:13-60
+247            android:label="@string/app_name"
+247-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:270:13-45
+248            android:screenOrientation="portrait"
+248-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:271:13-49
+249            android:theme="@style/AppThemeNoActionBarGrey" />
+249-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:272:13-59
+250        <activity
+250-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:274:9-278:62
+251            android:name="com.palprotech.ensyfi.activity.general.EventDetailActivity"
+251-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:275:13-65
+252            android:label="@string/app_name"
+252-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:276:13-45
+253            android:screenOrientation="portrait"
+253-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:277:13-49
+254            android:theme="@style/AppThemeNoActionBarGrey" />
+254-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:278:13-59
+255        <activity
+255-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:280:9-284:62
+256            android:name="com.palprotech.ensyfi.activity.general.LeaveCalendarActivity"
+256-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:281:13-67
+257            android:label="@string/app_name"
+257-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:282:13-45
+258            android:screenOrientation="portrait"
+258-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:283:13-49
+259            android:theme="@style/AppThemeNoActionBarGrey" />
+259-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:284:13-59
+260        <activity
+260-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:286:9-290:62
+261            android:name="com.palprotech.ensyfi.activity.general.EventOrganiserActivity"
+261-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:287:13-68
+262            android:label="@string/app_name"
+262-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:288:13-45
+263            android:screenOrientation="portrait"
+263-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:289:13-49
+264            android:theme="@style/AppThemeNoActionBarGrey" />
+264-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:290:13-59
+265        <activity
+265-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:292:9-296:62
+266            android:name="com.palprotech.ensyfi.activity.general.OnDutyActivity"
+266-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:293:13-60
+267            android:label="@string/app_name"
+267-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:294:13-45
+268            android:screenOrientation="portrait"
+268-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:295:13-49
+269            android:theme="@style/AppThemeNoActionBarGrey" />
+269-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:296:13-59
+270        <activity
+270-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:298:9-302:62
+271            android:name="com.palprotech.ensyfi.activity.general.GroupingActivity"
+271-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:299:13-62
+272            android:label="@string/app_name"
+272-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:300:13-45
+273            android:screenOrientation="portrait"
+273-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:301:13-49
+274            android:theme="@style/AppThemeNoActionBarGrey" />
+274-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:302:13-59
+275        <activity
+275-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:304:9-308:62
+276            android:name="com.palprotech.ensyfi.activity.general.GroupingSendActivity"
+276-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:305:13-66
+277            android:label="@string/app_name"
+277-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:306:13-45
+278            android:screenOrientation="portrait"
+278-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:307:13-49
+279            android:theme="@style/AppThemeNoActionBarGrey" />
+279-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:308:13-59
+280        <activity
+280-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:310:9-315:57
+281            android:name="com.palprotech.ensyfi.activity.general.OnDutyRequestActivity"
+281-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:311:13-67
+282            android:label="@string/app_name"
+282-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:312:13-45
+283            android:screenOrientation="portrait"
+283-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:313:13-49
+284            android:theme="@style/AppThemeNoActionBarGrey"
+284-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:314:13-59
+285            android:windowSoftInputMode="stateHidden" />
+285-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:315:13-54
+286        <activity
+286-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:317:9-321:62
+287            android:name="com.palprotech.ensyfi.activity.general.CircularActivity"
+287-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:318:13-62
+288            android:label="@string/app_name"
+288-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:319:13-45
+289            android:screenOrientation="portrait"
+289-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:320:13-49
+290            android:theme="@style/AppThemeNoActionBarGrey" />
+290-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:321:13-59
+291        <activity
+291-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:323:9-327:62
+292            android:name="com.palprotech.ensyfi.activity.general.LeaveStatusActivity"
+292-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:324:13-65
+293            android:label="@string/app_name"
+293-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:325:13-45
+294            android:screenOrientation="portrait"
+294-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:326:13-49
+295            android:theme="@style/AppThemeNoActionBarGrey" />
+295-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:327:13-59
+296        <activity
+296-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:329:9-333:62
+297            android:name="com.palprotech.ensyfi.activity.general.LeaveStatusDetailActivity"
+297-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:330:13-71
+298            android:label="@string/app_name"
+298-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:331:13-45
+299            android:screenOrientation="portrait"
+299-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:332:13-49
+300            android:theme="@style/AppThemeNoActionBarGrey" />
+300-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:333:13-59
+301        <activity
+301-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:335:9-339:62
+302            android:name="com.palprotech.ensyfi.activity.general.LeaveApplyActivity"
+302-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:336:13-64
+303            android:label="@string/app_name"
+303-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:337:13-45
+304            android:screenOrientation="portrait"
+304-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:338:13-49
+305            android:theme="@style/AppThemeNoActionBarGrey" />
+305-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:339:13-59
+306
+307        <!-- End -->
+308        <!--  -->
+309        <!-- Teacher Module -->
+310        <activity
+310-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:344:9-348:62
+311            android:name="com.palprotech.ensyfi.activity.teachermodule.TeacherDashBoardActivity"
+311-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:345:13-76
+312            android:label="@string/app_name"
+312-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:346:13-45
+313            android:screenOrientation="portrait"
+313-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:347:13-49
+314            android:theme="@style/AppThemeNoActionBarGrey" />
+314-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:348:13-59
+315        <activity
+315-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:350:9-354:62
+316            android:name="com.palprotech.ensyfi.activity.teachermodule.TeacherTimeTableActivity"
+316-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:351:13-76
+317            android:label="@string/app_name"
+317-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:352:13-45
+318            android:theme="@style/AppThemeNoActionBarGrey" />
+318-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:354:13-59
+319        <activity
+319-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:356:9-360:62
+320            android:name="com.palprotech.ensyfi.activity.teachermodule.TeacherTimeTableNewnew"
+320-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:357:13-74
+321            android:label="@string/app_name"
+321-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:358:13-45
+322            android:theme="@style/AppThemeNoActionBarGrey" />
+322-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:360:13-59
+323        <activity
+323-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:362:9-366:62
+324            android:name="com.palprotech.ensyfi.activity.general.SyncRecordsActivity"
+324-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:363:13-65
+325            android:label="@string/app_name"
+325-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:364:13-45
+326            android:screenOrientation="portrait"
+326-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:365:13-49
+327            android:theme="@style/AppThemeNoActionBarGrey" />
+327-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:366:13-59
+328        <activity
+328-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:368:9-372:62
+329            android:name="com.palprotech.ensyfi.activity.teachermodule.ClassTestHomeWorkTeacherViewActivity"
+329-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:369:13-88
+330            android:label="@string/app_name"
+330-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:370:13-45
+331            android:screenOrientation="portrait"
+331-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:371:13-49
+332            android:theme="@style/AppThemeNoActionBarGrey" />
+332-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:372:13-59
+333        <activity
+333-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:374:9-378:62
+334            android:name="com.palprotech.ensyfi.activity.teachermodule.ClassTestHomeWorkDetailPageActivity"
+334-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:375:13-87
+335            android:label="@string/app_name"
+335-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:376:13-45
+336            android:screenOrientation="portrait"
+336-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:377:13-49
+337            android:theme="@style/AppThemeNoActionBarGrey" />
+337-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:378:13-59
+338        <activity
+338-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:380:9-384:62
+339            android:name="com.palprotech.ensyfi.activity.teachermodule.ClassTestHomeWorkAddActivity"
+339-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:381:13-80
+340            android:label="@string/app_name"
+340-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:382:13-45
+341            android:screenOrientation="portrait"
+341-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:383:13-49
+342            android:theme="@style/AppThemeNoActionBarGrey" />
+342-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:384:13-59
+343        <activity
+343-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:386:9-390:62
+344            android:name="com.palprotech.ensyfi.activity.teachermodule.ViewClassTestMarkActivity"
+344-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:387:13-77
+345            android:label="@string/app_name"
+345-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:388:13-45
+346            android:screenOrientation="portrait"
+346-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:389:13-49
+347            android:theme="@style/AppThemeNoActionBarGrey" />
+347-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:390:13-59
+348        <activity
+348-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:392:9-396:62
+349            android:name="com.palprotech.ensyfi.activity.teachermodule.AcademicExamViewActivity"
+349-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:393:13-76
+350            android:label="@string/app_name"
+350-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:394:13-45
+351            android:screenOrientation="portrait"
+351-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:395:13-49
+352            android:theme="@style/AppThemeNoActionBarGrey" />
+352-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:396:13-59
+353        <activity
+353-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:398:9-402:62
+354            android:name="com.palprotech.ensyfi.activity.teachermodule.AcademicExamDetailPage"
+354-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:399:13-74
+355            android:label="@string/app_name"
+355-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:400:13-45
+356            android:screenOrientation="portrait"
+356-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:401:13-49
+357            android:theme="@style/AppThemeNoActionBarGrey" />
+357-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:402:13-59
+358        <activity
+358-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:404:9-408:62
+359            android:name="com.palprotech.ensyfi.activity.teachermodule.AcademicExamResultView"
+359-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:405:13-74
+360            android:label="@string/app_name"
+360-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:406:13-45
+361            android:screenOrientation="portrait"
+361-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:407:13-49
+362            android:theme="@style/AppThemeNoActionBarGrey" />
+362-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:408:13-59
+363        <activity
+363-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:410:9-414:62
+364            android:name="com.palprotech.ensyfi.activity.teachermodule.AcademicExamOnlyTotalResultView"
+364-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:411:13-83
+365            android:label="@string/app_name"
+365-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:412:13-45
+366            android:screenOrientation="portrait"
+366-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:413:13-49
+367            android:theme="@style/AppThemeNoActionBarGrey" />
+367-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:414:13-59
+368        <activity
+368-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:416:9-420:62
+369            android:name="com.palprotech.ensyfi.activity.teachermodule.TimeTableReviewAddActivity"
+369-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:417:13-78
+370            android:label="@string/app_name"
+370-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:418:13-45
+371            android:screenOrientation="portrait"
+371-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:419:13-49
+372            android:theme="@style/AppThemeNoActionBarGrey" />
+372-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:420:13-59
+373        <activity
+373-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:422:9-426:62
+374            android:name="com.palprotech.ensyfi.activity.teachermodule.TimeTableReview"
+374-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:423:13-67
+375            android:label="@string/app_name"
+375-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:424:13-45
+376            android:screenOrientation="portrait"
+376-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:425:13-49
+377            android:theme="@style/AppThemeNoActionBarGrey" />
+377-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:426:13-59
+378        <activity
+378-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:428:9-432:62
+379            android:name="com.palprotech.ensyfi.activity.teachermodule.TimeTableReviewDetails"
+379-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:429:13-74
+380            android:label="@string/app_name"
+380-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:430:13-45
+381            android:screenOrientation="portrait"
+381-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:431:13-49
+382            android:theme="@style/AppThemeNoActionBarGrey" />
+382-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:432:13-59
+383        <activity
+383-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:434:9-438:62
+384            android:name="com.palprotech.ensyfi.activity.teachermodule.AddClassTestMarkActivity"
+384-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:435:13-76
+385            android:label="@string/app_name"
+385-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:436:13-45
+386            android:screenOrientation="portrait"
+386-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:437:13-49
+387            android:theme="@style/AppThemeNoActionBarPink" />
+387-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:438:13-59
+388        <activity
+388-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:440:9-444:62
+389            android:name="com.palprotech.ensyfi.activity.teachermodule.AddAcademicExamMarksActivity"
+389-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:441:13-80
+390            android:label="@string/app_name"
+390-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:442:13-45
+391            android:screenOrientation="portrait"
+391-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:443:13-49
+392            android:theme="@style/AppThemeNoActionBarPink" />
+392-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:444:13-59
+393        <activity
+393-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:446:9-450:62
+394            android:name="com.palprotech.ensyfi.activity.teachermodule.AddAcademicExamMarksOnlyTotalActivity"
+394-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:447:13-89
+395            android:label="@string/app_name"
+395-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:448:13-45
+396            android:screenOrientation="portrait"
+396-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:449:13-49
+397            android:theme="@style/AppThemeNoActionBarPink" />
+397-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:450:13-59
+398        <activity
+398-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:452:9-456:62
+399            android:name="com.palprotech.ensyfi.activity.teachermodule.TeacherAttendanceInsertActivity"
+399-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:453:13-83
+400            android:label="@string/app_name"
+400-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:454:13-45
+401            android:screenOrientation="portrait"
+401-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:455:13-49
+402            android:theme="@style/AppThemeNoActionBarPink" />
+402-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:456:13-59
+403        <activity
+403-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:458:9-462:62
+404            android:name="com.palprotech.ensyfi.activity.teachermodule.SpecialClassActivity"
+404-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:459:13-72
+405            android:label="@string/app_name"
+405-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:460:13-45
+406            android:screenOrientation="portrait"
+406-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:461:13-49
+407            android:theme="@style/AppThemeNoActionBarPink" />
+407-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:462:13-59
+408        <activity
+408-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:464:9-468:62
+409            android:name="com.palprotech.ensyfi.activity.teachermodule.SubstitutionActivity"
+409-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:465:13-72
+410            android:label="@string/app_name"
+410-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:466:13-45
+411            android:screenOrientation="portrait"
+411-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:467:13-49
+412            android:theme="@style/AppThemeNoActionBarPink" />
+412-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:468:13-59
+413        <activity
+413-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:470:9-476:20
+414            android:name="com.palprotech.ensyfi.activity.teachermodule.ExamDutyActivity"
+414-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:471:13-68
+415            android:label="@string/app_name"
+415-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:472:13-45
+416            android:screenOrientation="portrait"
+416-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:473:13-49
+417            android:theme="@style/AppThemeNoActionBarPink" >
+417-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:474:13-59
+418        </activity>
+419
+420        <!-- End -->
+421        <!--  -->
+422        <!-- Admin Module -->
+423        <activity
+423-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:481:9-485:62
+424            android:name="com.palprotech.ensyfi.activity.adminmodule.AdminDashBoardActivity"
+424-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:482:13-72
+425            android:label="@string/app_name"
+425-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:483:13-45
+426            android:screenOrientation="portrait"
+426-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:484:13-49
+427            android:theme="@style/AppThemeNoActionBarGrey" />
+427-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:485:13-59
+428        <activity
+428-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:487:9-491:62
+429            android:name="com.palprotech.ensyfi.activity.adminmodule.StudentsViewActivity"
+429-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:488:13-70
+430            android:label="@string/app_name"
+430-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:489:13-45
+431            android:screenOrientation="portrait"
+431-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:490:13-49
+432            android:theme="@style/AppThemeNoActionBarGrey" />
+432-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:491:13-59
+433        <activity
+433-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:493:9-497:62
+434            android:name="com.palprotech.ensyfi.activity.adminmodule.ClassStudentDetailsActivity"
+434-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:494:13-77
+435            android:label="@string/app_name"
+435-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:495:13-45
+436            android:screenOrientation="portrait"
+436-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:496:13-49
+437            android:theme="@style/AppThemeNoActionBarGrey" />
+437-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:497:13-59
+438        <activity
+438-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:499:9-503:62
+439            android:name="com.palprotech.ensyfi.activity.adminmodule.TeachersViewActivity"
+439-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:500:13-70
+440            android:label="@string/app_name"
+440-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:501:13-45
+441            android:screenOrientation="portrait"
+441-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:502:13-49
+442            android:theme="@style/AppThemeNoActionBarGrey" />
+442-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:503:13-59
+443        <activity
+443-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:505:9-509:62
+444            android:name="com.palprotech.ensyfi.activity.adminmodule.TeacherViewDetailsActivity"
+444-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:506:13-76
+445            android:label="@string/app_name"
+445-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:507:13-45
+446            android:screenOrientation="portrait"
+446-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:508:13-49
+447            android:theme="@style/AppThemeNoActionBarGrey" />
+447-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:509:13-59
+448        <activity
+448-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:511:9-515:62
+449            android:name="com.palprotech.ensyfi.activity.adminmodule.ParentsViewActivity"
+449-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:512:13-69
+450            android:label="@string/app_name"
+450-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:513:13-45
+451            android:screenOrientation="portrait"
+451-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:514:13-49
+452            android:theme="@style/AppThemeNoActionBarGrey" />
+452-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:515:13-59
+453        <activity
+453-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:517:9-521:62
+454            android:name="com.palprotech.ensyfi.activity.adminmodule.ParentsViewDetailsActivity"
+454-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:518:13-76
+455            android:label="@string/app_name"
+455-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:519:13-45
+456            android:screenOrientation="portrait"
+456-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:520:13-49
+457            android:theme="@style/AppThemeNoActionBarGrey" />
+457-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:521:13-59
+458        <activity
+458-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:523:9-527:62
+459            android:name="com.palprotech.ensyfi.activity.adminmodule.StudentsInfoActivity"
+459-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:524:13-70
+460            android:label="@string/app_name"
+460-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:525:13-45
+461            android:screenOrientation="portrait"
+461-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:526:13-49
+462            android:theme="@style/AppThemeNoActionBarGrey" />
+462-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:527:13-59
+463        <activity
+463-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:529:9-533:62
+464            android:name="com.palprotech.ensyfi.activity.adminmodule.ClassBasedViewActivity"
+464-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:530:13-72
+465            android:label="@string/app_name"
+465-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:531:13-45
+466            android:screenOrientation="portrait"
+466-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:532:13-49
+467            android:theme="@style/AppThemeNoActionBarGrey" />
+467-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:533:13-59
+468        <activity
+468-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:535:9-539:62
+469            android:name="com.palprotech.ensyfi.activity.adminmodule.ExamViewActivity"
+469-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:536:13-66
+470            android:label="@string/app_name"
+470-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:537:13-45
+471            android:screenOrientation="portrait"
+471-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:538:13-49
+472            android:theme="@style/AppThemeNoActionBarGrey" />
+472-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:539:13-59
+473        <activity
+473-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:541:9-545:62
+474            android:name="com.palprotech.ensyfi.activity.adminmodule.ResultViewActivity"
+474-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:542:13-68
+475            android:label="@string/app_name"
+475-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:543:13-45
+476            android:screenOrientation="portrait"
+476-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:544:13-49
+477            android:theme="@style/AppThemeNoActionBarGrey" />
+477-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:545:13-59
+478        <activity
+478-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:547:9-551:62
+479            android:name="com.palprotech.ensyfi.activity.adminmodule.StudentResultView"
+479-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:548:13-67
+480            android:label="@string/app_name"
+480-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:549:13-45
+481            android:screenOrientation="portrait"
+481-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:550:13-49
+482            android:theme="@style/AppThemeNoActionBarGrey" />
+482-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:551:13-59
+483        <activity
+483-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:553:9-557:62
+484            android:name="com.palprotech.ensyfi.activity.adminmodule.FeesViewActivity"
+484-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:554:13-66
+485            android:label="@string/app_name"
+485-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:555:13-45
+486            android:screenOrientation="portrait"
+486-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:556:13-49
+487            android:theme="@style/AppThemeNoActionBarGrey" />
+487-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:557:13-59
+488        <activity
+488-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:559:9-563:62
+489            android:name="com.palprotech.ensyfi.activity.adminmodule.FeesStatusView"
+489-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:560:13-64
+490            android:label="@string/app_name"
+490-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:561:13-45
+491            android:screenOrientation="portrait"
+491-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:562:13-49
+492            android:theme="@style/AppThemeNoActionBarGrey" />
+492-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:563:13-59
+493        <activity
+493-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:565:9-569:62
+494            android:name="com.palprotech.ensyfi.activity.adminmodule.OnDutyViewActivity"
+494-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:566:13-68
+495            android:label="@string/app_name"
+495-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:567:13-45
+496            android:screenOrientation="portrait"
+496-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:568:13-49
+497            android:theme="@style/AppThemeNoActionBarGrey" />
+497-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:569:13-59
+498        <activity
+498-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:571:9-575:62
+499            android:name="com.palprotech.ensyfi.activity.adminmodule.OnDutyDetailActivity"
+499-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:572:13-70
+500            android:label="@string/app_name"
+500-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:573:13-45
+501            android:screenOrientation="portrait"
+501-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:574:13-49
+502            android:theme="@style/AppThemeNoActionBarGrey" />
+502-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:575:13-59
+503        <activity
+503-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:577:9-581:62
+504            android:name="com.palprotech.ensyfi.activity.adminmodule.GroupNotificationAdminViewActivity"
+504-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:578:13-84
+505            android:label="@string/app_name"
+505-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:579:13-45
+506            android:screenOrientation="portrait"
+506-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:580:13-49
+507            android:theme="@style/AppThemeNoActionBarGrey" />
+507-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:581:13-59
+508        <activity
+508-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:583:9-587:62
+509            android:name="com.palprotech.ensyfi.activity.adminmodule.GroupNotificationCreationActivity"
+509-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:584:13-83
+510            android:label="@string/app_name"
+510-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:585:13-45
+511            android:screenOrientation="portrait"
+511-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:586:13-49
+512            android:theme="@style/AppThemeNoActionBarGrey" />
+512-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:587:13-59
+513        <activity
+513-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:589:9-593:62
+514            android:name="com.palprotech.ensyfi.activity.adminmodule.GroupNotificationUpdateActivity"
+514-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:590:13-81
+515            android:label="@string/app_name"
+515-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:591:13-45
+516            android:screenOrientation="portrait"
+516-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:592:13-49
+517            android:theme="@style/AppThemeNoActionBarGrey" />
+517-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:593:13-59
+518        <activity
+518-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:595:9-599:62
+519            android:name="com.palprotech.ensyfi.activity.adminmodule.GroupNotificationViewMemberActivity"
+519-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:596:13-85
+520            android:label="@string/app_name"
+520-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:597:13-45
+521            android:screenOrientation="portrait"
+521-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:598:13-49
+522            android:theme="@style/AppThemeNoActionBarGrey" />
+522-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:599:13-59
+523        <activity
+523-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:601:9-605:62
+524            android:name="com.palprotech.ensyfi.activity.adminmodule.GroupNotificationAddMemberActivity"
+524-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:602:13-84
+525            android:label="@string/app_name"
+525-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:603:13-45
+526            android:screenOrientation="portrait"
+526-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:604:13-49
+527            android:theme="@style/AppThemeNoActionBarGrey" />
+527-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:605:13-59
+528        <activity
+528-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:607:9-611:62
+529            android:name="com.palprotech.ensyfi.activity.adminmodule.GroupNotificationActivity"
+529-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:608:13-75
+530            android:label="@string/app_name"
+530-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:609:13-45
+531            android:screenOrientation="portrait"
+531-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:610:13-49
+532            android:theme="@style/AppThemeNoActionBarGrey" />
+532-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:611:13-59
+533        <activity
+533-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:613:9-618:57
+534            android:name="com.palprotech.ensyfi.activity.adminmodule.CircularMasterCreationActivity"
+534-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:614:13-80
+535            android:label="@string/app_name"
+535-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:615:13-45
+536            android:screenOrientation="portrait"
+536-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:616:13-49
+537            android:theme="@style/AppThemeNoActionBarForCircular"
+537-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:617:13-66
+538            android:windowSoftInputMode="stateHidden" />
+538-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:618:13-54
+539        <activity
+539-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:620:9-624:62
+540            android:name="com.palprotech.ensyfi.activity.adminmodule.CircularMasterListActivity"
+540-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:621:13-76
+541            android:label="@string/app_name"
+541-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:622:13-45
+542            android:screenOrientation="portrait"
+542-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:623:13-49
+543            android:theme="@style/AppThemeNoActionBarGrey" />
+543-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:624:13-59
+544        <activity
+544-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:626:9-630:62
+545            android:name="com.palprotech.ensyfi.activity.adminmodule.ClassAttendanceActivity"
+545-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:627:13-73
+546            android:label="@string/app_name"
+546-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:628:13-45
+547            android:screenOrientation="portrait"
+547-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:629:13-49
+548            android:theme="@style/AppThemeNoActionBarGrey" />
+548-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:630:13-59
+549        <activity
+549-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:632:9-636:62
+550            android:name="com.palprotech.ensyfi.activity.adminmodule.ClassAttendanceListActivity"
+550-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:633:13-77
+551            android:label="@string/app_name"
+551-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:634:13-45
+552            android:screenOrientation="portrait"
+552-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:635:13-49
+553            android:theme="@style/AppThemeNoActionBarGrey" />
+553-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:636:13-59
+554        <activity
+554-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:638:9-642:62
+555            android:name="com.palprotech.ensyfi.activity.adminmodule.ClassAttendanceDetailActivity"
+555-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:639:13-79
+556            android:label="@string/app_name"
+556-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:640:13-45
+557            android:screenOrientation="portrait"
+557-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:641:13-49
+558            android:theme="@style/AppThemeNoActionBarGrey" />
+558-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:642:13-59
+559        <activity
+559-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:644:9-648:62
+560            android:name="com.palprotech.ensyfi.activity.general.GroupingDetailActivity"
+560-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:645:13-68
+561            android:label="@string/app_name"
+561-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:646:13-45
+562            android:screenOrientation="portrait"
+562-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:647:13-49
+563            android:theme="@style/AppThemeNoActionBarGrey" />
+563-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:648:13-59
+564        <activity
+564-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:650:9-654:62
+565            android:name="com.palprotech.ensyfi.activity.adminmodule.BoardMembersListActivity"
+565-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:651:13-74
+566            android:label="@string/app_name"
+566-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:652:13-45
+567            android:screenOrientation="portrait"
+567-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:653:13-49
+568            android:theme="@style/AppThemeNoActionBarGrey" />
+568-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:654:13-59
+569
+570        <!-- End -->
+571        <!--  -->
+572        <!-- GCM Receiver -->
+573        <!--
+574        <receiver
+575            android:name="com.google.android.gms.gcm.GcmReceiver"
+576            android:exported="true"
+577            android:permission="com.google.android.c2dm.permission.SEND">
+578            <intent-filter>
+579                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+580                <category android:name="com.gnirt69.gcmexample" />
+581            </intent-filter>
+582        </receiver>
+583        -->
+584
+585
+586        <!-- GCM Receiver Service -->
+587        <!--
+588        <service
+589            android:name=".servicehelpers.gcm.GCMPushReceiverService"
+590            android:exported="false">
+591            <intent-filter>
+592                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+593            </intent-filter>
+594        </service>
+595        -->
+596
+597
+598        <!-- GCM Registration Intent Service -->
+599        <!--
+600        <service
+601            android:name=".servicehelpers.gcm.GCMRegistrationIntentService"
+602            android:exported="false">
+603            <intent-filter>
+604                <action android:name="com.google.android.gms.iid.InstanceID" />
+605            </intent-filter>
+606        </service>
+607        -->
+608
+609        <service android:name="com.palprotech.ensyfi.servicehelpers.fcm.MyFirebaseMessagingService" >
+609-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:688:9-692:19
+609-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:688:18-79
+610            <intent-filter>
+610-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:689:13-691:29
+611                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+611-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:690:17-78
+611-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:690:25-75
+612            </intent-filter>
+613        </service>
+614
+615        <provider
+615-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f319f4e705845345185a2930257f4eaa\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+616            android:name="com.squareup.picasso.PicassoProvider"
+616-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f319f4e705845345185a2930257f4eaa\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+617            android:authorities="com.palprotech.ensyfi.com.squareup.picasso"
+617-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f319f4e705845345185a2930257f4eaa\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+618            android:exported="false" />
+618-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f319f4e705845345185a2930257f4eaa\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+619        <!--
+620             FirebaseMessagingService performs security checks at runtime,
+621             but set to not exported to explicitly avoid allowing another app to call it.
+622        -->
+623        <service
+623-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\1054b9a7bc0c8d6162723e6e7d9abf12\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:28:9-34:19
+624            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+624-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\1054b9a7bc0c8d6162723e6e7d9abf12\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:29:13-82
+625            android:exported="false" >
+625-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\1054b9a7bc0c8d6162723e6e7d9abf12\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:30:13-37
+626            <intent-filter android:priority="-500" >
+626-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:689:13-691:29
+627                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+627-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:690:17-78
+627-->D:\HappySanzTech\AppWorkSpace\ENSYFI\app\src\main\AndroidManifest.xml:690:25-75
+628            </intent-filter>
+629        </service>
+630
+631        <activity
+631-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d731b8274f3d1836a4f427e299c7bd6\play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+632            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+632-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d731b8274f3d1836a4f427e299c7bd6\play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+633            android:excludeFromRecents="true"
+633-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d731b8274f3d1836a4f427e299c7bd6\play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+634            android:exported="false"
+634-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d731b8274f3d1836a4f427e299c7bd6\play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+635            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+635-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d731b8274f3d1836a4f427e299c7bd6\play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+636        <!--
+637            Service handling Google Sign-In user revocation. For apps that do not integrate with
+638            Google Sign-In, this service will never be started.
+639        -->
+640        <service
+640-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d731b8274f3d1836a4f427e299c7bd6\play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+641            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+641-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d731b8274f3d1836a4f427e299c7bd6\play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+642            android:exported="true"
+642-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d731b8274f3d1836a4f427e299c7bd6\play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+643            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+643-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d731b8274f3d1836a4f427e299c7bd6\play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+644        <service
+644-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:29:9-35:19
+645            android:name="com.google.firebase.components.ComponentDiscoveryService"
+645-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:30:13-84
+646            android:exported="false" >
+646-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:31:13-37
+647            <meta-data
+647-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:32:13-34:85
+648                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+648-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:33:17-96
+649                android:value="com.google.firebase.components.ComponentRegistrar" />
+649-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:34:17-82
+650        </service>
+651
+652        <receiver
+652-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:37:9-44:20
+653            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+653-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:38:13-78
+654            android:exported="true"
+654-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:39:13-36
+655            android:permission="com.google.android.c2dm.permission.SEND" >
+655-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:40:13-73
+656            <intent-filter>
+656-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:41:13-43:29
+657                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+657-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:42:17-81
+657-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e80db330fc29781d21f23cfa4c175b60\firebase-iid-20.0.0\AndroidManifest.xml:42:25-78
+658            </intent-filter>
+659        </receiver>
+660
+661        <provider
+661-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\49e26a9cfd21dbd4d7e032e6162173bc\firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
+662            android:name="com.google.firebase.provider.FirebaseInitProvider"
+662-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\49e26a9cfd21dbd4d7e032e6162173bc\firebase-common-19.0.0\AndroidManifest.xml:13:13-77
+663            android:authorities="com.palprotech.ensyfi.firebaseinitprovider"
+663-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\49e26a9cfd21dbd4d7e032e6162173bc\firebase-common-19.0.0\AndroidManifest.xml:14:13-72
+664            android:exported="false"
+664-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\49e26a9cfd21dbd4d7e032e6162173bc\firebase-common-19.0.0\AndroidManifest.xml:15:13-37
+665            android:initOrder="100" />
+665-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\49e26a9cfd21dbd4d7e032e6162173bc\firebase-common-19.0.0\AndroidManifest.xml:16:13-36
+666
+667        <activity
+667-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\64aa804a65a9e3423a6cc11b33d51f06\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+668            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+668-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\64aa804a65a9e3423a6cc11b33d51f06\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+669            android:exported="false"
+669-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\64aa804a65a9e3423a6cc11b33d51f06\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+670            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+670-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\64aa804a65a9e3423a6cc11b33d51f06\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+671
+672        <meta-data
+672-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3ff6e13e0880d2ff341e1f95c6d0b875\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+673            android:name="com.google.android.gms.version"
+673-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3ff6e13e0880d2ff341e1f95c6d0b875\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+674            android:value="@integer/google_play_services_version" />
+674-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3ff6e13e0880d2ff341e1f95c6d0b875\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+675    </application>
+676
+677</manifest>

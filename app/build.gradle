@@ -5,7 +5,7 @@ android {
         config {
             keyAlias 'ensyfi_alias'
             keyPassword 'Ensyfi@123'
-            storeFile file('ensyfi.jks')
+            storeFile file('erp.jks')
             storePassword 'Ensyfi@123'
             flavorDimensions "default"
         }
@@ -15,7 +15,7 @@ android {
     buildToolsVersion '28.0.3'
 
     defaultConfig {
-        applicationId "com.palprotech.ensyfi"
+        applicationId "com.edu.erp"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 35
