@@ -42,9 +42,9 @@
 
         <ImageView
             android:id="@+id/send"
-            android:layout_width="wrap_content"
+            android:layout_width="50dp"
             android:layout_height="55dp"
-            android:padding="10dp"
+            android:padding="15dp"
             android:src="@drawable/ic_notification_send"
             android:layout_alignParentRight="true"/>
 

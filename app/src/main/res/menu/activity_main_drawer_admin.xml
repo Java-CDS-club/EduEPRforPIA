@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/side_admin_students"
+        android:title="@string/admin_side_menu_students" />
+
+    <item
+        android:id="@+id/side_admin_teachers"
+        android:title="@string/admin_side_menu_teachers" />
+
+    <item
+        android:id="@+id/side_admin_parents"
+        android:title="@string/admin_side_menu_parents" />
+
+    <item
+        android:id="@+id/side_admin_board"
+        android:title="@string/admin_side_menu_board_members" />
+
+    <item
+        android:id="@+id/side_admin_attendance"
+        android:title="@string/admin_side_menu_attendance" />
+
+    <item
+        android:id="@+id/side_admin_classes"
+        android:title="@string/admin_side_menu_classes" />
+
+    <item
+        android:id="@+id/side_admin_exams"
+        android:title="@string/admin_side_menu_exams" />
+
+    <item
+        android:id="@+id/side_admin_results"
+        android:title="@string/admin_side_menu_results" />
+
+    <item
+        android:id="@+id/side_admin_special_class"
+        android:title="@string/admin_side_menu_special_class" />
+
+    <item
+        android:id="@+id/side_admin_events"
+        android:title="@string/admin_side_menu_events" />
+
+    <item
+        android:id="@+id/side_admin_circulars"
+        android:title="@string/admin_side_menu_circulars" />
+
+    <item
+        android:id="@+id/side_admin_fee"
+        android:title="@string/admin_side_menu_fee_status" />
+
+    <item
+        android:id="@+id/side_admin_on_duty"
+        android:title="@string/admin_side_menu_on_duty" />
+
+    <item
+        android:id="@+id/side_admin_groups"
+        android:title="@string/admin_side_menu_groups" />
+
+    <item
+        android:id="@+id/side_admin_leaves"
+        android:title="@string/admin_side_menu_leaves" />
+
+    <item
+        android:id="@+id/side_admin_settings"
+        android:title="@string/admin_side_menu_settings" />
+
+    <item
+        android:id="@+id/side_admin_logout"
+        android:title="@string/admin_side_menu_sign_out" />
+
+</menu>

@@ -26,7 +26,7 @@
                 android:paddingTop="5dp"
                 android:paddingBottom="3dp"
                 android:text="Reason on duty"
-                android:textColor="@color/new_gray"
+                android:textColor="@color/text_black"
                 android:textSize="16sp" />
 
             <LinearLayout
@@ -55,7 +55,7 @@
                     android:gravity="bottom"
                     android:text="  16 June 2017"
                     android:textAllCaps="true"
-                    android:textColor="@color/new_gray"
+                    android:textColor="@color/text_black"
                     android:textSize="14sp" />
 
                 <TextView
@@ -70,7 +70,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="bottom"
                     android:text="16 June 2017"
-                    android:textColor="@color/new_gray"
+                    android:textColor="@color/text_black"
                     android:textSize="14sp" />
             </LinearLayout>
 

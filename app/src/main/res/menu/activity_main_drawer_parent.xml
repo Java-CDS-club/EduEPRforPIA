@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/side_teacher_profile"
+        android:title="@string/admin_side_menu_profile" />
+
+    <item
+        android:id="@+id/side_teacher_attendance"
+        android:title="@string/teacher_side_menu_attendance" />
+
+    <item
+        android:id="@+id/side_teacher_homework"
+        android:title="@string/teacher_side_menu_homework_classtest" />
+
+    <item
+        android:id="@+id/side_teacher_examresults"
+        android:title="@string/teacher_side_menu_exam_and_result" />
+
+    <item
+        android:id="@+id/side_teacher_spl"
+        android:title="@string/teacher_side_menu_spl_class" />
+
+    <item
+        android:id="@+id/side_teacher_timetable"
+        android:title="@string/teacher_side_menu_timetable" />
+
+    <item
+        android:id="@+id/side_teacher_events"
+        android:title="@string/teacher_side_menu_events" />
+
+    <item
+        android:id="@+id/side_teacher_circulars"
+        android:title="@string/teacher_side_menu_circulars" />
+
+    <item
+        android:id="@+id/side_teacher_student_info"
+        android:title="@string/teacher_side_menu_stud" />
+
+    <item
+        android:id="@+id/side_teacher_OD"
+        android:title="@string/teacher_side_menu_on_duty" />
+
+    <item
+        android:id="@+id/side_teacher_settings"
+        android:title="@string/teacher_side_menu_settings" />
+
+    <item
+        android:id="@+id/side_teacher_signout"
+        android:title="@string/teacher_side_menu_signout" />
+
+</menu>

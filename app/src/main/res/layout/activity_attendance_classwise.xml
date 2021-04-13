@@ -63,7 +63,7 @@
                 android:layout_height="50dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="30dp"
-                android:gravity="center"
+                android:gravity="center_vertical"
                 android:background="@drawable/round_btn_plain"
                 android:orientation="horizontal">
 
@@ -71,6 +71,8 @@
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:src="@drawable/ic_date"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="10dp"
                     android:padding="5dp"/>
 
                 <TextView
@@ -97,13 +99,15 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:gravity="center"
+                android:gravity="center_vertical"
                 android:background="@drawable/round_btn_plain"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="30dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="20dp"
                     android:src="@drawable/ic_class"
                     android:padding="5dp"/>
 

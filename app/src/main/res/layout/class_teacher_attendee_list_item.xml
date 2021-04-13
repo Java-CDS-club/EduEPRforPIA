@@ -28,7 +28,7 @@
                 android:layout_toLeftOf="@id/student_status"
                 android:background="@color/white"
                 android:layout_alignParentLeft="true"
-                android:textColor="@color/new_gray"
+                android:textColor="@color/text_black"
                 android:textSize="14sp" />
 
             <TextView
@@ -41,7 +41,7 @@
                 android:gravity="center"
                 android:textAllCaps="false"
                 android:text="Board student"
-                android:textColor="@color/new_gray"
+                android:textColor="@color/text_black"
                 android:textSize="14sp"/>
 
         </RelativeLayout>

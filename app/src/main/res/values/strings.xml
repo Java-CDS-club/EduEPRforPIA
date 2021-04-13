@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ENSYFI</string>
+    <string name="app_name">Training ERP</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="error_occurred">Failed to connect to the server. Please try again.</string>
@@ -47,6 +47,48 @@
     <string name="result">RESULT</string>
 
     <string name="communication">CIRCULARS</string>
+
+    <!--Side Menu Admin-->
+    <!---->
+    <string name="admin_side_menu_profile">Profile</string>
+    <string name="admin_side_menu_students">Students</string>
+    <string name="admin_side_menu_teachers">Teachers</string>
+    <string name="admin_side_menu_parents">Parents</string>
+    <string name="admin_side_menu_board_members">Board Members</string>
+    <string name="admin_side_menu_attendance">Attendance</string>
+    <string name="admin_side_menu_classes">Classes</string>
+    <string name="admin_side_menu_exams">Examinations</string>
+    <string name="admin_side_menu_results">Results</string>
+    <string name="admin_side_menu_special_class">Special Class</string>
+    <string name="admin_side_menu_events">Events</string>
+    <string name="admin_side_menu_circulars">Circulars</string>
+    <string name="admin_side_menu_fee_status">Fee Status</string>
+    <string name="admin_side_menu_on_duty">On Duty</string>
+    <string name="admin_side_menu_groups">Groups</string>
+    <string name="admin_side_menu_leaves">Leaves</string>
+    <string name="admin_side_menu_settings">Settings</string>
+    <string name="admin_side_menu_sign_out">Sign Out</string>
+
+    <!--Side Menu Teachers-->
+    <!---->"", "", "", "", "",
+    "", "", "", "", "", "", "",
+    "", "", ""
+    <string name="teacher_side_menu_attendance">Attendance</string>
+    <string name="teacher_side_menu_homework_classtest">Homeworks/Class Tests</string>
+    <string name="teacher_side_menu_sub">Substitution</string>
+    <string name="teacher_side_menu_spl_class">Special Class</string>
+    <string name="teacher_side_menu_exam_and_result">Exams &amp; Results</string>
+    <string name="teacher_side_menu_exam_duty">Exam Duty</string>
+    <string name="teacher_side_menu_timetable">Timetable</string>
+    <string name="teacher_side_menu_events">Events</string>
+    <string name="teacher_side_menu_circulars">Circulars</string>
+    <string name="teacher_side_menu_stud">Student Info</string>
+    <string name="teacher_side_menu_on_duty">On Duty</string>
+    <string name="teacher_side_menu_groups">Groups</string>
+    <string name="teacher_side_menu_apply_leave">Apply Leave</string>
+    <string name="teacher_side_menu_settings">Settings</string>
+    <string name="teacher_side_menu_sync">Sync</string>
+    <string name="teacher_side_menu_signout">Sign Out</string>
 
     <!--Edit Profile-->
     <!---->
@@ -120,11 +162,11 @@
     <!---->
 
 
-    <string name="about_content">The endeavour of managing schools and colleges isn’t easy. Connecting the stakeholders – the administration, teachers, students and parents is a time-consuming process and can gobble up a lot of time. This we seek to ease. ENSYFi is a solution that aims to simplify administrative and managerial process of schools and colleges, which include gathering, storing and processing information. The integrated web and mobile applications connect teachers with students and parents for a seamless productivity round the clock. ENSYFi is a culmination of our deep understanding of how educational institutions work and the blending of relevant technologies for delivering a world-class product.</string>
+    <string name="about_content">The endeavour of managing schools and colleges isn’t easy. Connecting the stakeholders – the administration, teachers, students and parents is a time-consuming process and can gobble up a lot of time. This we seek to ease. ERP is a solution that aims to simplify administrative and managerial process of schools and colleges, which include gathering, storing and processing information. The integrated web and mobile applications connect teachers with students and parents for a seamless productivity round the clock. ERP is a culmination of our deep understanding of how educational institutions work and the blending of relevant technologies for delivering a world-class product.</string>
 
     <!-- SyncAdapter related -->
-    <string name="sync_account_type">com.palprotech.ensyfi</string>
-    <string name="content_authority">com.palprotech.ensyfi.syncadapter</string>
+    <string name="sync_account_type">com.edu.erp</string>
+    <string name="content_authority">com.edu.erp.syncadapter</string>
 
     <string name="launch_activity">Launch activity</string>
     <string name="location_unknown">Location unknown</string>

@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "G:\\HappySanzTech\\AppWorkSpace\\EduEPRforPIA\\app\\build\\intermediates\\incremental\\mergeFlavorDebugResources\\merged.dir\\values-v28\\values-v28.xml",
+            "outputFile": "E:\\StudioProjects\\EduEPRforPIA\\app\\build\\intermediates\\incremental\\mergeFlavorDebugResources\\merged.dir\\values-v28\\values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Nandha\\.gradle\\caches\\transforms-2\\files-2.1\\b09c6c6d4ca3beab06bf02c389351e8d\\material-1.1.0-alpha10\\res\\values-v28\\values-v28.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,143,231,319,407,494,581,668",
-                        "endColumns": "87,87,87,87,86,86,86,86",
-                        "endOffsets": "138,226,314,402,489,576,663,750"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Nandha\\.gradle\\caches\\transforms-2\\files-2.1\\69acf875325f906d553e2bb749437d17\\appcompat-1.1.0\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\HST SYS 04\\.gradle\\caches\\transforms-2\\files-2.1\\975cbd320fcc7de131c627de39e7fc0a\\appcompat-1.2.0\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
@@ -30,6 +20,16 @@
                         "endLines": "10,11,15,19",
                         "endColumns": "74,86,12,12",
                         "endOffsets": "825,912,1142,1384"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\HST SYS 04\\.gradle\\caches\\transforms-2\\files-2.1\\e9c9571861aa6124ea1a17c32863246c\\material-1.4.0-alpha02\\res\\values-v28\\values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,143,231,319,407,494,581,668",
+                        "endColumns": "87,87,87,87,86,86,86,86",
+                        "endOffsets": "138,226,314,402,489,576,663,750"
                     }
                 }
             ]

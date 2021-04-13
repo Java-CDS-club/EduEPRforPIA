@@ -24,7 +24,7 @@
             android:textSize="14sp"
             android:paddingBottom="5dp"
             android:text="@string/set_text"
-            android:textColor="@color/new_gray" />
+            android:textColor="@color/text_black" />
 
         <TextView
             android:id="@+id/txtSubTotalGrade"
@@ -39,7 +39,7 @@
             android:gravity="center"
             android:paddingBottom="5dp"
             android:text="@string/set_text"
-            android:textColor="@color/new_gray" />
+            android:textColor="@color/text_black" />
 
         <TextView
             android:id="@+id/txtSubTotalMark"
@@ -54,7 +54,7 @@
             android:gravity="center"
             android:paddingBottom="5dp"
             android:text="@string/set_text"
-            android:textColor="@color/new_gray" />
+            android:textColor="@color/text_black" />
 
     </LinearLayout>
 

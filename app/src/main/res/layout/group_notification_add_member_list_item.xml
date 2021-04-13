@@ -27,7 +27,7 @@
                 android:background="@color/white"
                 android:layout_alignParentLeft="true"
                 android:layout_toLeftOf="@+id/group_lead"
-                android:textColor="@color/new_gray"
+                android:textColor="@color/text_black"
                 android:textSize="16sp" />
 
 
@@ -41,7 +41,7 @@
                 android:layout_toLeftOf="@+id/group_status"
                 android:gravity="center"
                 android:text="Lead"
-                android:textColor="@color/new_gray"
+                android:textColor="@color/text_black"
                 android:textSize="16sp"/>
 
             <RelativeLayout

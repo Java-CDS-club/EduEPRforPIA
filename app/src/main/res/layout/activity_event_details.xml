@@ -66,7 +66,8 @@
                 android:layout_centerInParent="true"
                 android:textAllCaps="true"
                 android:text="Christmas celebrations"
-                android:textColor="@color/new_gray"
+                android:textColor="@color/text_black"
+                android:textStyle="bold"
                 android:textSize="25sp" />
 
             <!--<ImageView-->
@@ -109,7 +110,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
                 android:gravity="center"
-                android:textColor="@color/new_gray"
+                android:textColor="@color/text_black"
                 android:textSize="16sp" />
 
         </LinearLayout>
@@ -139,6 +140,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="20dp"
+                    android:textColor="@color/text_black"
                     android:text="Test" />
 
                 <Button
@@ -149,8 +151,8 @@
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp"
                     android:layout_marginTop="20dp"
+                    android:gravity="center"
                     android:layout_marginBottom="20dp"
-                    android:layout_marginRight="15dp"
                     android:textAllCaps="false"
                     android:background="@drawable/round_btn_color"
                     android:text="View Organiser"

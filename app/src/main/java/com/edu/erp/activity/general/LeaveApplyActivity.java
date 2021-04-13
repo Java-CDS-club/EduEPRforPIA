@@ -11,6 +11,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
+
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
@@ -213,9 +215,8 @@ public class LeaveApplyActivity extends AppCompatActivity implements View.OnClic
         SimpleDateFormat serverDF = new SimpleDateFormat("yyyy-MM-dd");
         String formattedServerDate = serverDF.format(c.getTime());
 
-        frombackground.setBackgroundColor(Color.parseColor("#663366"));
-        dateFrom.setCompoundDrawablesWithIntrinsicBounds(R.drawable.od_from_date_selected, 0, 0, 0);
-        dateFrom.setTextColor((Color.parseColor("#663366")));
+        frombackground.setBackgroundColor(ContextCompat.getColor(this, R.color.text_black));
+        dateFrom.setTextColor((ContextCompat.getColor(this, R.color.text_black)));
 
         ((TextView) findViewById(R.id.dateFrom)).setText(formattedDate);
 
@@ -228,9 +229,8 @@ public class LeaveApplyActivity extends AppCompatActivity implements View.OnClic
         SimpleDateFormat serverDF = new SimpleDateFormat("yyyy-MM-dd");
         String formattedServerDate = serverDF.format(c.getTime());
 
-        tobackground.setBackgroundColor(Color.parseColor("#663366"));
-        dateTo.setCompoundDrawablesWithIntrinsicBounds(R.drawable.od_from_date_selected, 0, 0, 0);
-        dateTo.setTextColor((Color.parseColor("#663366")));
+        tobackground.setBackgroundColor(ContextCompat.getColor(this, R.color.text_black));
+        dateTo.setTextColor((ContextCompat.getColor(this, R.color.text_black)));
 
         ((TextView) findViewById(R.id.dateTo)).setText(formattedDate);
 
@@ -321,9 +321,8 @@ public class LeaveApplyActivity extends AppCompatActivity implements View.OnClic
     @Override
     public void onClick(View v) {
         if (v == dateFrom) {
-            frombackground.setBackgroundColor(Color.parseColor("#663366"));
-            dateFrom.setCompoundDrawablesWithIntrinsicBounds(R.drawable.od_from_date_selected, 0, 0, 0);
-            dateFrom.setTextColor((Color.parseColor("#663366")));
+            frombackground.setBackgroundColor(ContextCompat.getColor(this, R.color.text_black));
+            dateFrom.setTextColor((ContextCompat.getColor(this, R.color.text_black)));
 
             final DatePickerDialog.OnDateSetListener fromdate = new DatePickerDialog.OnDateSetListener() {
 
@@ -373,9 +372,9 @@ public class LeaveApplyActivity extends AppCompatActivity implements View.OnClic
 
         if (v == dateTo) {
 
-            tobackground.setBackgroundColor(Color.parseColor("#663366"));
-            dateTo.setCompoundDrawablesWithIntrinsicBounds(R.drawable.od_from_date_selected, 0, 0, 0);
-            dateTo.setTextColor((Color.parseColor("#663366")));
+            tobackground.setBackgroundColor(ContextCompat.getColor(this, R.color.text_black));
+            dateTo.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_date, 0, 0, 0);
+            dateTo.setTextColor((ContextCompat.getColor(this, R.color.text_black)));
 
             final DatePickerDialog.OnDateSetListener todate = new DatePickerDialog.OnDateSetListener() {
 

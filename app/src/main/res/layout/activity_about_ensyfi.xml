@@ -36,7 +36,7 @@
             android:minHeight="60dp"
             android:padding="5dp"
             android:fontFamily="sans-serif-medium"
-            android:text="About ENSYFI"
+            android:text="About ERP"
             android:layout_marginLeft="10dp"
             android:textColor="@color/white"
             android:textSize="18sp"
@@ -61,7 +61,7 @@
         android:fontFamily="sans-serif-medium"
         android:layout_marginTop="20dp"
         android:layout_marginStart="10dp"
-        android:text="About Ensyfi"/>
+        android:text="About ERP"/>
 
     <TextView
         android:layout_width="wrap_content"

@@ -1,7 +1,7 @@
-#Fri Apr 09 15:12:03 IST 2021
-base.0=G\:\\HappySanzTech\\AppWorkSpace\\EduEPRforPIA\\app\\build\\intermediates\\dex\\flavorDebug\\mergeExtDexFlavorDebug\\classes.dex
+#Tue Apr 13 16:58:43 IST 2021
+base.0=E\:\\StudioProjects\\EduEPRforPIA\\app\\build\\intermediates\\dex\\flavorDebug\\mergeExtDexFlavorDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=G\:\\HappySanzTech\\AppWorkSpace\\EduEPRforPIA\\app\\build\\intermediates\\dex\\flavorDebug\\mergeProjectDexFlavorDebug\\classes.dex
+base.1=E\:\\StudioProjects\\EduEPRforPIA\\app\\build\\intermediates\\dex\\flavorDebug\\mergeProjectDexFlavorDebug\\classes.dex

@@ -198,12 +198,18 @@
                                 android:layout_marginTop="10dp"
                                 android:gravity="center">
 
+                                <ImageView
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:src="@drawable/ic_date"
+                                    android:padding="5dp"/>
+
                                 <TextView
                                     android:id="@+id/dateFrom"
-                                    android:layout_width="140dp"
-                                    android:layout_height="75dp"
-                                    android:drawableLeft="@drawable/od_from_date_selected"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
                                     android:gravity="center"
+                                    android:padding="10dp"
                                     android:text="Select date"
                                     android:textColor="@color/appColor"
                                     android:textSize="16sp" />

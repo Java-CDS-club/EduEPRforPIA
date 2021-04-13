@@ -45,7 +45,7 @@ public class NavDrawerAdapter extends ArrayAdapter<String> {
         }
         TextView txt2 = (TextView) offerView.findViewById(R.id.nav_Drawer_textItem);
         txt2.setText(items[position]);
-        txt2.setTextColor(context.getResources().getColor(R.color.white));
+        txt2.setTextColor(context.getResources().getColor(R.color.black));
 
         return offerView;
     }

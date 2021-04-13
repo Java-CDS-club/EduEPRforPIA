@@ -1,0 +1,1410 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.edu.erp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+11-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:5:5-80
+11-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:7:5-67
+12-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:8:5-79
+13-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:9:5-76
+14-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:9:22-73
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:10:5-68
+15-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:10:22-65
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:11:5-66
+16-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:11:22-63
+17    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+17-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:12:5-98
+17-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:12:22-95
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:13:5-81
+18-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:13:22-78
+19    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+19-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:14:5-75
+19-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:14:22-72
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:15:5-80
+20-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:15:22-77
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:16:5-65
+21-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:16:22-62
+22    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+22-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:17:5-82
+22-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:17:22-79
+23    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+23-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:19:5-77
+23-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:19:22-74
+24    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+24-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:20:5-78
+24-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:20:22-75
+25
+26    <permission
+26-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:22:5-24:47
+27        android:name="com.edu.erp.permission.C2D_MESSAGE"
+27-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:23:9-58
+28        android:protectionLevel="signature" />
+28-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:24:9-44
+29
+30    <uses-permission android:name="com.edu.erp.permission.C2D_MESSAGE" />
+30-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:25:5-74
+30-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:25:22-71
+31
+32    <application
+32-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:27:5-738:19
+33        android:name="com.edu.erp.app.AppController"
+33-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:28:9-53
+34        android:allowBackup="true"
+34-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:29:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.3.1] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\985ad39648b7dd563e40519ec6d875bb\core-1.3.1\AndroidManifest.xml:24:18-86
+36        android:fullBackupContent="false"
+36-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:30:9-42
+37        android:label="@string/app_name"
+37-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:31:9-41
+38        android:supportsRtl="true"
+38-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:32:9-35
+39        android:theme="@style/AppTheme" >
+39-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:33:9-40
+40        <provider
+41            android:name="androidx.core.content.FileProvider"
+41-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:36:13-62
+42            android:authorities="com.edu.erp.provider"
+42-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:37:13-60
+43            android:exported="false"
+43-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:38:13-37
+44            android:grantUriPermissions="true" >
+44-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:39:13-47
+45            <meta-data
+45-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:40:13-42:57
+46                android:name="android.support.FILE_PROVIDER_PATHS"
+46-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:41:17-67
+47                android:resource="@xml/provider_paths" />
+47-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:42:17-55
+48        </provider>
+49        <provider
+49-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:45:9-49:39
+50            android:name="com.edu.erp.syncadapter.MyContentProvider"
+50-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:46:13-69
+51            android:authorities="@string/content_authority"
+51-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:47:13-60
+52            android:exported="false"
+52-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:48:13-37
+53            android:syncable="true" />
+53-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:49:13-36
+54
+55        <service android:name="com.edu.erp.syncadapter.MyAuthenticatorService" >
+55-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:51:9-58:19
+55-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:51:18-79
+56            <intent-filter>
+56-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:52:13-54:29
+57                <action android:name="android.accounts.AccountAuthenticator" />
+57-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:53:17-80
+57-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:53:25-77
+58            </intent-filter>
+59
+60            <meta-data
+60-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:55:13-57:57
+61                android:name="android.accounts.AccountAuthenticator"
+61-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:56:17-69
+62                android:resource="@xml/authenticator" />
+62-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:57:17-54
+63        </service>
+64
+65        <!-- The SyncAdapter service -->
+66        <service
+66-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:61:9-71:19
+67            android:name="com.edu.erp.syncadapter.UploadDataSync"
+67-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:62:13-66
+68            android:exported="true"
+68-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:63:13-36
+69            android:process=":sync" >
+69-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:64:13-36
+70            <intent-filter>
+70-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:65:13-67:29
+71                <action android:name="android.content.SyncAdapter" />
+71-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:66:17-70
+71-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:66:25-67
+72            </intent-filter>
+73
+74            <meta-data
+74-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:68:13-70:55
+75                android:name="android.content.SyncAdapter"
+75-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:69:17-59
+76                android:resource="@xml/syncadapter" />
+76-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:70:17-52
+77        </service>
+78
+79        <activity
+79-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:73:9-76:71
+80            android:name="com.yalantis.ucrop.UCropActivity"
+80-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:74:13-60
+81            android:screenOrientation="unspecified"
+81-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:75:13-52
+82            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+82-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:76:13-69
+83        <activity
+83-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:78:9-86:20
+84            android:name="com.edu.erp.activity.loginmodule.SplashScreenActivity"
+84-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:79:13-81
+85            android:theme="@style/AppFullScreenTheme" >
+85-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:80:13-54
+86            <intent-filter>
+86-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:81:13-85:29
+87                <action android:name="android.intent.action.MAIN" />
+87-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:82:17-69
+87-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:82:25-66
+88
+89                <category android:name="android.intent.category.LAUNCHER" />
+89-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:84:17-77
+89-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:84:27-74
+90            </intent-filter>
+91        </activity>
+92
+93        <!-- Login Portion -->
+94        <activity
+94-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:89:9-93:70
+95            android:name="com.edu.erp.activity.loginmodule.SchoolIdLoginActivity"
+95-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:90:13-82
+96            android:label="@string/app_name"
+96-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:91:13-45
+97            android:screenOrientation="unspecified"
+97-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:92:13-52
+98            android:theme="@style/AppThemeNoActionBarEventDetails" />
+98-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:93:13-67
+99        <activity
+99-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:95:9-99:70
+100            android:name="com.edu.erp.activity.loginmodule.UserLoginActivity"
+100-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:96:13-78
+101            android:label="@string/app_name"
+101-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:97:13-45
+102            android:screenOrientation="unspecified"
+102-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:98:13-52
+103            android:theme="@style/AppThemeNoActionBarEventDetails" />
+103-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:99:13-67
+104        <activity
+104-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:101:9-105:70
+105            android:name="com.edu.erp.activity.loginmodule.ForgotPasswordActivity"
+105-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:102:13-83
+106            android:label="@string/app_name"
+106-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:103:13-45
+107            android:screenOrientation="unspecified"
+107-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:104:13-52
+108            android:theme="@style/AppThemeNoActionBarEventDetails" />
+108-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:105:13-67
+109        <activity
+109-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:107:9-111:70
+110            android:name="com.edu.erp.activity.loginmodule.ResetPasswordActivity"
+110-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:108:13-82
+111            android:label="@string/app_name"
+111-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:109:13-45
+112            android:screenOrientation="unspecified"
+112-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:110:13-52
+113            android:theme="@style/AppThemeNoActionBarEventDetails" />
+113-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:111:13-67
+114        <activity
+114-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:113:9-117:70
+115            android:name="com.edu.erp.activity.loginmodule.ChangePasswordActivity"
+115-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:114:13-83
+116            android:label="@string/app_name"
+116-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:115:13-45
+117            android:screenOrientation="unspecified"
+117-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:116:13-52
+118            android:theme="@style/AppThemeNoActionBarEventDetails" />
+118-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:117:13-67
+119        <activity
+119-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:119:9-123:62
+120            android:name="com.edu.erp.activity.loginmodule.SettingsActivity"
+120-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:120:13-77
+121            android:label="@string/app_name"
+121-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:121:13-45
+122            android:screenOrientation="unspecified"
+122-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:122:13-52
+123            android:theme="@style/AppThemeNoActionBarGrey" />
+123-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:123:13-59
+124        <activity
+124-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:125:9-130:57
+125            android:name="com.edu.erp.activity.loginmodule.AboutEnsyfiActivity"
+125-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:126:13-80
+126            android:label="@string/app_name"
+126-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:127:13-45
+127            android:screenOrientation="unspecified"
+127-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:128:13-52
+128            android:theme="@style/AppThemeNoActionBarGrey"
+128-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:129:13-59
+129            android:windowSoftInputMode="stateHidden" />
+129-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:130:13-54
+130        <activity
+130-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:132:9-137:57
+131            android:name="com.edu.erp.activity.loginmodule.ProfileActivity"
+131-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:133:13-76
+132            android:label="@string/app_name"
+132-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:134:13-45
+133            android:screenOrientation="unspecified"
+133-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:135:13-52
+134            android:theme="@style/AppThemeNoActionBarGrey"
+134-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:136:13-59
+135            android:windowSoftInputMode="stateHidden" />
+135-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:137:13-54
+136        <activity
+136-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:139:9-144:57
+137            android:name="com.edu.erp.activity.loginmodule.ProfileActivityNew"
+137-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:140:13-79
+138            android:label="@string/app_name"
+138-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:141:13-45
+139            android:screenOrientation="unspecified"
+139-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:142:13-52
+140            android:theme="@style/AppThemeNoActionBarGrey"
+140-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:143:13-59
+141            android:windowSoftInputMode="stateHidden" />
+141-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:144:13-54
+142        <activity
+142-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:146:9-150:62
+143            android:name="com.edu.erp.activity.loginmodule.ParentInfoActivity"
+143-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:147:13-79
+144            android:label="@string/app_name"
+144-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:148:13-45
+145            android:screenOrientation="unspecified"
+145-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:149:13-52
+146            android:theme="@style/AppThemeNoActionBarGrey" />
+146-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:150:13-59
+147        <activity
+147-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:152:9-156:62
+148            android:name="com.edu.erp.activity.loginmodule.GuardianInfoActivity"
+148-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:153:13-81
+149            android:label="@string/app_name"
+149-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:154:13-45
+150            android:screenOrientation="unspecified"
+150-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:155:13-52
+151            android:theme="@style/AppThemeNoActionBarGrey" />
+151-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:156:13-59
+152        <activity
+152-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:158:9-162:62
+153            android:name="com.edu.erp.activity.studentmodule.StudentDetailActivity"
+153-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:159:13-84
+154            android:label="@string/app_name"
+154-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:160:13-45
+155            android:screenOrientation="unspecified"
+155-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:161:13-52
+156            android:theme="@style/AppThemeNoActionBarGrey" />
+156-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:162:13-59
+157        <activity
+157-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:164:9-168:62
+158            android:name="com.edu.erp.activity.loginmodule.TeacherInfoActivity"
+158-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:165:13-80
+159            android:label="@string/app_name"
+159-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:166:13-45
+160            android:screenOrientation="unspecified"
+160-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:167:13-52
+161            android:theme="@style/AppThemeNoActionBarGrey" />
+161-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:168:13-59
+162
+163        <!-- End -->
+164        <!--  -->
+165        <!-- Parent Module -->
+166
+167        <activity
+167-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:174:9-178:62
+168            android:name="com.edu.erp.activity.parentsmodule.ParentDashBoardActivity"
+168-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:175:13-86
+169            android:label="@string/app_name"
+169-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:176:13-45
+170            android:screenOrientation="unspecified"
+170-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:177:13-52
+171            android:theme="@style/AppThemeNoActionBarGrey" />
+171-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:178:13-59
+172        <activity
+172-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:180:9-184:62
+173            android:name="com.edu.erp.activity.parentsmodule.ParentsCommunicationActivity"
+173-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:181:13-91
+174            android:label="@string/app_name"
+174-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:182:13-45
+175            android:screenOrientation="unspecified"
+175-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:183:13-52
+176            android:theme="@style/AppThemeNoActionBarGrey" />
+176-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:184:13-59
+177
+178        <!-- End -->
+179        <!--  -->
+180        <!-- Student Module -->
+181        <activity
+181-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:189:9-193:62
+182            android:name="com.edu.erp.activity.loginmodule.StudentInfoActivity"
+182-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:190:13-80
+183            android:label="@string/app_name"
+183-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:191:13-45
+184            android:screenOrientation="unspecified"
+184-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:192:13-52
+185            android:theme="@style/AppThemeNoActionBarGrey" />
+185-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:193:13-59
+186        <activity
+186-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:195:9-199:62
+187            android:name="com.edu.erp.activity.studentmodule.AttendanceActivity"
+187-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:196:13-81
+188            android:label="@string/app_name"
+188-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:197:13-45
+189            android:screenOrientation="unspecified"
+189-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:198:13-52
+190            android:theme="@style/AppThemeNoActionBarGrey" />
+190-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:199:13-59
+191        <activity
+191-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:201:9-205:62
+192            android:name="com.edu.erp.activity.studentmodule.StudentTimeTableActivity"
+192-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:202:13-87
+193            android:label="@string/app_name"
+193-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:203:13-45
+194            android:screenOrientation="unspecified"
+194-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:204:13-52
+195            android:theme="@style/AppThemeNoActionBarPink" />
+195-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:205:13-59
+196        <activity
+196-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:207:9-211:62
+197            android:name="com.edu.erp.activity.studentmodule.StudentTimeTableAcitivityNewnew"
+197-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:208:13-94
+198            android:label="@string/app_name"
+198-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:209:13-45
+199            android:screenOrientation="unspecified"
+199-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:210:13-52
+200            android:theme="@style/AppThemeNoActionBarPink" />
+200-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:211:13-59
+201        <activity
+201-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:213:9-217:62
+202            android:name="com.edu.erp.activity.studentmodule.ClassTestHomeworkActivity"
+202-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:214:13-88
+203            android:label="@string/app_name"
+203-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:215:13-45
+204            android:screenOrientation="unspecified"
+204-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:216:13-52
+205            android:theme="@style/AppThemeNoActionBarGrey" />
+205-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:217:13-59
+206        <activity
+206-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:219:9-223:62
+207            android:name="com.edu.erp.activity.studentmodule.ClassTestDetailActivity"
+207-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:220:13-86
+208            android:label="@string/app_name"
+208-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:221:13-45
+209            android:screenOrientation="unspecified"
+209-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:222:13-52
+210            android:theme="@style/AppThemeNoActionBarGrey" />
+210-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:223:13-59
+211        <activity
+211-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:225:9-229:62
+212            android:name="com.edu.erp.activity.studentmodule.ExamsResultActivity"
+212-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:226:13-82
+213            android:label="@string/app_name"
+213-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:227:13-45
+214            android:screenOrientation="unspecified"
+214-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:228:13-52
+215            android:theme="@style/AppThemeNoActionBarGrey" />
+215-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:229:13-59
+216        <activity
+216-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:231:9-235:62
+217            android:name="com.edu.erp.activity.studentmodule.ExamDetailActivity"
+217-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:232:13-81
+218            android:label="@string/app_name"
+218-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:233:13-45
+219            android:screenOrientation="unspecified"
+219-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:234:13-52
+220            android:theme="@style/AppThemeNoActionBarGrey" />
+220-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:235:13-59
+221        <activity
+221-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:237:9-241:62
+222            android:name="com.edu.erp.activity.studentmodule.ExamMarksActivity"
+222-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:238:13-80
+223            android:label="@string/app_name"
+223-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:239:13-45
+224            android:screenOrientation="unspecified"
+224-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:240:13-52
+225            android:theme="@style/AppThemeNoActionBarGrey" />
+225-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:241:13-59
+226        <activity
+226-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:243:9-247:62
+227            android:name="com.edu.erp.activity.studentmodule.ExamOnlyTotalMarksActivity"
+227-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:244:13-89
+228            android:label="@string/app_name"
+228-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:245:13-45
+229            android:screenOrientation="unspecified"
+229-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:246:13-52
+230            android:theme="@style/AppThemeNoActionBarGrey" />
+230-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:247:13-59
+231        <activity
+231-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:249:9-253:62
+232            android:name="com.edu.erp.activity.studentmodule.FeeStatusActivity"
+232-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:250:13-80
+233            android:label="@string/app_name"
+233-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:251:13-45
+234            android:screenOrientation="unspecified"
+234-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:252:13-52
+235            android:theme="@style/AppThemeNoActionBarGrey" />
+235-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:253:13-59
+236        <activity
+236-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:255:9-259:62
+237            android:name="com.edu.erp.activity.teachermodule.AttendanceStatusActivity"
+237-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:256:13-87
+238            android:label="@string/app_name"
+238-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:257:13-45
+239            android:screenOrientation="unspecified"
+239-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:258:13-52
+240            android:theme="@style/AppThemeNoActionBarGrey" />
+240-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:259:13-59
+241        <activity
+241-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:261:9-265:62
+242            android:name="com.edu.erp.activity.teachermodule.AttendanceMonthViewActivity"
+242-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:262:13-90
+243            android:label="@string/app_name"
+243-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:263:13-45
+244            android:screenOrientation="unspecified"
+244-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:264:13-52
+245            android:theme="@style/AppThemeNoActionBarGrey" />
+245-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:265:13-59
+246        <activity
+246-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:267:9-271:62
+247            android:name="com.edu.erp.activity.teachermodule.ClassTeacherAttendanceView"
+247-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:268:13-89
+248            android:label="@string/app_name"
+248-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:269:13-45
+249            android:screenOrientation="unspecified"
+249-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:270:13-52
+250            android:theme="@style/AppThemeNoActionBarGrey" />
+250-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:271:13-59
+251        <activity
+251-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:273:9-277:62
+252            android:name="com.edu.erp.activity.teachermodule.ClassTeacherAttendanceOverview"
+252-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:274:13-93
+253            android:label="@string/app_name"
+253-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:275:13-45
+254            android:screenOrientation="unspecified"
+254-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:276:13-52
+255            android:theme="@style/AppThemeNoActionBarGrey" />
+255-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:277:13-59
+256        <activity
+256-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:279:9-283:62
+257            android:name="com.edu.erp.activity.teachermodule.ClassTeacherAttendanceDetailView"
+257-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:280:13-95
+258            android:label="@string/app_name"
+258-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:281:13-45
+259            android:screenOrientation="unspecified"
+259-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:282:13-52
+260            android:theme="@style/AppThemeNoActionBarGrey" />
+260-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:283:13-59
+261        <activity
+261-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:285:9-289:62
+262            android:name="com.edu.erp.activity.teachermodule.ClassTeacherCtHwOverallView"
+262-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:286:13-90
+263            android:label="@string/app_name"
+263-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:287:13-45
+264            android:screenOrientation="unspecified"
+264-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:288:13-52
+265            android:theme="@style/AppThemeNoActionBarGrey" />
+265-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:289:13-59
+266        <activity
+266-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:291:9-295:62
+267            android:name="com.edu.erp.activity.teachermodule.ClassTeacherCtHwDaywiseView"
+267-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:292:13-90
+268            android:label="@string/app_name"
+268-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:293:13-45
+269            android:screenOrientation="unspecified"
+269-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:294:13-52
+270            android:theme="@style/AppThemeNoActionBarGrey" />
+270-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:295:13-59
+271        <activity
+271-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:297:9-301:62
+272            android:name="com.edu.erp.activity.teachermodule.ClassTeacherCtHwDetailView"
+272-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:298:13-89
+273            android:label="@string/app_name"
+273-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:299:13-45
+274            android:screenOrientation="unspecified"
+274-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:300:13-52
+275            android:theme="@style/AppThemeNoActionBarGrey" />
+275-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:301:13-59
+276
+277        <!-- End -->
+278        <!--  -->
+279        <!-- General -->
+280        <activity
+280-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:306:9-310:62
+281            android:name="com.edu.erp.activity.general.EventsActivity"
+281-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:307:13-71
+282            android:label="@string/app_name"
+282-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:308:13-45
+283            android:screenOrientation="unspecified"
+283-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:309:13-52
+284            android:theme="@style/AppThemeNoActionBarGrey" />
+284-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:310:13-59
+285        <activity
+285-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:312:9-316:62
+286            android:name="com.edu.erp.activity.general.EventDetailActivity"
+286-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:313:13-76
+287            android:label="@string/app_name"
+287-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:314:13-45
+288            android:screenOrientation="unspecified"
+288-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:315:13-52
+289            android:theme="@style/AppThemeNoActionBarGrey" />
+289-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:316:13-59
+290        <activity
+290-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:318:9-322:62
+291            android:name="com.edu.erp.activity.general.LeaveCalendarActivity"
+291-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:319:13-78
+292            android:label="@string/app_name"
+292-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:320:13-45
+293            android:screenOrientation="unspecified"
+293-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:321:13-52
+294            android:theme="@style/AppThemeNoActionBarGrey" />
+294-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:322:13-59
+295        <activity
+295-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:324:9-328:62
+296            android:name="com.edu.erp.activity.general.EventOrganiserActivity"
+296-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:325:13-79
+297            android:label="@string/app_name"
+297-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:326:13-45
+298            android:screenOrientation="unspecified"
+298-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:327:13-52
+299            android:theme="@style/AppThemeNoActionBarGrey" />
+299-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:328:13-59
+300        <activity
+300-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:330:9-334:62
+301            android:name="com.edu.erp.activity.general.OnDutyActivity"
+301-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:331:13-71
+302            android:label="@string/app_name"
+302-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:332:13-45
+303            android:screenOrientation="unspecified"
+303-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:333:13-52
+304            android:theme="@style/AppThemeNoActionBarGrey" />
+304-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:334:13-59
+305        <activity
+305-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:336:9-340:62
+306            android:name="com.edu.erp.activity.general.GroupingActivity"
+306-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:337:13-73
+307            android:label="@string/app_name"
+307-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:338:13-45
+308            android:screenOrientation="unspecified"
+308-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:339:13-52
+309            android:theme="@style/AppThemeNoActionBarGrey" />
+309-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:340:13-59
+310        <activity
+310-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:342:9-346:62
+311            android:name="com.edu.erp.activity.general.GroupingSendActivity"
+311-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:343:13-77
+312            android:label="@string/app_name"
+312-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:344:13-45
+313            android:screenOrientation="unspecified"
+313-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:345:13-52
+314            android:theme="@style/AppThemeNoActionBarGrey" />
+314-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:346:13-59
+315        <activity
+315-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:348:9-353:57
+316            android:name="com.edu.erp.activity.general.OnDutyRequestActivity"
+316-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:349:13-78
+317            android:label="@string/app_name"
+317-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:350:13-45
+318            android:screenOrientation="unspecified"
+318-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:351:13-52
+319            android:theme="@style/AppThemeNoActionBarGrey"
+319-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:352:13-59
+320            android:windowSoftInputMode="stateHidden" />
+320-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:353:13-54
+321        <activity
+321-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:355:9-359:62
+322            android:name="com.edu.erp.activity.general.CircularActivity"
+322-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:356:13-73
+323            android:label="@string/app_name"
+323-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:357:13-45
+324            android:screenOrientation="unspecified"
+324-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:358:13-52
+325            android:theme="@style/AppThemeNoActionBarGrey" />
+325-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:359:13-59
+326        <activity
+326-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:361:9-365:62
+327            android:name="com.edu.erp.activity.general.LeaveStatusActivity"
+327-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:362:13-76
+328            android:label="@string/app_name"
+328-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:363:13-45
+329            android:screenOrientation="unspecified"
+329-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:364:13-52
+330            android:theme="@style/AppThemeNoActionBarGrey" />
+330-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:365:13-59
+331        <activity
+331-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:367:9-371:62
+332            android:name="com.edu.erp.activity.general.LeaveStatusDetailActivity"
+332-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:368:13-82
+333            android:label="@string/app_name"
+333-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:369:13-45
+334            android:screenOrientation="unspecified"
+334-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:370:13-52
+335            android:theme="@style/AppThemeNoActionBarGrey" />
+335-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:371:13-59
+336        <activity
+336-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:373:9-377:62
+337            android:name="com.edu.erp.activity.general.LeaveApplyActivity"
+337-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:374:13-75
+338            android:label="@string/app_name"
+338-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:375:13-45
+339            android:screenOrientation="unspecified"
+339-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:376:13-52
+340            android:theme="@style/AppThemeNoActionBarGrey" />
+340-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:377:13-59
+341
+342        <!-- End -->
+343        <!--  -->
+344        <!-- Teacher Module -->
+345        <activity
+345-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:382:9-386:62
+346            android:name="com.edu.erp.activity.teachermodule.TeacherDashBoardActivity"
+346-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:383:13-87
+347            android:label="@string/app_name"
+347-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:384:13-45
+348            android:screenOrientation="unspecified"
+348-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:385:13-52
+349            android:theme="@style/AppThemeNoActionBarGrey" />
+349-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:386:13-59
+350        <activity
+350-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:388:9-392:62
+351            android:name="com.edu.erp.activity.teachermodule.TeacherTimeTableActivity"
+351-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:389:13-87
+352            android:label="@string/app_name"
+352-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:390:13-45
+353            android:theme="@style/AppThemeNoActionBarGrey" />
+353-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:392:13-59
+354        <activity
+354-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:394:9-398:62
+355            android:name="com.edu.erp.activity.teachermodule.TeacherTimeTableNewnew"
+355-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:395:13-85
+356            android:label="@string/app_name"
+356-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:396:13-45
+357            android:theme="@style/AppThemeNoActionBarGrey" />
+357-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:398:13-59
+358        <activity
+358-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:400:9-404:62
+359            android:name="com.edu.erp.activity.general.SyncRecordsActivity"
+359-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:401:13-76
+360            android:label="@string/app_name"
+360-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:402:13-45
+361            android:screenOrientation="unspecified"
+361-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:403:13-52
+362            android:theme="@style/AppThemeNoActionBarGrey" />
+362-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:404:13-59
+363        <activity
+363-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:406:9-410:62
+364            android:name="com.edu.erp.activity.teachermodule.ClassTestHomeWorkTeacherViewActivity"
+364-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:407:13-99
+365            android:label="@string/app_name"
+365-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:408:13-45
+366            android:screenOrientation="unspecified"
+366-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:409:13-52
+367            android:theme="@style/AppThemeNoActionBarGrey" />
+367-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:410:13-59
+368        <activity
+368-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:412:9-416:62
+369            android:name="com.edu.erp.activity.teachermodule.ClassTestHomeWorkDetailPageActivity"
+369-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:413:13-98
+370            android:label="@string/app_name"
+370-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:414:13-45
+371            android:screenOrientation="unspecified"
+371-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:415:13-52
+372            android:theme="@style/AppThemeNoActionBarGrey" />
+372-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:416:13-59
+373        <activity
+373-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:418:9-422:62
+374            android:name="com.edu.erp.activity.teachermodule.ClassTestHomeWorkAddActivity"
+374-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:419:13-91
+375            android:label="@string/app_name"
+375-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:420:13-45
+376            android:screenOrientation="unspecified"
+376-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:421:13-52
+377            android:theme="@style/AppThemeNoActionBarGrey" />
+377-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:422:13-59
+378        <activity
+378-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:424:9-428:62
+379            android:name="com.edu.erp.activity.teachermodule.ViewClassTestMarkActivity"
+379-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:425:13-88
+380            android:label="@string/app_name"
+380-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:426:13-45
+381            android:screenOrientation="unspecified"
+381-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:427:13-52
+382            android:theme="@style/AppThemeNoActionBarGrey" />
+382-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:428:13-59
+383        <activity
+383-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:430:9-434:62
+384            android:name="com.edu.erp.activity.teachermodule.AcademicExamViewActivity"
+384-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:431:13-87
+385            android:label="@string/app_name"
+385-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:432:13-45
+386            android:screenOrientation="unspecified"
+386-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:433:13-52
+387            android:theme="@style/AppThemeNoActionBarGrey" />
+387-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:434:13-59
+388        <activity
+388-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:436:9-440:62
+389            android:name="com.edu.erp.activity.teachermodule.AcademicExamDetailPage"
+389-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:437:13-85
+390            android:label="@string/app_name"
+390-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:438:13-45
+391            android:screenOrientation="unspecified"
+391-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:439:13-52
+392            android:theme="@style/AppThemeNoActionBarGrey" />
+392-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:440:13-59
+393        <activity
+393-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:442:9-446:62
+394            android:name="com.edu.erp.activity.teachermodule.AcademicExamResultView"
+394-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:443:13-85
+395            android:label="@string/app_name"
+395-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:444:13-45
+396            android:screenOrientation="unspecified"
+396-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:445:13-52
+397            android:theme="@style/AppThemeNoActionBarGrey" />
+397-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:446:13-59
+398        <activity
+398-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:448:9-452:62
+399            android:name="com.edu.erp.activity.teachermodule.AcademicExamOnlyTotalResultView"
+399-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:449:13-94
+400            android:label="@string/app_name"
+400-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:450:13-45
+401            android:screenOrientation="unspecified"
+401-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:451:13-52
+402            android:theme="@style/AppThemeNoActionBarGrey" />
+402-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:452:13-59
+403        <activity
+403-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:454:9-458:62
+404            android:name="com.edu.erp.activity.teachermodule.TimeTableReviewAddActivity"
+404-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:455:13-89
+405            android:label="@string/app_name"
+405-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:456:13-45
+406            android:screenOrientation="unspecified"
+406-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:457:13-52
+407            android:theme="@style/AppThemeNoActionBarGrey" />
+407-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:458:13-59
+408        <activity
+408-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:460:9-464:62
+409            android:name="com.edu.erp.activity.teachermodule.TimeTableReview"
+409-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:461:13-78
+410            android:label="@string/app_name"
+410-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:462:13-45
+411            android:screenOrientation="unspecified"
+411-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:463:13-52
+412            android:theme="@style/AppThemeNoActionBarGrey" />
+412-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:464:13-59
+413        <activity
+413-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:466:9-470:62
+414            android:name="com.edu.erp.activity.teachermodule.TimeTableReviewDetails"
+414-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:467:13-85
+415            android:label="@string/app_name"
+415-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:468:13-45
+416            android:screenOrientation="unspecified"
+416-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:469:13-52
+417            android:theme="@style/AppThemeNoActionBarGrey" />
+417-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:470:13-59
+418        <activity
+418-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:472:9-476:62
+419            android:name="com.edu.erp.activity.teachermodule.AddClassTestMarkActivity"
+419-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:473:13-87
+420            android:label="@string/app_name"
+420-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:474:13-45
+421            android:screenOrientation="unspecified"
+421-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:475:13-52
+422            android:theme="@style/AppThemeNoActionBarPink" />
+422-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:476:13-59
+423        <activity
+423-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:478:9-482:62
+424            android:name="com.edu.erp.activity.teachermodule.AddAcademicExamMarksActivity"
+424-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:479:13-91
+425            android:label="@string/app_name"
+425-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:480:13-45
+426            android:screenOrientation="unspecified"
+426-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:481:13-52
+427            android:theme="@style/AppThemeNoActionBarPink" />
+427-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:482:13-59
+428        <activity
+428-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:484:9-488:62
+429            android:name="com.edu.erp.activity.teachermodule.AddAcademicExamMarksOnlyTotalActivity"
+429-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:485:13-100
+430            android:label="@string/app_name"
+430-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:486:13-45
+431            android:screenOrientation="unspecified"
+431-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:487:13-52
+432            android:theme="@style/AppThemeNoActionBarPink" />
+432-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:488:13-59
+433        <activity
+433-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:490:9-494:62
+434            android:name="com.edu.erp.activity.teachermodule.TeacherAttendanceInsertActivity"
+434-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:491:13-94
+435            android:label="@string/app_name"
+435-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:492:13-45
+436            android:screenOrientation="unspecified"
+436-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:493:13-52
+437            android:theme="@style/AppThemeNoActionBarPink" />
+437-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:494:13-59
+438        <activity
+438-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:496:9-500:62
+439            android:name="com.edu.erp.activity.teachermodule.SpecialClassActivity"
+439-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:497:13-83
+440            android:label="@string/app_name"
+440-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:498:13-45
+441            android:screenOrientation="unspecified"
+441-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:499:13-52
+442            android:theme="@style/AppThemeNoActionBarPink" />
+442-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:500:13-59
+443        <activity
+443-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:502:9-506:62
+444            android:name="com.edu.erp.activity.adminmodule.SpecialClassAdminActivity"
+444-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:503:13-86
+445            android:label="@string/app_name"
+445-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:504:13-45
+446            android:screenOrientation="unspecified"
+446-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:505:13-52
+447            android:theme="@style/AppThemeNoActionBarPink" />
+447-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:506:13-59
+448        <activity
+448-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:508:9-512:62
+449            android:name="com.edu.erp.activity.teachermodule.SubstitutionActivity"
+449-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:509:13-83
+450            android:label="@string/app_name"
+450-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:510:13-45
+451            android:screenOrientation="unspecified"
+451-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:511:13-52
+452            android:theme="@style/AppThemeNoActionBarPink" />
+452-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:512:13-59
+453        <activity
+453-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:514:9-520:20
+454            android:name="com.edu.erp.activity.teachermodule.ExamDutyActivity"
+454-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:515:13-79
+455            android:label="@string/app_name"
+455-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:516:13-45
+456            android:screenOrientation="unspecified"
+456-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:517:13-52
+457            android:theme="@style/AppThemeNoActionBarPink" >
+457-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:518:13-59
+458        </activity>
+459
+460        <!-- End -->
+461        <!--  -->
+462        <!-- Admin Module -->
+463        <activity
+463-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:525:9-529:62
+464            android:name="com.edu.erp.activity.adminmodule.AdminDashBoardActivity"
+464-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:526:13-83
+465            android:label="@string/app_name"
+465-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:527:13-45
+466            android:screenOrientation="unspecified"
+466-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:528:13-52
+467            android:theme="@style/AppThemeNoActionBarGrey" />
+467-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:529:13-59
+468        <activity
+468-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:531:9-535:62
+469            android:name="com.edu.erp.activity.adminmodule.StudentsViewActivity"
+469-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:532:13-81
+470            android:label="@string/app_name"
+470-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:533:13-45
+471            android:screenOrientation="unspecified"
+471-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:534:13-52
+472            android:theme="@style/AppThemeNoActionBarGrey" />
+472-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:535:13-59
+473        <activity
+473-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:537:9-541:62
+474            android:name="com.edu.erp.activity.adminmodule.ClassStudentDetailsActivity"
+474-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:538:13-88
+475            android:label="@string/app_name"
+475-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:539:13-45
+476            android:screenOrientation="unspecified"
+476-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:540:13-52
+477            android:theme="@style/AppThemeNoActionBarGrey" />
+477-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:541:13-59
+478        <activity
+478-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:543:9-547:62
+479            android:name="com.edu.erp.activity.adminmodule.TeachersViewActivity"
+479-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:544:13-81
+480            android:label="@string/app_name"
+480-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:545:13-45
+481            android:screenOrientation="unspecified"
+481-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:546:13-52
+482            android:theme="@style/AppThemeNoActionBarGrey" />
+482-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:547:13-59
+483        <activity
+483-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:549:9-553:62
+484            android:name="com.edu.erp.activity.adminmodule.TeacherViewDetailsActivity"
+484-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:550:13-87
+485            android:label="@string/app_name"
+485-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:551:13-45
+486            android:screenOrientation="unspecified"
+486-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:552:13-52
+487            android:theme="@style/AppThemeNoActionBarGrey" />
+487-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:553:13-59
+488        <activity
+488-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:555:9-559:62
+489            android:name="com.edu.erp.activity.adminmodule.ParentsViewActivity"
+489-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:556:13-80
+490            android:label="@string/app_name"
+490-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:557:13-45
+491            android:screenOrientation="unspecified"
+491-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:558:13-52
+492            android:theme="@style/AppThemeNoActionBarGrey" />
+492-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:559:13-59
+493        <activity
+493-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:561:9-565:62
+494            android:name="com.edu.erp.activity.adminmodule.ParentsViewDetailsActivity"
+494-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:562:13-87
+495            android:label="@string/app_name"
+495-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:563:13-45
+496            android:screenOrientation="unspecified"
+496-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:564:13-52
+497            android:theme="@style/AppThemeNoActionBarGrey" />
+497-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:565:13-59
+498        <activity
+498-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:567:9-571:62
+499            android:name="com.edu.erp.activity.adminmodule.StudentsInfoActivity"
+499-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:568:13-81
+500            android:label="@string/app_name"
+500-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:569:13-45
+501            android:screenOrientation="unspecified"
+501-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:570:13-52
+502            android:theme="@style/AppThemeNoActionBarGrey" />
+502-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:571:13-59
+503        <activity
+503-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:573:9-577:62
+504            android:name="com.edu.erp.activity.adminmodule.ClassBasedViewActivity"
+504-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:574:13-83
+505            android:label="@string/app_name"
+505-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:575:13-45
+506            android:screenOrientation="unspecified"
+506-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:576:13-52
+507            android:theme="@style/AppThemeNoActionBarGrey" />
+507-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:577:13-59
+508        <activity
+508-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:579:9-583:62
+509            android:name="com.edu.erp.activity.adminmodule.ExamViewActivity"
+509-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:580:13-77
+510            android:label="@string/app_name"
+510-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:581:13-45
+511            android:screenOrientation="unspecified"
+511-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:582:13-52
+512            android:theme="@style/AppThemeNoActionBarGrey" />
+512-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:583:13-59
+513        <activity
+513-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:585:9-589:62
+514            android:name="com.edu.erp.activity.adminmodule.ResultViewActivity"
+514-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:586:13-79
+515            android:label="@string/app_name"
+515-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:587:13-45
+516            android:screenOrientation="unspecified"
+516-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:588:13-52
+517            android:theme="@style/AppThemeNoActionBarGrey" />
+517-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:589:13-59
+518        <activity
+518-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:591:9-595:62
+519            android:name="com.edu.erp.activity.adminmodule.StudentResultView"
+519-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:592:13-78
+520            android:label="@string/app_name"
+520-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:593:13-45
+521            android:screenOrientation="unspecified"
+521-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:594:13-52
+522            android:theme="@style/AppThemeNoActionBarGrey" />
+522-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:595:13-59
+523        <activity
+523-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:597:9-601:62
+524            android:name="com.edu.erp.activity.adminmodule.FeesViewActivity"
+524-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:598:13-77
+525            android:label="@string/app_name"
+525-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:599:13-45
+526            android:screenOrientation="unspecified"
+526-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:600:13-52
+527            android:theme="@style/AppThemeNoActionBarGrey" />
+527-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:601:13-59
+528        <activity
+528-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:603:9-607:62
+529            android:name="com.edu.erp.activity.adminmodule.FeesStatusView"
+529-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:604:13-75
+530            android:label="@string/app_name"
+530-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:605:13-45
+531            android:screenOrientation="unspecified"
+531-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:606:13-52
+532            android:theme="@style/AppThemeNoActionBarGrey" />
+532-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:607:13-59
+533        <activity
+533-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:609:9-613:62
+534            android:name="com.edu.erp.activity.adminmodule.OnDutyViewActivity"
+534-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:610:13-79
+535            android:label="@string/app_name"
+535-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:611:13-45
+536            android:screenOrientation="unspecified"
+536-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:612:13-52
+537            android:theme="@style/AppThemeNoActionBarGrey" />
+537-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:613:13-59
+538        <activity
+538-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:615:9-619:62
+539            android:name="com.edu.erp.activity.adminmodule.OnDutyDetailActivity"
+539-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:616:13-81
+540            android:label="@string/app_name"
+540-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:617:13-45
+541            android:screenOrientation="unspecified"
+541-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:618:13-52
+542            android:theme="@style/AppThemeNoActionBarGrey" />
+542-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:619:13-59
+543        <activity
+543-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:621:9-625:62
+544            android:name="com.edu.erp.activity.adminmodule.GroupNotificationAdminViewActivity"
+544-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:622:13-95
+545            android:label="@string/app_name"
+545-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:623:13-45
+546            android:screenOrientation="unspecified"
+546-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:624:13-52
+547            android:theme="@style/AppThemeNoActionBarGrey" />
+547-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:625:13-59
+548        <activity
+548-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:627:9-631:62
+549            android:name="com.edu.erp.activity.adminmodule.GroupNotificationCreationActivity"
+549-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:628:13-94
+550            android:label="@string/app_name"
+550-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:629:13-45
+551            android:screenOrientation="unspecified"
+551-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:630:13-52
+552            android:theme="@style/AppThemeNoActionBarGrey" />
+552-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:631:13-59
+553        <activity
+553-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:633:9-637:62
+554            android:name="com.edu.erp.activity.adminmodule.GroupNotificationUpdateActivity"
+554-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:634:13-92
+555            android:label="@string/app_name"
+555-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:635:13-45
+556            android:screenOrientation="unspecified"
+556-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:636:13-52
+557            android:theme="@style/AppThemeNoActionBarGrey" />
+557-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:637:13-59
+558        <activity
+558-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:639:9-643:62
+559            android:name="com.edu.erp.activity.adminmodule.GroupNotificationViewMemberActivity"
+559-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:640:13-96
+560            android:label="@string/app_name"
+560-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:641:13-45
+561            android:screenOrientation="unspecified"
+561-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:642:13-52
+562            android:theme="@style/AppThemeNoActionBarGrey" />
+562-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:643:13-59
+563        <activity
+563-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:645:9-649:62
+564            android:name="com.edu.erp.activity.adminmodule.GroupNotificationAddMemberActivity"
+564-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:646:13-95
+565            android:label="@string/app_name"
+565-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:647:13-45
+566            android:screenOrientation="unspecified"
+566-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:648:13-52
+567            android:theme="@style/AppThemeNoActionBarGrey" />
+567-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:649:13-59
+568        <activity
+568-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:651:9-655:62
+569            android:name="com.edu.erp.activity.adminmodule.GroupNotificationActivity"
+569-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:652:13-86
+570            android:label="@string/app_name"
+570-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:653:13-45
+571            android:screenOrientation="unspecified"
+571-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:654:13-52
+572            android:theme="@style/AppThemeNoActionBarGrey" />
+572-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:655:13-59
+573        <activity
+573-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:657:9-662:57
+574            android:name="com.edu.erp.activity.adminmodule.CircularMasterCreationActivity"
+574-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:658:13-91
+575            android:label="@string/app_name"
+575-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:659:13-45
+576            android:screenOrientation="unspecified"
+576-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:660:13-52
+577            android:theme="@style/AppThemeNoActionBarForCircular"
+577-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:661:13-66
+578            android:windowSoftInputMode="stateHidden" />
+578-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:662:13-54
+579        <activity
+579-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:664:9-668:62
+580            android:name="com.edu.erp.activity.adminmodule.CircularMasterListActivity"
+580-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:665:13-87
+581            android:label="@string/app_name"
+581-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:666:13-45
+582            android:screenOrientation="unspecified"
+582-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:667:13-52
+583            android:theme="@style/AppThemeNoActionBarGrey" />
+583-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:668:13-59
+584        <activity
+584-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:670:9-674:62
+585            android:name="com.edu.erp.activity.adminmodule.ClassAttendanceActivity"
+585-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:671:13-84
+586            android:label="@string/app_name"
+586-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:672:13-45
+587            android:screenOrientation="unspecified"
+587-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:673:13-52
+588            android:theme="@style/AppThemeNoActionBarGrey" />
+588-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:674:13-59
+589        <activity
+589-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:676:9-680:62
+590            android:name="com.edu.erp.activity.adminmodule.ClassAttendanceListActivity"
+590-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:677:13-88
+591            android:label="@string/app_name"
+591-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:678:13-45
+592            android:screenOrientation="unspecified"
+592-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:679:13-52
+593            android:theme="@style/AppThemeNoActionBarGrey" />
+593-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:680:13-59
+594        <activity
+594-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:682:9-686:62
+595            android:name="com.edu.erp.activity.adminmodule.ClassAttendanceDetailActivity"
+595-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:683:13-90
+596            android:label="@string/app_name"
+596-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:684:13-45
+597            android:screenOrientation="unspecified"
+597-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:685:13-52
+598            android:theme="@style/AppThemeNoActionBarGrey" />
+598-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:686:13-59
+599        <activity
+599-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:688:9-692:62
+600            android:name="com.edu.erp.activity.general.GroupingDetailActivity"
+600-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:689:13-79
+601            android:label="@string/app_name"
+601-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:690:13-45
+602            android:screenOrientation="unspecified"
+602-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:691:13-52
+603            android:theme="@style/AppThemeNoActionBarGrey" />
+603-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:692:13-59
+604        <activity
+604-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:694:9-698:62
+605            android:name="com.edu.erp.activity.adminmodule.BoardMembersListActivity"
+605-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:695:13-85
+606            android:label="@string/app_name"
+606-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:696:13-45
+607            android:screenOrientation="unspecified"
+607-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:697:13-52
+608            android:theme="@style/AppThemeNoActionBarGrey" />
+608-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:698:13-59
+609
+610        <!-- End -->
+611        <!--  -->
+612        <!-- GCM Receiver -->
+613        <!--
+614        <receiver
+615            android:name="com.google.android.gms.gcm.GcmReceiver"
+616            android:exported="true"
+617            android:permission="com.google.android.c2dm.permission.SEND">
+618            <intent-filter>
+619                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+620                <category android:name="com.gnirt69.gcmexample" />
+621            </intent-filter>
+622        </receiver>
+623        -->
+624
+625
+626        <!-- GCM Receiver Service -->
+627        <!--
+628        <service
+629            android:name=".servicehelpers.gcm.GCMPushReceiverService"
+630            android:exported="false">
+631            <intent-filter>
+632                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+633            </intent-filter>
+634        </service>
+635        -->
+636
+637
+638        <!-- GCM Registration Intent Service -->
+639        <!--
+640        <service
+641            android:name=".servicehelpers.gcm.GCMRegistrationIntentService"
+642            android:exported="false">
+643            <intent-filter>
+644                <action android:name="com.google.android.gms.iid.InstanceID" />
+645            </intent-filter>
+646        </service>
+647        -->
+648
+649        <service android:name="com.edu.erp.servicehelpers.fcm.MyFirebaseMessagingService" >
+649-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:732:9-736:19
+649-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:732:18-90
+650            <intent-filter>
+650-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:733:13-735:29
+651                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+651-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:734:17-78
+651-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:734:25-75
+652            </intent-filter>
+653        </service>
+654
+655        <provider
+655-->[com.squareup.picasso:picasso:2.71828] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\7d4ab9396110e3e29aad8c766c8f3aa3\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+656            android:name="com.squareup.picasso.PicassoProvider"
+656-->[com.squareup.picasso:picasso:2.71828] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\7d4ab9396110e3e29aad8c766c8f3aa3\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+657            android:authorities="com.edu.erp.com.squareup.picasso"
+657-->[com.squareup.picasso:picasso:2.71828] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\7d4ab9396110e3e29aad8c766c8f3aa3\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+658            android:exported="false" />
+658-->[com.squareup.picasso:picasso:2.71828] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\7d4ab9396110e3e29aad8c766c8f3aa3\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+659        <!--
+660             FirebaseMessagingService performs security checks at runtime,
+661             but set to not exported to explicitly avoid allowing another app to call it.
+662        -->
+663        <service
+663-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\f433fb6dce4181fca4d6759b06e0a5ce\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:28:9-35:19
+664            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+664-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\f433fb6dce4181fca4d6759b06e0a5ce\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:29:13-82
+665            android:directBootAware="true"
+665-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\f433fb6dce4181fca4d6759b06e0a5ce\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:30:13-43
+666            android:exported="false" >
+666-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\f433fb6dce4181fca4d6759b06e0a5ce\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:31:13-37
+667            <intent-filter android:priority="-500" >
+667-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:733:13-735:29
+668                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+668-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:734:17-78
+668-->E:\StudioProjects\EduEPRforPIA\app\src\main\AndroidManifest.xml:734:25-75
+669            </intent-filter>
+670        </service>
+671        <service
+671-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\f433fb6dce4181fca4d6759b06e0a5ce\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:36:9-42:19
+672            android:name="com.google.firebase.components.ComponentDiscoveryService"
+672-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\f433fb6dce4181fca4d6759b06e0a5ce\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:37:13-84
+673            android:directBootAware="true"
+673-->[com.google.firebase:firebase-common:19.5.0] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\b23bb2b64646fafb825d3c61e75a2b56\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+674            android:exported="false" >
+674-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\f433fb6dce4181fca4d6759b06e0a5ce\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:38:13-37
+675            <meta-data
+675-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\f433fb6dce4181fca4d6759b06e0a5ce\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:39:13-41:85
+676                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+676-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\f433fb6dce4181fca4d6759b06e0a5ce\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:40:17-119
+677                android:value="com.google.firebase.components.ComponentRegistrar" />
+677-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\f433fb6dce4181fca4d6759b06e0a5ce\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:41:17-82
+678            <meta-data
+678-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\2f351dead5989a327edba8ce3f286b9d\jetified-firebase-iid-21.0.1\AndroidManifest.xml:32:13-34:85
+679                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+679-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\2f351dead5989a327edba8ce3f286b9d\jetified-firebase-iid-21.0.1\AndroidManifest.xml:33:17-96
+680                android:value="com.google.firebase.components.ComponentRegistrar" />
+680-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\2f351dead5989a327edba8ce3f286b9d\jetified-firebase-iid-21.0.1\AndroidManifest.xml:34:17-82
+681            <meta-data
+681-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\1194c5e077d0b0813be9063ccb76ee80\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:28:13-30:85
+682                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+682-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\1194c5e077d0b0813be9063ccb76ee80\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:29:17-115
+683                android:value="com.google.firebase.components.ComponentRegistrar" />
+683-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\1194c5e077d0b0813be9063ccb76ee80\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:30:17-82
+684            <meta-data
+684-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\539a610cdd1e38585fb9072220aa273b\jetified-firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
+685                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+685-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\539a610cdd1e38585fb9072220aa273b\jetified-firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
+686                android:value="com.google.firebase.components.ComponentRegistrar" />
+686-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\539a610cdd1e38585fb9072220aa273b\jetified-firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
+687            <!--
+688                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+689                clients to use it as well, by defining this registrar in their own core/common library.
+690            -->
+691            <meta-data
+691-->[com.google.firebase:firebase-common:19.5.0] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\b23bb2b64646fafb825d3c61e75a2b56\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+692                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+692-->[com.google.firebase:firebase-common:19.5.0] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\b23bb2b64646fafb825d3c61e75a2b56\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+693                android:value="com.google.firebase.components.ComponentRegistrar" />
+693-->[com.google.firebase:firebase-common:19.5.0] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\b23bb2b64646fafb825d3c61e75a2b56\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+694        </service>
+695
+696        <activity
+696-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\a9e9a4147bc1ee7d20d3467695d0f160\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+697            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+697-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\a9e9a4147bc1ee7d20d3467695d0f160\jetified-play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+698            android:excludeFromRecents="true"
+698-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\a9e9a4147bc1ee7d20d3467695d0f160\jetified-play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
+699            android:exported="false"
+699-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\a9e9a4147bc1ee7d20d3467695d0f160\jetified-play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+700            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+700-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\a9e9a4147bc1ee7d20d3467695d0f160\jetified-play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
+701        <!--
+702            Service handling Google Sign-In user revocation. For apps that do not integrate with
+703            Google Sign-In, this service will never be started.
+704        -->
+705        <service
+705-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\a9e9a4147bc1ee7d20d3467695d0f160\jetified-play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+706            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+706-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\a9e9a4147bc1ee7d20d3467695d0f160\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+707            android:exported="true"
+707-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\a9e9a4147bc1ee7d20d3467695d0f160\jetified-play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+708            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+708-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\a9e9a4147bc1ee7d20d3467695d0f160\jetified-play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+709            android:visibleToInstantApps="true" />
+709-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\a9e9a4147bc1ee7d20d3467695d0f160\jetified-play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+710
+711        <receiver
+711-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\2f351dead5989a327edba8ce3f286b9d\jetified-firebase-iid-21.0.1\AndroidManifest.xml:37:9-44:20
+712            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+712-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\2f351dead5989a327edba8ce3f286b9d\jetified-firebase-iid-21.0.1\AndroidManifest.xml:38:13-78
+713            android:exported="true"
+713-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\2f351dead5989a327edba8ce3f286b9d\jetified-firebase-iid-21.0.1\AndroidManifest.xml:39:13-36
+714            android:permission="com.google.android.c2dm.permission.SEND" >
+714-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\2f351dead5989a327edba8ce3f286b9d\jetified-firebase-iid-21.0.1\AndroidManifest.xml:40:13-73
+715            <intent-filter>
+715-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\2f351dead5989a327edba8ce3f286b9d\jetified-firebase-iid-21.0.1\AndroidManifest.xml:41:13-43:29
+716                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+716-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\2f351dead5989a327edba8ce3f286b9d\jetified-firebase-iid-21.0.1\AndroidManifest.xml:42:17-81
+716-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\2f351dead5989a327edba8ce3f286b9d\jetified-firebase-iid-21.0.1\AndroidManifest.xml:42:25-78
+717            </intent-filter>
+718        </receiver>
+719
+720        <activity
+720-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\2df5dcc1ab6725d2dc9bd63d16332d56\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+721            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+721-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\2df5dcc1ab6725d2dc9bd63d16332d56\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+722            android:exported="false"
+722-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\2df5dcc1ab6725d2dc9bd63d16332d56\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+723            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+723-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\2df5dcc1ab6725d2dc9bd63d16332d56\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+724
+725        <provider
+725-->[com.google.firebase:firebase-common:19.5.0] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\b23bb2b64646fafb825d3c61e75a2b56\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+726            android:name="com.google.firebase.provider.FirebaseInitProvider"
+726-->[com.google.firebase:firebase-common:19.5.0] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\b23bb2b64646fafb825d3c61e75a2b56\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+727            android:authorities="com.edu.erp.firebaseinitprovider"
+727-->[com.google.firebase:firebase-common:19.5.0] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\b23bb2b64646fafb825d3c61e75a2b56\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+728            android:directBootAware="true"
+728-->[com.google.firebase:firebase-common:19.5.0] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\b23bb2b64646fafb825d3c61e75a2b56\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+729            android:exported="false"
+729-->[com.google.firebase:firebase-common:19.5.0] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\b23bb2b64646fafb825d3c61e75a2b56\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+730            android:initOrder="100" />
+730-->[com.google.firebase:firebase-common:19.5.0] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\b23bb2b64646fafb825d3c61e75a2b56\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+731
+732        <meta-data
+732-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\3e3f91d8108b18f96d1fad672ea0a359\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+733            android:name="com.google.android.gms.version"
+733-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\3e3f91d8108b18f96d1fad672ea0a359\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+734            android:value="@integer/google_play_services_version" />
+734-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\3e3f91d8108b18f96d1fad672ea0a359\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+735
+736        <service
+736-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\d79facbd146af47911238c23fdd8d413\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+737            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+737-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\d79facbd146af47911238c23fdd8d413\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+738            android:exported="false" >
+738-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\d79facbd146af47911238c23fdd8d413\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+739            <meta-data
+739-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\d79facbd146af47911238c23fdd8d413\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+740                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+740-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\d79facbd146af47911238c23fdd8d413\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+741                android:value="cct" />
+741-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\d79facbd146af47911238c23fdd8d413\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+742        </service>
+743        <service
+743-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\f67a122153dea2516f3a9f206c55361c\jetified-transport-runtime-2.2.5\AndroidManifest.xml:26:9-30:19
+744            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+744-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\f67a122153dea2516f3a9f206c55361c\jetified-transport-runtime-2.2.5\AndroidManifest.xml:27:13-117
+745            android:exported="false"
+745-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\f67a122153dea2516f3a9f206c55361c\jetified-transport-runtime-2.2.5\AndroidManifest.xml:28:13-37
+746            android:permission="android.permission.BIND_JOB_SERVICE" >
+746-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\f67a122153dea2516f3a9f206c55361c\jetified-transport-runtime-2.2.5\AndroidManifest.xml:29:13-69
+747        </service>
+748
+749        <receiver
+749-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\f67a122153dea2516f3a9f206c55361c\jetified-transport-runtime-2.2.5\AndroidManifest.xml:32:9-34:40
+750            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+750-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\f67a122153dea2516f3a9f206c55361c\jetified-transport-runtime-2.2.5\AndroidManifest.xml:33:13-132
+751            android:exported="false" />
+751-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\HST SYS 04\.gradle\caches\transforms-2\files-2.1\f67a122153dea2516f3a9f206c55361c\jetified-transport-runtime-2.2.5\AndroidManifest.xml:34:13-37
+752    </application>
+753
+754</manifest>

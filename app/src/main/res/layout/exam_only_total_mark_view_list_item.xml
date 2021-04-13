@@ -22,7 +22,7 @@
             android:gravity="center"
             android:paddingBottom="5dp"
             android:text="Computer Science"
-            android:textColor="@color/new_gray" />
+            android:textColor="@color/text_black" />
 
 
 
@@ -37,7 +37,7 @@
             android:gravity="center"
             android:paddingBottom="5dp"
             android:text="B1"
-            android:textColor="@color/new_gray" />
+            android:textColor="@color/text_black" />
 
         <TextView
             android:id="@+id/txtSubTotalMark"
@@ -51,7 +51,7 @@
             android:gravity="center"
             android:paddingBottom="5dp"
             android:text="100"
-            android:textColor="@color/new_gray" />
+            android:textColor="@color/text_black" />
 
         <TextView
             android:id="@+id/txtSubName"
@@ -64,7 +64,7 @@
             android:gravity="center"
             android:paddingBottom="5dp"
             android:text="12-12-2012"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:visibility="gone" />
 
         <TextView
@@ -77,7 +77,7 @@
             android:gravity="center"
             android:paddingBottom="5dp"
             android:text="-"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:visibility="gone" />
 
     </LinearLayout>

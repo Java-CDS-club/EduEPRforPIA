@@ -73,7 +73,7 @@
                 android:layout_height="40dp"
                 android:layout_weight="0.4"
                 android:src="@drawable/ic_guardian"
-                android:padding="5dp"/>
+                android:padding="8dp"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -108,7 +108,7 @@
                 android:layout_height="40dp"
                 android:layout_weight="0.4"
                 android:src="@drawable/ic_password"
-                android:padding="5dp"/>
+                android:padding="8dp"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -143,7 +143,7 @@
                 android:layout_height="40dp"
                 android:layout_weight="0.4"
                 android:src="@drawable/ic_notification"
-                android:padding="5dp"/>
+                android:padding="8dp"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -296,7 +296,7 @@
                 android:layout_height="40dp"
                 android:layout_weight="0.4"
                 android:src="@drawable/ic_about_us"
-                android:padding="5dp"/>
+                android:padding="8dp"/>
 
             <TextView
                 android:layout_width="match_parent"

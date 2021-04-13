@@ -11,6 +11,7 @@ import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.Gravity;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -42,6 +43,7 @@ import com.edu.erp.servicehelpers.ServiceHelper;
 import com.edu.erp.serviceinterfaces.IServiceListener;
 import com.edu.erp.utils.EnsyfiConstants;
 import com.edu.erp.utils.PreferenceStorage;
+import com.google.android.material.navigation.NavigationView;
 import com.squareup.picasso.Picasso;
 
 import org.json.JSONException;
@@ -61,9 +63,10 @@ public class AdminDashBoardActivity extends AppCompatActivity implements DialogC
     boolean doubleBackToExitPressedOnce = false;
     private ImageView imgNavProfileImage;
     private ArrayAdapter<String> navListAdapter;
-    private String[] values = {"Profile", "Students", "Teachers", "Parents", "Board Members", "Attendance", "Classes", "Examinations",
-            "Results", "Special Class", "Events", "Circulars", "Fee Status", "On Duty", "Groups", "Leaves",
-            "Settings", "Sign Out"};
+//    private String[] values = {"Profile", "Students", "Teachers", "Parents", "Board Members", "Attendance", "Classes", "Examinations",
+//            "Results", "Special Class", "Events", "Circulars", "Fee Status", "On Duty", "Groups", "Leaves",
+//            "Settings", "Sign Out"};
+    NavigationView navigationView;
     TextView navUserProfileName = null;
     LinearLayout students, teachers, parents, classes, exams, results, events, communication;
     private String mCurrentUserProfileUrl = "";
@@ -81,7 +84,7 @@ public class AdminDashBoardActivity extends AppCompatActivity implements DialogC
         String userTypeString = PreferenceStorage.getUserType(getApplicationContext());
         int userType = Integer.parseInt(userTypeString);
         if (userType == 1) {
-            setTitle("ENSYFI Admin");
+            setTitle("ERP Admin");
         }
         toolbar = (Toolbar) findViewById(R.id.activity_toolbar);
         setSupportActionBar(toolbar);
@@ -102,7 +105,9 @@ public class AdminDashBoardActivity extends AppCompatActivity implements DialogC
 
         Log.d(TAG, "initializin the views");
         Log.d(TAG, "initializing view pager");
-        navUserProfileName = (TextView) findViewById(R.id.user_profile_name);
+        navigationView = findViewById(R.id.nav_view);
+        navUserProfileName = navigationView.getHeaderView(0).findViewById(R.id.user_profile_name);
+        imgNavProfileImage = navigationView.getHeaderView(0).findViewById(R.id.img_profile_image);
 
         students = (LinearLayout) findViewById(R.id.students);
         teachers = (LinearLayout) findViewById(R.id.teachers);
@@ -180,6 +185,69 @@ public class AdminDashBoardActivity extends AppCompatActivity implements DialogC
             }
         });
 
+        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+
+            // This method will trigger on item Click of navigation menu
+            @Override
+            public boolean onNavigationItemSelected(MenuItem menuItem) {
+                switch (menuItem.getItemId()) {
+
+                    case R.id.side_admin_students:
+                        onNavigationMenuSelected(1);
+                        break;
+                    case R.id.side_admin_teachers:
+                        onNavigationMenuSelected(2);
+                        break;
+                    case R.id.side_admin_parents:
+                        onNavigationMenuSelected(3);
+                        break;
+                    case R.id.side_admin_board:
+                        onNavigationMenuSelected(4);
+                        break;
+                    case R.id.side_admin_attendance:
+                        onNavigationMenuSelected(5);
+                        break;
+                    case R.id.side_admin_classes:
+                        onNavigationMenuSelected(6);
+                        break;
+                    case R.id.side_admin_exams:
+                        onNavigationMenuSelected(7);
+                        break;
+                    case R.id.side_admin_results:
+                        onNavigationMenuSelected(8);
+                        break;
+                    case R.id.side_admin_special_class:
+                        onNavigationMenuSelected(9);
+                        break;
+                    case R.id.side_admin_events:
+                        onNavigationMenuSelected(10);
+                        break;
+                    case R.id.side_admin_circulars:
+                        onNavigationMenuSelected(11);
+                        break;
+                    case R.id.side_admin_fee:
+                        onNavigationMenuSelected(12);
+                        break;
+                    case R.id.side_admin_on_duty:
+                        onNavigationMenuSelected(13);
+                        break;
+                    case R.id.side_admin_groups:
+                        onNavigationMenuSelected(14);
+                        break;
+                    case R.id.side_admin_leaves:
+                        onNavigationMenuSelected(15);
+                        break;
+                    case R.id.side_admin_settings:
+                        onNavigationMenuSelected(16);
+                        break;
+                    case R.id.side_admin_logout:
+                        doLogout();
+                        break;
+                }
+                return true;
+            }
+        });
+
 
         String name = PreferenceStorage.getName(getApplicationContext());
         Log.d(TAG, "user name value" + name);
@@ -231,20 +299,20 @@ public class AdminDashBoardActivity extends AppCompatActivity implements DialogC
         mDrawerLayout.setDrawerListener(mDrawerToggle);
         // enable ActionBar app icon to behave as action to toggle nav drawer
         // Initialize header and listview
-        navDrawerList = (ListView) findViewById(R.id.nav_drawer_options_list);
+//        navDrawerList = (ListView) findViewById(R.id.nav_drawer_options_list);
 
-        NavDrawerAdapter navDrawerAdapter = new NavDrawerAdapter(getApplicationContext(), R.layout.nav_list_item, values);
-        navListAdapter = new ArrayAdapter<String>(this, R.layout.nav_list_item, values);
-        navDrawerList.setAdapter(navDrawerAdapter);
-
-        imgNavProfileImage = (ImageView) findViewById(R.id.img_profile_image);
-        navDrawerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                onNavigationMenuSelected(position);
-                mDrawerLayout.closeDrawer(Gravity.LEFT);
-            }
-        });
+//        NavDrawerAdapter navDrawerAdapter = new NavDrawerAdapter(getApplicationContext(), R.layout.nav_list_item, values);
+//        navListAdapter = new ArrayAdapter<String>(this, R.layout.nav_list_item, values);
+//        navDrawerList.setAdapter(navDrawerAdapter);
+//
+//        imgNavProfileImage = (ImageView) findViewById(R.id.img_profile_image);
+//        navDrawerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//            @Override
+//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+//                onNavigationMenuSelected(position);
+//                mDrawerLayout.closeDrawer(Gravity.LEFT);
+//            }
+//        });
     }
 
     private void onNavigationMenuSelected(int position) {

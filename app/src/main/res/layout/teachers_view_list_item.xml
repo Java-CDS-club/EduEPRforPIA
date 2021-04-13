@@ -17,7 +17,7 @@ android:background="@color/new_gray">
         android:background="@color/white"
         android:gravity="center"
         android:text="Roll No."
-        android:textColor="@color/new_gray"
+        android:textColor="@color/text_black"
         android:textSize="14sp" />
 
     <TextView
@@ -32,7 +32,7 @@ android:background="@color/new_gray">
         android:gravity="left|center"
         android:paddingLeft="5dp"
         android:text="Teacher Name"
-        android:textColor="@color/new_gray"
+        android:textColor="@color/text_black"
         android:textSize="14sp" />
 
     <TextView
@@ -46,7 +46,7 @@ android:background="@color/new_gray">
         android:gravity="left|center"
         android:paddingLeft="5dp"
         android:text="Advanced Digital Signal Processing"
-        android:textColor="@color/new_gray"
+        android:textColor="@color/text_black"
         android:textSize="14sp" />
 
     <TextView

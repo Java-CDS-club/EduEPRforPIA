@@ -17,7 +17,7 @@
             android:background="@color/white"
             android:gravity="center"
             android:text="Roll No."
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="14sp" />
 
         <TextView
@@ -33,7 +33,7 @@
             android:gravity="center"
             android:paddingLeft="5dp"
             android:text="Teacher Name"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="14sp" />
 
     </RelativeLayout>

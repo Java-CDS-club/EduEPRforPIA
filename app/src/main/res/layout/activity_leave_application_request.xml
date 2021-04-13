@@ -191,14 +191,20 @@
                             android:layout_marginLeft="20dp"
                             android:layout_marginTop="10dp"
                             android:background="@color/white"
-                            android:gravity="right">
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:src="@drawable/ic_date"
+                                android:padding="5dp"/>
 
                             <TextView
                                 android:id="@+id/dateFromTime"
-                                android:layout_width="150dp"
-                                android:layout_height="75dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
                                 android:background="@color/white"
-                                android:drawableLeft="@drawable/od_from_date_unselected"
+                                android:layout_marginStart="10dp"
                                 android:gravity="center"
                                 android:text="Select time"
                                 android:textSize="16sp" />
@@ -229,14 +235,18 @@
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="10dp"
                             android:background="@color/white"
-                            android:gravity="right">
-
+                            android:gravity="center">
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:src="@drawable/ic_date"
+                                android:padding="5dp"/>
                             <TextView
                                 android:id="@+id/timeTo"
-                                android:layout_width="150dp"
-                                android:layout_height="75dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
                                 android:background="@color/white"
-                                android:drawableLeft="@drawable/od_from_date_unselected"
+                                android:layout_marginStart="10dp"
                                 android:gravity="center"
                                 android:text="Select time"
                                 android:textSize="16sp" />

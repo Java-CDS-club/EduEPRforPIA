@@ -17,7 +17,7 @@
             android:background="@color/white"
             android:gravity="center"
             android:text=""
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="15sp"
             android:visibility="gone"/>
 
@@ -33,7 +33,7 @@
             android:gravity="left|center"
             android:paddingLeft="5dp"
             android:text="Student Name"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="14sp" />
 
         <TextView
@@ -46,7 +46,7 @@
             android:background="@color/white"
             android:gravity="center"
             android:text="45645734"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="14sp" />
 
         <TextView

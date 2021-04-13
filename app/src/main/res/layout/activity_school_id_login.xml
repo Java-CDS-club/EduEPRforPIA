@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/appColor"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/appColorBase"
     android:gravity="center"
     android:orientation="vertical">
 
@@ -10,36 +11,43 @@
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:gravity="center"
-        android:background="@drawable/ic_background"
         android:layout_height="match_parent">
 
-        <ImageView
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:layout_gravity="center"
-            android:src="@drawable/hp_logo" />
+<!--        <ImageView-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="200dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:src="@drawable/hp_logo" />-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:textColor="@color/white"
+            android:text="@string/app_name"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"/>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
+            style="@style/TextInputLayoutStyleW"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
             android:layout_marginBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            app:boxStrokeColor="@color/text_input_white"
+            app:hintTextColor="@color/white"
             android:textColorHint="@color/white">
 
             <EditText
                 android:id="@+id/inputInsId"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="50dp"
-                android:layout_marginRight="50dp"
                 android:digits="aãâáàbcçdeéfghiíjklmnoõôóòpqrstuvwxyzAÃÂÁÀBCÇDEÉFGHIÍJKLMNOÕÔÓÒPQRSTUVWXYZ1234567890@-_'+=(){}[]*%$₹£¢€¥#!?,.;: /?\\¡¿[]•∆π™℅¶♂♀°℃®©\◆●【】&lt;&gt;&amp;"
                 android:hint="@string/school_id_login"
                 android:inputType="text"
                 android:maxLines="1"
                 android:maxLength="20"
-                android:padding="13dp"
                 android:singleLine="true"
                 android:text=""
                 android:backgroundTint="@color/white"

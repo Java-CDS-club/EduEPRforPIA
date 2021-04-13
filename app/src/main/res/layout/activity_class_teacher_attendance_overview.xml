@@ -59,7 +59,7 @@
             android:layout_marginTop="10dp"
             android:gravity="center"
             android:text="Date"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="16sp" />
 
         <TextView
@@ -72,7 +72,7 @@
             android:layout_toRightOf="@id/attendance_date"
             android:gravity="center"
             android:text="DD-MM-YYYY"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="16sp" />
 
         <TextView
@@ -83,7 +83,7 @@
             android:layout_marginLeft="10dp"
             android:layout_toRightOf="@id/class_strength"
             android:text="000"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="16sp" />
 
         <TextView
@@ -94,7 +94,7 @@
             android:layout_below="@id/attendance_date"
             android:layout_marginTop="10dp"
             android:text="Class Strength"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="16sp" />
 
         <TextView
@@ -105,7 +105,7 @@
             android:layout_below="@id/class_strength"
             android:layout_marginTop="10dp"
             android:text="No. of Present"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="16sp" />
 
         <TextView
@@ -116,7 +116,7 @@
             android:layout_alignTop="@+id/no_present"
             android:layout_toRightOf="@id/no_present"
             android:text="100"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="16sp" />
 
         <TextView
@@ -127,7 +127,7 @@
             android:layout_below="@id/txt_no_present"
             android:layout_marginTop="10dp"
             android:text="No. of Absent"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="16sp" />
 
         <TextView
@@ -138,7 +138,7 @@
             android:layout_alignTop="@+id/no_absent"
             android:layout_toRightOf="@id/no_absent"
             android:text="100"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="16sp" />
 
         <TextView
@@ -150,7 +150,7 @@
             android:layout_marginBottom="20dp"
             android:layout_marginTop="10dp"
             android:text="Taken by"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="16sp" />
 
         <TextView
@@ -161,7 +161,7 @@
             android:layout_alignTop="@+id/taken_by"
             android:layout_toRightOf="@id/taken_by"
             android:text="ABCDEFGH"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="16sp" />
 
         <LinearLayout
@@ -197,7 +197,7 @@
                     android:layout_gravity="center"
                     android:text="View Attendance"
                     android:layout_marginLeft="5dp"
-                    android:textColor="@color/new_gray"
+                    android:textColor="@color/text_black"
                     android:textSize="16sp" />
 
             </LinearLayout>
@@ -229,7 +229,7 @@
                     android:layout_gravity="center"
                     android:layout_marginLeft="10dp"
                     android:text="Send Attendance"
-                    android:textColor="@color/new_gray"
+                    android:textColor="@color/text_black"
                     android:textSize="16sp" />
 
             </LinearLayout>
@@ -271,7 +271,7 @@
             android:layout_marginBottom="20dp"
             android:layout_marginTop="10dp"
             android:text="Notification Type :"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="16sp"
             android:textStyle="bold" />
 
@@ -327,7 +327,7 @@
                 android:text="SMS"
                 android:drawablePadding="10dp"
                 android:textSize="16sp"
-                android:textColor="@color/new_gray"/>
+                android:textColor="@color/text_black"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -339,7 +339,7 @@
                 android:drawableLeft="@drawable/grouping_unchecked"
                 android:text="Mail"
                 android:textSize="16sp"
-                android:textColor="@color/new_gray"/>
+                android:textColor="@color/text_black"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -351,7 +351,7 @@
                 android:drawableLeft="@drawable/grouping_unchecked"
                 android:text="Notification"
                 android:textSize="16sp"
-                android:textColor="@color/new_gray"/>
+                android:textColor="@color/text_black"/>
 
         </RelativeLayout>
 

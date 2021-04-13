@@ -28,7 +28,7 @@
                 android:layout_toLeftOf="@id/member_type"
                 android:background="@color/white"
                 android:layout_alignParentLeft="true"
-                android:textColor="@color/new_gray"
+                android:textColor="@color/text_black"
                 android:textSize="16sp" />
 
 
@@ -42,7 +42,7 @@
                 android:layout_alignParentRight="true"
                 android:gravity="center"
                 android:text="Board Member"
-                android:textColor="@color/new_gray"
+                android:textColor="@color/text_black"
                 android:textSize="16sp"/>
 
 

@@ -16,7 +16,7 @@
             android:background="@color/white"
             android:gravity="center"
             android:text="Roll NO."
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="14sp" />
 
         <TextView
@@ -31,7 +31,7 @@
             android:gravity="left|center"
             android:paddingLeft="5dp"
             android:text="Student Name"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="14sp" />
 
         <TextView
@@ -45,7 +45,7 @@
             android:gravity="left|center"
             android:paddingLeft="5dp"
             android:text="Parent Name"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="14sp" />
 
         <TextView

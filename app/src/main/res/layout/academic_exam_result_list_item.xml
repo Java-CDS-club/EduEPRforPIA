@@ -23,7 +23,7 @@
             android:gravity="center"
             android:paddingBottom="5dp"
             android:text="@string/student_name"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="14sp" />
 
         <TextView
@@ -38,7 +38,7 @@
             android:gravity="center"
             android:paddingBottom="5dp"
             android:text="@string/student_grade"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="14sp" />
 
         <TextView
@@ -53,7 +53,7 @@
             android:gravity="center"
             android:paddingBottom="5dp"
             android:text="@string/student_mark"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="14sp" />
 
         <TextView
@@ -68,7 +68,7 @@
             android:gravity="center"
             android:paddingBottom="5dp"
             android:text="@string/student_grade"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="14sp" />
 
         <TextView
@@ -83,7 +83,7 @@
             android:gravity="center"
             android:paddingBottom="5dp"
             android:text="@string/student_mark"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="14sp" />
 
         <TextView
@@ -98,7 +98,7 @@
             android:gravity="center"
             android:paddingBottom="5dp"
             android:text="@string/student_grade"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="14sp" />
 
         <TextView
@@ -113,7 +113,7 @@
             android:gravity="center"
             android:paddingBottom="5dp"
             android:text="@string/student_mark"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="14sp" />
 
     </LinearLayout>

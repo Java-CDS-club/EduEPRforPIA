@@ -22,7 +22,7 @@
             android:gravity="center"
             android:paddingBottom="5dp"
             android:text="2017-05-23"
-            android:textColor="@color/new_gray" />
+            android:textColor="@color/text_black" />
 
         <TextView
             android:id="@+id/txtSubTime"
@@ -35,7 +35,7 @@
             android:gravity="center"
             android:paddingBottom="5dp"
             android:text="12-12-2012"
-            android:textColor="@color/new_gray" />
+            android:textColor="@color/text_black" />
 
         <TextView
             android:id="@+id/txtSubName"
@@ -49,7 +49,7 @@
             android:gravity="center"
             android:paddingBottom="5dp"
             android:text="12-12-2012"
-            android:textColor="@color/new_gray" />
+            android:textColor="@color/text_black" />
 
         <TextView
             android:layout_width="match_parent"
@@ -61,7 +61,7 @@
             android:gravity="center"
             android:paddingBottom="5dp"
             android:text="-"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:visibility="gone" />
 
     </LinearLayout>

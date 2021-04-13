@@ -118,8 +118,8 @@ public class SchoolIdLoginActivity extends AppCompatActivity implements View.OnC
                 if (validateFields()) {
                     JSONObject jsonObject = new JSONObject();
                     try {
-                        jsonObject.put(EnsyfiConstants.PARAMS_FUNC_NAME, EnsyfiConstants.SIGN_IN_PARAMS_FUNC_NAME);
-                        jsonObject.put(EnsyfiConstants.PARAMS_INSTITUTE_ID, inputInstituteId.getText().toString());
+//                        jsonObject.put(EnsyfiConstants.PARAMS_FUNC_NAME, EnsyfiConstants.SIGN_IN_PARAMS_FUNC_NAME);
+                        jsonObject.put(EnsyfiConstants.KEY_INSTITUTE_CODE, inputInstituteId.getText().toString());
 
                     } catch (JSONException e) {
                         e.printStackTrace();
@@ -185,12 +185,12 @@ public class SchoolIdLoginActivity extends AppCompatActivity implements View.OnC
         progressDialogHelper.hideProgressDialog();
          if (validateSignInResponse(response)) {
             try {
-                JSONObject userData = response.getJSONObject("userData");
-                String ins_id = null;
+                JSONObject userData = response.getJSONArray("userData").getJSONObject(0);
+                String ins_id = "";
 
                 Log.d(TAG, "userData dictionary" + userData.toString());
                 if (userData != null) {
-                    ins_id = userData.getString("institute_id") + "";
+//                    ins_id = userData.getString("institute_id");
 
                     PreferenceStorage.saveInstituteId(this, ins_id);
 
@@ -200,7 +200,7 @@ public class SchoolIdLoginActivity extends AppCompatActivity implements View.OnC
                     Log.d(TAG, "sign in response is" + response.toString());
 
                     String instituteName = userData.getString("institute_name");
-                    String instituteCode = userData.getString("institute_code");
+                    String instituteCode = userData.getString("enc_institute_code");
                     String instituteLogo = userData.getString("institute_logo");
                     String instituteLogoPicUrl = EnsyfiConstants.GET_SCHOOL_LOGO + instituteLogo;
                     String userDynamicAPI = EnsyfiConstants.BASE_URL + instituteCode;

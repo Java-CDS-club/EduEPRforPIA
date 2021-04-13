@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "G:\\HappySanzTech\\AppWorkSpace\\EduEPRforPIA\\app\\build\\intermediates\\incremental\\mergeFlavorDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "outputFile": "E:\\StudioProjects\\EduEPRforPIA\\app\\build\\intermediates\\incremental\\mergeFlavorDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Nandha\\.gradle\\caches\\transforms-2\\files-2.1\\69acf875325f906d553e2bb749437d17\\appcompat-1.1.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\HST SYS 04\\.gradle\\caches\\transforms-2\\files-2.1\\975cbd320fcc7de131c627de39e7fc0a\\appcompat-1.2.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Nandha\\.gradle\\caches\\transforms-2\\files-2.1\\b09c6c6d4ca3beab06bf02c389351e8d\\material-1.1.0-alpha10\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\HST SYS 04\\.gradle\\caches\\transforms-2\\files-2.1\\e9c9571861aa6124ea1a17c32863246c\\material-1.4.0-alpha02\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",

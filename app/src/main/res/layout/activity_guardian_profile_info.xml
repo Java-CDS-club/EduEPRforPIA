@@ -70,7 +70,7 @@
                 android:layout_below="@id/img_guardian_profile"
                 android:gravity="center"
                 android:text="Guardian"
-                android:textColor="@color/white"
+                android:textColor="@color/text_black"
                 android:textSize="18dp" />
 
         </RelativeLayout>
@@ -80,7 +80,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@id/userimage1"
-            android:layout_margin="40dp"
+            android:layout_margin="20dp"
             android:background="@drawable/shadow_round"
             android:elevation="12dp">
 

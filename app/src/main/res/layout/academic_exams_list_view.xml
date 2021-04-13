@@ -34,7 +34,7 @@
             android:layout_marginStart="40dp"
             android:layout_marginTop="5dp"
             android:text="@string/title_exam_date"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="14sp" />
 
         <TextView
@@ -47,7 +47,7 @@
             android:layout_toEndOf="@+id/txtFromDate"
             android:layout_toRightOf="@+id/txtFromDate"
             android:text="@string/hyphen"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textStyle="bold" />
 
         <TextView
@@ -59,7 +59,7 @@
             android:layout_toEndOf="@+id/hyphen"
             android:layout_toRightOf="@+id/hyphen"
             android:text="@string/title_exam_date"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="14sp" />
 
         <TextView
@@ -125,7 +125,7 @@
             android:paddingBottom="5dp"
             android:layout_below="@+id/txtExamIdLocal"
             android:layout_toRightOf="@+id/imgStatus"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:text="Completed"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp" />

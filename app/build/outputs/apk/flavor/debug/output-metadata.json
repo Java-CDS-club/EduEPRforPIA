@@ -10,9 +10,9 @@
     {
       "type": "SINGLE",
       "filters": [],
-      "versionCode": 35,
-      "versionName": "1.0.284",
-      "outputFile": "flavorDebug-1.0.284.apk"
+      "versionCode": 1,
+      "versionName": "1.0",
+      "outputFile": "flavorDebug-1.0.apk"
     }
   ]
 }

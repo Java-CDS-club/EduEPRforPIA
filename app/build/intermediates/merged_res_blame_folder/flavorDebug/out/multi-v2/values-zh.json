@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "G:\\HappySanzTech\\AppWorkSpace\\EduEPRforPIA\\app\\build\\intermediates\\incremental\\mergeFlavorDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "outputFile": "E:\\StudioProjects\\EduEPRforPIA\\app\\build\\intermediates\\incremental\\mergeFlavorDebugResources\\merged.dir\\values-zh\\values-zh.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Nandha\\.gradle\\caches\\transforms-2\\files-2.1\\28988792e71672b6369127a856811c9c\\jetified-ucrop-2.2.2\\res\\values-zh\\values-zh.xml",
+                    "source": "C:\\Users\\HST SYS 04\\.gradle\\caches\\transforms-2\\files-2.1\\d05609df015ee686bec23bdb6ce748e0\\jetified-ucrop-2.2.4\\res\\values-zh\\values-zh.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\StudioProjects\\EduEPRforPIA\\app\\build\\intermediates\\incremental\\mergeFlavorDebugResources\\merged.dir\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\HST SYS 04\\.gradle\\caches\\transforms-2\\files-2.1\\e9c9571861aa6124ea1a17c32863246c\\material-1.4.0-alpha02\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        }
+    ]
+}

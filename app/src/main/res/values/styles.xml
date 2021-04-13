@@ -114,6 +114,16 @@
         <item name="android:paddingBottom">5dp</item>
     </style>
 
+    <style name="TextInputLayoutStyleW" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">#ffff</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
+
+    <style name="TextInputLayoutStyleB" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">#58AADB</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
+
     <!-- Dark theme. -->
 
 </resources>

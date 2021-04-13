@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "G:\\HappySanzTech\\AppWorkSpace\\EduEPRforPIA\\app\\build\\intermediates\\incremental\\mergeFlavorDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
+            "outputFile": "E:\\StudioProjects\\EduEPRforPIA\\app\\build\\intermediates\\incremental\\mergeFlavorDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Nandha\\.gradle\\caches\\transforms-2\\files-2.1\\69acf875325f906d553e2bb749437d17\\appcompat-1.1.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\HST SYS 04\\.gradle\\caches\\transforms-2\\files-2.1\\975cbd320fcc7de131c627de39e7fc0a\\appcompat-1.2.0\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",
@@ -23,13 +23,13 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Nandha\\.gradle\\caches\\transforms-2\\files-2.1\\1d6ed9cb01679b58e893c66ea2827c8f\\jetified-play-services-auth-17.0.0\\res\\values-watch-v20\\values.xml",
+                    "source": "C:\\Users\\HST SYS 04\\.gradle\\caches\\transforms-2\\files-2.1\\a9e9a4147bc1ee7d20d3467695d0f160\\jetified-play-services-auth-19.0.0\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",
-                        "startOffsets": "171,246,322,397,472,559,636,723",
+                        "startOffsets": "173,248,324,399,474,561,638,725",
                         "endColumns": "74,75,74,74,86,76,86,75",
-                        "endOffsets": "245,321,396,471,558,635,722,798"
+                        "endOffsets": "247,323,398,473,560,637,724,800"
                     },
                     "to": {
                         "startLines": "2,3,4,5,6,7,8,9",

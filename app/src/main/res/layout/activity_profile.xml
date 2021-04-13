@@ -117,7 +117,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:text="bhuganeshwaren"
-                            android:textColor="@color/new_gray"
+                            android:textColor="@color/text_black"
                             android:textSize="20sp" />
 
                         <TextView
@@ -125,9 +125,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/name"
-                            android:layout_centerHorizontal="true"
                             android:layout_marginTop="5dp"
-                            android:textColor="@color/new_gray" />
+                            android:textColor="@color/text_black" />
 
                     </RelativeLayout>
 
@@ -149,7 +148,7 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="10dp"
                     android:text="@string/user_name"
-                    android:textColor="@color/new_gray"
+                    android:textColor="@color/text_black"
                     android:textSize="18sp" />
 
                 <EditText
@@ -226,7 +225,7 @@
                             android:layout_height="wrap_content"
                             android:text="Parents"
                             android:layout_gravity="center_vertical"
-                            android:textColor="@color/new_gray"
+                            android:textColor="@color/text_black"
                             android:textSize="14sp" />
 
                     </LinearLayout>
@@ -252,7 +251,7 @@
                             android:layout_height="wrap_content"
                             android:text="Guardian"
                             android:layout_gravity="center"
-                            android:textColor="@color/new_gray"
+                            android:textColor="@color/text_black"
                             android:textSize="14sp" />
 
                     </LinearLayout>
@@ -286,7 +285,7 @@
                             android:layout_height="wrap_content"
                             android:text="Student"
                             android:layout_gravity="center_vertical"
-                            android:textColor="@color/new_gray"
+                            android:textColor="@color/text_black"
                             android:textSize="14sp" />
 
                     </LinearLayout>
@@ -312,7 +311,7 @@
                             android:layout_height="wrap_content"
                             android:text="Fees"
                             android:layout_gravity="center_vertical"
-                            android:textColor="@color/new_gray"
+                            android:textColor="@color/text_black"
                             android:textSize="14sp" />
 
                     </LinearLayout>

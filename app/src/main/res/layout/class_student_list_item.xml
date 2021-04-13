@@ -17,7 +17,7 @@ android:background="@color/background_grey">
         android:background="@color/white"
         android:gravity="center"
         android:text="ID"
-        android:textColor="@color/new_gray"
+        android:textColor="@color/text_black"
         android:textSize="14sp" />
 
     <TextView
@@ -32,7 +32,7 @@ android:background="@color/background_grey">
         android:text="Student Name"
         android:paddingLeft="5dp"
         android:background="@color/white"
-        android:textColor="@color/new_gray"
+        android:textColor="@color/text_black"
         android:textSize="14sp" />
 
     <TextView
@@ -45,7 +45,7 @@ android:background="@color/background_grey">
         android:layout_marginLeft="1dp"
         android:layout_marginRight="1dp"
         android:background="@color/white"
-        android:textColor="@color/new_gray"
+        android:textColor="@color/text_black"
         android:textSize="14sp"/>
 
     <TextView

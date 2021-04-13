@@ -22,15 +22,13 @@
     <permission
         android:name="com.edu.erp.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
-    <uses-permission android:name="com.palprotech.ensyfi.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.edu.erp.permission.C2D_MESSAGE" />
 
     <application
         android:name="com.edu.erp.app.AppController"
         android:allowBackup="true"
         android:fullBackupContent="false"
-        android:icon="@mipmap/ic_ensyfi"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_ensyfi"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
@@ -98,25 +96,25 @@
             android:name="com.edu.erp.activity.loginmodule.UserLoginActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
-            android:theme="@style/AppThemeNoActionBarGrey" />
+            android:theme="@style/AppThemeNoActionBarEventDetails" />
 
         <activity
             android:name="com.edu.erp.activity.loginmodule.ForgotPasswordActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
-            android:theme="@style/AppThemeNoActionBarGrey" />
+            android:theme="@style/AppThemeNoActionBarEventDetails" />
 
         <activity
             android:name="com.edu.erp.activity.loginmodule.ResetPasswordActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
-            android:theme="@style/AppThemeNoActionBarGrey" />
+            android:theme="@style/AppThemeNoActionBarEventDetails" />
 
         <activity
             android:name="com.edu.erp.activity.loginmodule.ChangePasswordActivity"
             android:label="@string/app_name"
             android:screenOrientation="unspecified"
-            android:theme="@style/AppThemeNoActionBarGrey" />
+            android:theme="@style/AppThemeNoActionBarEventDetails" />
 
         <activity
             android:name="com.edu.erp.activity.loginmodule.SettingsActivity"

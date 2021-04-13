@@ -1,25 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "G:\\HappySanzTech\\AppWorkSpace\\EduEPRforPIA\\app\\build\\intermediates\\incremental\\mergeFlavorDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "outputFile": "E:\\StudioProjects\\EduEPRforPIA\\app\\build\\intermediates\\incremental\\mergeFlavorDebugResources\\merged.dir\\values-v14\\values-v14.xml",
             "map": [
                 {
-                    "source": "G:\\HappySanzTech\\AppWorkSpace\\EduEPRforPIA\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "source": "E:\\StudioProjects\\EduEPRforPIA\\app\\src\\main\\res\\values-v14\\styles.xml",
                     "from": {
-                        "startLines": "46,34,28,40,14,22,3,5,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2140,1541,1246,1848,518,932,59,123,343",
-                        "endLines": "52,38,32,44,20,26,3,8,12",
-                        "endColumns": "12,12,12,12,12,12,60,12,12",
-                        "endOffsets": "2499,1840,1533,2132,924,1238,115,335,510"
+                        "startLines": "46,-1,-1,-1,14,22,-1,-1,-1",
+                        "startColumns": "4,-1,-1,-1,4,4,-1,-1,-1",
+                        "startOffsets": "2140,-1,-1,-1,518,932,-1,-1,-1",
+                        "endLines": "52,-1,-1,-1,20,26,-1,-1,-1",
+                        "endColumns": "12,-1,-1,-1,12,12,-1,-1,-1",
+                        "endOffsets": "2508,-1,-1,-1,924,1238,-1,-1,-1"
                     },
                     "to": {
                         "startLines": "2,9,14,19,24,31,36,37,41",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,413,713,1001,1286,1691,1998,2058,2272",
+                        "startOffsets": "55,422,722,1010,1295,1700,2007,2067,2281",
                         "endLines": "8,13,18,23,30,35,36,40,43",
                         "endColumns": "12,12,12,12,12,12,59,12,12",
-                        "endOffsets": "408,708,996,1281,1686,1993,2053,2267,2437"
+                        "endOffsets": "417,717,1005,1290,1695,2002,2062,2276,2446"
                     }
                 }
             ]

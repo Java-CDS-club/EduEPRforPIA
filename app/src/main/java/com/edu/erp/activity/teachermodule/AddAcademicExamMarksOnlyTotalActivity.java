@@ -8,6 +8,7 @@ import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import android.text.InputType;
 import android.text.method.DigitsKeyListener;
@@ -176,7 +177,7 @@ public class AddAcademicExamMarksOnlyTotalActivity extends AppCompatActivity imp
                 t1.setVisibility(View.GONE);
 //                t1.setText(c.getString(1));
                 t1.setText(classSectionId.get(c1).getEnroll_id());
-                t1.setTextColor(Color.parseColor("#FF68358E"));
+                t1.setTextColor(ContextCompat.getColor(this, R.color.text_black));
                 t1.setHeight(120);
                 t1.setWidth(100);
                 t1.setPadding(1, 0, 2, 0);
@@ -188,7 +189,7 @@ public class AddAcademicExamMarksOnlyTotalActivity extends AppCompatActivity imp
                 t3.setGravity(Gravity.CENTER);
 
                 t3.setText("" + i);
-                t3.setTextColor(Color.parseColor("#FF68358E"));
+                t3.setTextColor(ContextCompat.getColor(this, R.color.text_black));
                 t3.setHeight(120);
                 t3.setWidth(30);
                 t3.setPadding(0, 0, 1, 0);
@@ -198,7 +199,7 @@ public class AddAcademicExamMarksOnlyTotalActivity extends AppCompatActivity imp
                         ViewGroup.LayoutParams.WRAP_CONTENT, 0.40f));
 
                 t2.setText(classSectionId.get(c1).getName() + " - " + classSectionId.get(c1).getSubjectName());
-                t2.setTextColor(Color.parseColor("#FF68358E"));
+                t2.setTextColor(ContextCompat.getColor(this, R.color.text_black));
                 t2.setHeight(120);
                 t2.setWidth(200);
                 t2.setPadding(20, 0, 2, 0);
@@ -220,7 +221,7 @@ public class AddAcademicExamMarksOnlyTotalActivity extends AppCompatActivity imp
                 b.setInputType(InputType.TYPE_CLASS_TEXT);
                 b.setAllCaps(true);
                 b.setSingleLine(true);
-                b.setTextColor(Color.parseColor("#FF68358E"));
+                b.setTextColor(ContextCompat.getColor(this, R.color.text_black));
                 b.setPressed(true);
                 b.setHeight(120);
                 b.setWidth(100);
@@ -275,7 +276,7 @@ public class AddAcademicExamMarksOnlyTotalActivity extends AppCompatActivity imp
                             t1.setGravity(Gravity.CENTER);
                             t1.setVisibility(View.GONE);
                             t1.setText(c.getString(1));
-                            t1.setTextColor(Color.parseColor("#FF68358E"));
+                            t1.setTextColor(ContextCompat.getColor(this, R.color.text_black));
                             t1.setHeight(120);
                             t1.setWidth(100);
                             t1.setPadding(1, 0, 2, 0);
@@ -287,7 +288,7 @@ public class AddAcademicExamMarksOnlyTotalActivity extends AppCompatActivity imp
                             t3.setGravity(Gravity.CENTER);
 
                             t3.setText("" + i);
-                            t3.setTextColor(Color.parseColor("#FF68358E"));
+                            t3.setTextColor(ContextCompat.getColor(this, R.color.text_black));
                             t3.setHeight(120);
                             t3.setWidth(30);
                             t3.setPadding(0, 0, 1, 0);
@@ -297,7 +298,7 @@ public class AddAcademicExamMarksOnlyTotalActivity extends AppCompatActivity imp
                                     ViewGroup.LayoutParams.WRAP_CONTENT, 0.40f));
 
                             t2.setText(c.getString(4) + " - " + c.getString(6));
-                            t2.setTextColor(Color.parseColor("#FF68358E"));
+                            t2.setTextColor(ContextCompat.getColor(this, R.color.text_black));
                             t2.setHeight(120);
                             t2.setWidth(200);
                             t2.setPadding(20, 0, 2, 0);
@@ -319,7 +320,7 @@ public class AddAcademicExamMarksOnlyTotalActivity extends AppCompatActivity imp
                             b.setInputType(InputType.TYPE_CLASS_TEXT);
                             b.setAllCaps(true);
                             b.setSingleLine(true);
-                            b.setTextColor(Color.parseColor("#FF68358E"));
+                            b.setTextColor(ContextCompat.getColor(this, R.color.text_black));
                             b.setPressed(true);
                             b.setHeight(120);
                             b.setWidth(100);

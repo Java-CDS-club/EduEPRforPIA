@@ -1,326 +1,302 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_gravity="center"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
 
-    <FrameLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="0.5"
-                android:background="@color/appColorBase"
-                android:orientation="vertical" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="0.5"
-                android:orientation="vertical" />
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/ic_background"
-            android:layout_gravity="center"
-            android:gravity="center"
+            android:layout_weight="0.5"
+            android:background="@color/appColorBase"
             android:orientation="vertical" />
 
-        <ScrollView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_gravity="center">
+            android:layout_weight="0.5"
+            android:background="@color/new_bg"
+            android:orientation="vertical" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="10dp"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/shadow_round"
+                android:elevation="12dp"
                 android:gravity="center"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="58dp"
-                    android:gravity="left"
-                    android:layout_gravity="left"
-                    android:layout_marginBottom="10dp"
-                    android:text="Welcome to ENSYFI"
-                    android:textColor="@color/white"
-                    android:textSize="20sp" />
+                android:orientation="vertical"
+                android:padding="12dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginRight="20dp"
-                    android:layout_marginBottom="20dp"
-                    android:layout_gravity="center"
                     android:gravity="center"
-                    android:padding="12dp"
-                    android:background="@drawable/shadow_round"
-                    android:elevation="12dp"
-                    android:orientation="vertical">
+                    android:orientation="horizontal"
+                    android:padding="10dp">
 
                     <LinearLayout
+                        android:id="@+id/students"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:padding="10dp"
-                        android:orientation="horizontal">
+                        android:layout_height="130dp"
+                        android:layout_weight="0.50"
+                        android:background="@color/white"
+                        android:orientation="vertical">
 
-                        <LinearLayout
-                            android:id="@+id/students"
-                            android:layout_width="match_parent"
-                            android:layout_height="130dp"
-                            android:background="@color/white"
-                            android:layout_weight="0.50"
-                            android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="80sp"
+                            android:layout_height="80sp"
+                            android:layout_gravity="top|center"
+                            android:layout_marginTop="5dp"
+                            android:padding="10dp"
+                            android:src="@drawable/ic_dashboard_student" />
 
-                            <ImageView
-                                android:layout_width="80sp"
-                                android:layout_height="80sp"
-                                android:layout_gravity="top|center"
-                                android:layout_marginTop="5dp"
-                                android:padding="10dp"
-                                android:src="@drawable/ic_dashboard_student" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="match_parent"
-                                android:layout_gravity="center"
-                                android:gravity="center"
-                                android:text="@string/students"
-                                android:textColor="@color/new_gray"
-                                android:textSize="14sp"
-                                android:textStyle="bold" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:id="@+id/teachers"
-                            android:layout_width="match_parent"
-                            android:layout_height="130dp"
-                            android:background="@color/white"
-                            android:layout_weight="0.50"
-                            android:orientation="vertical">
-
-                            <ImageView
-                                android:layout_width="80sp"
-                                android:layout_height="80sp"
-                                android:layout_gravity="top|center"
-                                android:padding="10dp"
-                                android:src="@drawable/ic_dashboard_teacher" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="match_parent"
-                                android:layout_gravity="center"
-                                android:gravity="center"
-                                android:text="@string/teachers"
-                                android:textColor="@color/new_gray"
-                                android:textSize="14sp"
-                                android:textStyle="bold" />
-                        </LinearLayout>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/students"
+                            android:textColor="@color/text_black"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/teachers"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:orientation="horizontal">
+                        android:layout_height="130dp"
+                        android:layout_weight="0.50"
+                        android:background="@color/white"
+                        android:orientation="vertical">
 
-                        <LinearLayout
-                            android:id="@+id/parents"
-                            android:layout_width="match_parent"
-                            android:layout_height="130dp"
-                            android:background="@color/white"
-                            android:layout_weight="0.50"
-                            android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="80sp"
+                            android:layout_height="80sp"
+                            android:layout_gravity="top|center"
+                            android:padding="10dp"
+                            android:src="@drawable/ic_dashboard_teacher" />
 
-                            <ImageView
-                                android:layout_width="80sp"
-                                android:layout_height="80sp"
-                                android:layout_gravity="top|center"
-                                android:padding="10dp"
-                                android:src="@drawable/ic_dashboard_parents" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="match_parent"
-                                android:layout_gravity="center"
-                                android:gravity="center"
-                                android:text="@string/parents"
-                                android:textColor="@color/new_gray"
-                                android:textSize="14sp"
-                                android:textStyle="bold" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:id="@+id/classes"
-                            android:layout_width="match_parent"
-                            android:layout_height="130dp"
-                            android:background="@color/white"
-                            android:layout_weight="0.50"
-                            android:orientation="vertical">
-
-                            <ImageView
-                                android:layout_width="80sp"
-                                android:layout_height="80sp"
-                                android:layout_gravity="center_horizontal"
-                                android:padding="10dp"
-                                android:src="@drawable/ic_dashboard_classtest" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="match_parent"
-                                android:layout_gravity="center"
-                                android:layout_marginTop="1dp"
-                                android:gravity="center"
-                                android:text="@string/classes"
-                                android:textColor="@color/new_gray"
-                                android:textSize="14sp"
-                                android:textStyle="bold" />
-                        </LinearLayout>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/teachers"
+                            android:textColor="@color/text_black"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
                     </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:orientation="horizontal">
-
-                        <LinearLayout
-                            android:id="@+id/exams"
-                            android:layout_width="match_parent"
-                            android:layout_height="130dp"
-                            android:background="@color/white"
-                            android:layout_weight="0.50"
-                            android:orientation="vertical">
-
-                            <ImageView
-                                android:layout_width="80sp"
-                                android:layout_height="80sp"
-                                android:layout_gravity="top|center"
-                                android:padding="10dp"
-                                android:src="@drawable/ic_dashboard_exam" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="match_parent"
-                                android:layout_gravity="center"
-                                android:gravity="center"
-                                android:text="EXAM"
-                                android:textColor="@color/new_gray"
-                                android:textSize="14sp"
-                                android:textStyle="bold" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:id="@+id/results"
-                            android:layout_width="match_parent"
-                            android:layout_height="130dp"
-                            android:background="@color/white"
-                            android:layout_weight="0.50"
-                            android:orientation="vertical">
-
-                            <ImageView
-                                android:layout_width="80sp"
-                                android:layout_height="80sp"
-                                android:layout_gravity="center_horizontal"
-                                android:padding="10dp"
-                                android:src="@drawable/ic_dashboard_result" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="match_parent"
-                                android:layout_gravity="center"
-                                android:layout_marginTop="1dp"
-                                android:gravity="center"
-                                android:text="@string/result"
-                                android:textColor="@color/new_gray"
-                                android:textSize="14sp"
-                                android:textStyle="bold" />
-                        </LinearLayout>
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:orientation="horizontal">
-
-                        <LinearLayout
-                            android:id="@+id/events"
-                            android:layout_width="match_parent"
-                            android:layout_height="130dp"
-                            android:background="@color/white"
-                            android:layout_weight="0.50"
-                            android:orientation="vertical">
-
-                            <ImageView
-                                android:layout_width="80sp"
-                                android:layout_height="80sp"
-                                android:layout_gravity="top|center"
-                                android:padding="10dp"
-                                android:src="@drawable/ic_dashboard_events" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="match_parent"
-                                android:layout_gravity="center"
-                                android:gravity="center"
-                                android:text="@string/events"
-                                android:textColor="@color/new_gray"
-                                android:textSize="14sp"
-                                android:textStyle="bold" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:id="@+id/communication"
-                            android:layout_width="match_parent"
-                            android:layout_height="130dp"
-                            android:background="@color/white"
-                            android:layout_weight="0.50"
-                            android:orientation="vertical">
-
-                            <ImageView
-                                android:layout_width="80sp"
-                                android:layout_height="80sp"
-                                android:layout_gravity="top|center"
-                                android:padding="10dp"
-                                android:src="@drawable/ic_dashboard_circular" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="match_parent"
-                                android:layout_gravity="center"
-                                android:gravity="center"
-                                android:text="@string/communication"
-                                android:textColor="@color/new_gray"
-                                android:textSize="14sp"
-                                android:textStyle="bold" />
-                        </LinearLayout>
-                    </LinearLayout>
-
                 </LinearLayout>
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/parents"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:layout_weight="0.50"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80sp"
+                            android:layout_height="80sp"
+                            android:layout_gravity="top|center"
+                            android:padding="10dp"
+                            android:src="@drawable/ic_dashboard_parents" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/parents"
+                            android:textColor="@color/text_black"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/classes"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:layout_weight="0.50"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80sp"
+                            android:layout_height="80sp"
+                            android:layout_gravity="center_horizontal"
+                            android:padding="10dp"
+                            android:src="@drawable/ic_dashboard_classtest" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="1dp"
+                            android:gravity="center"
+                            android:text="@string/classes"
+                            android:textColor="@color/text_black"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/exams"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:layout_weight="0.50"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80sp"
+                            android:layout_height="80sp"
+                            android:layout_gravity="top|center"
+                            android:padding="10dp"
+                            android:src="@drawable/ic_dashboard_exam" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="EXAM"
+                            android:textColor="@color/text_black"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/results"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:layout_weight="0.50"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80sp"
+                            android:layout_height="80sp"
+                            android:layout_gravity="center_horizontal"
+                            android:padding="10dp"
+                            android:src="@drawable/ic_dashboard_result" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="1dp"
+                            android:gravity="center"
+                            android:text="@string/result"
+                            android:textColor="@color/text_black"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/events"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:layout_weight="0.50"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80sp"
+                            android:layout_height="80sp"
+                            android:layout_gravity="top|center"
+                            android:padding="10dp"
+                            android:src="@drawable/ic_dashboard_events" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/events"
+                            android:textColor="@color/text_black"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/communication"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:layout_weight="0.50"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80sp"
+                            android:layout_height="80sp"
+                            android:layout_gravity="top|center"
+                            android:padding="10dp"
+                            android:src="@drawable/ic_dashboard_circular" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/communication"
+                            android:textColor="@color/text_black"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
 
             </LinearLayout>
-        </ScrollView>
 
-    </FrameLayout>
 
-</LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

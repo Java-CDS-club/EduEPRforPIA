@@ -17,6 +17,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.util.Log;
 import android.view.Gravity;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -47,6 +48,7 @@ import com.edu.erp.servicehelpers.ServiceHelper;
 import com.edu.erp.serviceinterfaces.IServiceListener;
 import com.edu.erp.utils.EnsyfiConstants;
 import com.edu.erp.utils.PreferenceStorage;
+import com.google.android.material.navigation.NavigationView;
 import com.squareup.picasso.Picasso;
 
 import org.json.JSONException;
@@ -58,7 +60,7 @@ public class ParentDashBoardActivity extends AppCompatActivity implements Dialog
     Toolbar toolbar;
     private ActionBarDrawerToggle mDrawerToggle;
     private DrawerLayout mDrawerLayout;
-    private ListView navDrawerList;
+//    private ListView navDrawerList;
     boolean doubleBackToExitPressedOnce = false;
     private ImageView imgNavProfileImage;
     private ArrayAdapter<String> navListAdapter;
@@ -72,6 +74,7 @@ public class ParentDashBoardActivity extends AppCompatActivity implements Dialog
     String checkRes = "";
     private ServiceHelper serviceHelper;
     protected ProgressDialogHelper progressDialogHelper;
+    NavigationView navigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -80,9 +83,9 @@ public class ParentDashBoardActivity extends AppCompatActivity implements Dialog
         String userTypeString = PreferenceStorage.getUserType(getApplicationContext());
         int userType = Integer.parseInt(userTypeString);
         if (userType == 3) {
-            setTitle("ENSYFI - Students");
+            setTitle("ERP - Students");
         } else if (userType == 4) {
-            setTitle("ENSYFI - Parents");
+            setTitle("ERP - Parents");
         }
         toolbar = (Toolbar) findViewById(R.id.activity_toolbar);
         setSupportActionBar(toolbar);
@@ -145,7 +148,10 @@ public class ParentDashBoardActivity extends AppCompatActivity implements Dialog
     private void initializeViews() {
         Log.d(TAG, "initializin the views");
         Log.d(TAG, "initializing view pager");
-        navUserProfileName = (TextView) findViewById(R.id.user_profile_name);
+        navigationView = findViewById(R.id.nav_view);
+        navUserProfileName = navigationView.getHeaderView(0).findViewById(R.id.user_profile_name);
+        imgNavProfileImage = navigationView.getHeaderView(0).findViewById(R.id.img_profile_image);
+
 
         dashAttendance = (LinearLayout) findViewById(R.id.attendance);
         dashClassTest = (LinearLayout) findViewById(R.id.class_test);
@@ -203,6 +209,53 @@ public class ParentDashBoardActivity extends AppCompatActivity implements Dialog
             }
         });
 
+        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+
+            // This method will trigger on item Click of navigation menu
+            @Override
+            public boolean onNavigationItemSelected(MenuItem menuItem) {
+                switch (menuItem.getItemId()) {
+
+                    case R.id.side_teacher_profile:
+                        onNavigationMenuSelected(0);
+                        break;
+                    case R.id.side_teacher_attendance:
+                        onNavigationMenuSelected(1);
+                        break;
+                    case R.id.side_teacher_homework:
+                        onNavigationMenuSelected(2);
+                        break;
+                    case R.id.side_teacher_examresults:
+                        onNavigationMenuSelected(3);
+                        break;
+                    case R.id.side_teacher_spl:
+                        onNavigationMenuSelected(4);
+                        break;
+                    case R.id.side_teacher_timetable:
+                        onNavigationMenuSelected(5);
+                        break;
+                    case R.id.side_teacher_events:
+                        onNavigationMenuSelected(6);
+                        break;
+                    case R.id.side_teacher_circulars:
+                        onNavigationMenuSelected(7);
+                        break;
+                    case R.id.side_teacher_student_info:
+                        onNavigationMenuSelected(8);
+                        break;
+                    case R.id.side_teacher_OD:
+                        onNavigationMenuSelected(9);
+                        break;
+                    case R.id.side_teacher_settings:
+                        onNavigationMenuSelected(10);
+                        break;
+                    case R.id.side_teacher_signout:
+                        onNavigationMenuSelected(11);
+                        break;
+                }
+                return true;
+            }
+        });
 
         String name = PreferenceStorage.getName(getApplicationContext());
         Log.d(TAG, "user name value" + name);
@@ -253,20 +306,20 @@ public class ParentDashBoardActivity extends AppCompatActivity implements Dialog
 
         mDrawerLayout.setDrawerListener(mDrawerToggle);
         // enable ActionBar app icon to behave as action to toggle nav drawer
-        navDrawerList = (ListView) findViewById(R.id.nav_drawer_options_list);
-
-        NavDrawerAdapter navDrawerAdapter = new NavDrawerAdapter(getApplicationContext(), R.layout.nav_list_item, values);
-        navListAdapter = new ArrayAdapter<String>(this, R.layout.nav_list_item, values);
-        navDrawerList.setAdapter(navDrawerAdapter);
-
-        imgNavProfileImage = (ImageView) findViewById(R.id.img_profile_image);
-        navDrawerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                onNavigationMenuSelected(position);
-                mDrawerLayout.closeDrawer(Gravity.LEFT);
-            }
-        });
+//        navDrawerList = (ListView) findViewById(R.id.nav_drawer_options_list);
+//
+//        NavDrawerAdapter navDrawerAdapter = new NavDrawerAdapter(getApplicationContext(), R.layout.nav_list_item, values);
+//        navListAdapter = new ArrayAdapter<String>(this, R.layout.nav_list_item, values);
+//        navDrawerList.setAdapter(navDrawerAdapter);
+//
+//        imgNavProfileImage = (ImageView) findViewById(R.id.img_profile_image);
+//        navDrawerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//            @Override
+//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+//                onNavigationMenuSelected(position);
+//                mDrawerLayout.closeDrawer(Gravity.LEFT);
+//            }
+//        });
     }
 
     private void onNavigationMenuSelected(int position) {

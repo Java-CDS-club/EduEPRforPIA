@@ -50,7 +50,7 @@
                     android:paddingBottom="3dp"
                     android:text="XII"
                     android:textAllCaps="true"
-                    android:textColor="@color/new_gray"
+                    android:textColor="@color/text_black"
                     android:textSize="16sp" />
 
             </LinearLayout>
@@ -82,7 +82,7 @@
                     android:paddingTop="3dp"
                     android:paddingBottom="3dp"
                     android:text="Balamuralikrishna"
-                    android:textColor="@color/new_gray"
+                    android:textColor="@color/text_black"
                     android:textSize="18sp" />
 
             </LinearLayout>
@@ -132,7 +132,7 @@
                     android:paddingTop="3dp"
                     android:paddingBottom="3dp"
                     android:text="Computer Science"
-                    android:textColor="@color/new_gray"
+                    android:textColor="@color/text_black"
                     android:textSize="18sp" />
 
             </LinearLayout>
@@ -164,7 +164,7 @@
                     android:paddingTop="3dp"
                     android:paddingBottom="3dp"
                     android:text="DD-MM-YYYY"
-                    android:textColor="@color/new_gray"
+                    android:textColor="@color/text_black"
                     android:textSize="18sp" />
 
             </LinearLayout>
@@ -191,7 +191,7 @@
             android:gravity="center"
             android:paddingBottom="20dp"
             android:text="01"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="18sp"
             android:textStyle="bold"
             android:visibility="gone" />
@@ -206,7 +206,7 @@
             android:layout_marginBottom="5dp"
             android:gravity="bottom|center_horizontal"
             android:text="Period"
-            android:textColor="@color/new_gray"
+            android:textColor="@color/text_black"
             android:textSize="18sp"
             android:textStyle="bold"
             android:visibility="gone" />
@@ -245,7 +245,7 @@
                     android:paddingTop="3dp"
                     android:paddingBottom="3dp"
                     android:text="9:00"
-                    android:textColor="@color/new_gray"
+                    android:textColor="@color/text_black"
                     android:textSize="18sp" />
 
             </LinearLayout>
@@ -277,7 +277,7 @@
                     android:paddingTop="3dp"
                     android:paddingBottom="3dp"
                     android:text="10:00"
-                    android:textColor="@color/new_gray"
+                    android:textColor="@color/text_black"
                     android:textSize="18sp" />
 
             </LinearLayout>

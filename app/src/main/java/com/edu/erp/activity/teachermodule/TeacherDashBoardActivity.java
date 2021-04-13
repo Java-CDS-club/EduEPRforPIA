@@ -17,6 +17,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.util.Log;
 import android.view.Gravity;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -48,6 +49,7 @@ import com.edu.erp.serviceinterfaces.IServiceListener;
 import com.edu.erp.syncadapter.UploadDataSyncAdapter;
 import com.edu.erp.utils.EnsyfiConstants;
 import com.edu.erp.utils.PreferenceStorage;
+import com.google.android.material.navigation.NavigationView;
 import com.squareup.picasso.Picasso;
 
 import org.json.JSONArray;
@@ -64,13 +66,13 @@ public class TeacherDashBoardActivity extends AppCompatActivity implements Dialo
     Toolbar toolbar;
     private ActionBarDrawerToggle mDrawerToggle;
     private DrawerLayout mDrawerLayout;
-    private ListView navDrawerList;
+//    private ListView navDrawerList;
     boolean doubleBackToExitPressedOnce = false;
     private ImageView imgNavProfileImage;
     private ArrayAdapter<String> navListAdapter;
-    private String[] values = {"Profile", "Attendance", "Homeworks/Class Tests", "Substitution", "Special Class", "Exams & Results",
-            "Exam Duty", "Timetable", "Events", "Circulars", "On Duty", "Groups", "Apply Leave",
-            "Settings", "Sync", "Sign Out"};
+//    private String[] values = {"Profile", "Attendance", "Homeworks/Class Tests", "Substitution", "Special Class", "Exams & Results",
+//            "Exam Duty", "Timetable", "Events", "Circulars", "On Duty", "Groups", "Apply Leave",
+//            "Settings", "Sync", "Sign Out"};
     TextView navUserProfileName = null, classAttendanceInfo, classWorkInfo;
     LinearLayout dashAttendance, dashTimeTable, dashClassTest, dashExam, dashEvent, dashCommunication, classinfo;
     private String mCurrentUserProfileUrl = "";
@@ -79,17 +81,18 @@ public class TeacherDashBoardActivity extends AppCompatActivity implements Dialo
     protected ProgressDialogHelper progressDialogHelper;
     private ServiceHelper serviceHelper;
     private SaveTeacherData teacherData;
+    NavigationView navigationView;
 
     String checkRes = "";
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_teacher_dash_board);
-        setTitle("ENSYFI - Teachers");
+        setTitle("ERP - Teachers");
         toolbar = (Toolbar) findViewById(R.id.activity_toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.new_navi);
+//        getSupportActionBar().setHomeAsUpIndicator(R.drawable.new_navi);
         initializeNavigationDrawer();
         initializeViews();
         context = getApplicationContext();
@@ -115,7 +118,9 @@ public class TeacherDashBoardActivity extends AppCompatActivity implements Dialo
     private void initializeViews() {
         Log.d(TAG, "initializin the views");
         Log.d(TAG, "initializing view pager");
-        navUserProfileName = (TextView) findViewById(R.id.user_profile_name);
+        navigationView = findViewById(R.id.nav_view);
+        navUserProfileName = navigationView.getHeaderView(0).findViewById(R.id.user_profile_name);
+        imgNavProfileImage = navigationView.getHeaderView(0).findViewById(R.id.img_profile_image);
 
         classinfo = (LinearLayout) findViewById(R.id.class_info);
         classAttendanceInfo = (TextView) findViewById(R.id.class_attendance_info);
@@ -197,6 +202,62 @@ public class TeacherDashBoardActivity extends AppCompatActivity implements Dialo
             }
         });
 
+        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+
+            // This method will trigger on item Click of navigation menu
+            @Override
+            public boolean onNavigationItemSelected(MenuItem menuItem) {
+                switch (menuItem.getItemId()) {
+
+                    case R.id.side_teacher_attendance:
+                        onNavigationMenuSelected(1);
+                        break;
+                    case R.id.side_teacher_homework:
+                        onNavigationMenuSelected(2);
+                        break;
+                    case R.id.side_teacher_sub:
+                        onNavigationMenuSelected(3);
+                        break;
+                    case R.id.side_teacher_spl:
+                        onNavigationMenuSelected(4);
+                        break;
+                    case R.id.side_teacher_examresults:
+                        onNavigationMenuSelected(5);
+                        break;
+                    case R.id.side_teacher_examduty:
+                        onNavigationMenuSelected(6);
+                        break;
+                    case R.id.side_teacher_timetable:
+                        onNavigationMenuSelected(7);
+                        break;
+                    case R.id.side_teacher_events:
+                        onNavigationMenuSelected(8);
+                        break;
+                    case R.id.side_teacher_circulars:
+                        onNavigationMenuSelected(9);
+                        break;
+                    case R.id.side_teacher_OD:
+                        onNavigationMenuSelected(10);
+                        break;
+                    case R.id.side_teacher_groups:
+                        onNavigationMenuSelected(11);
+                        break;
+                    case R.id.side_teacher_leave:
+                        onNavigationMenuSelected(12);
+                        break;
+                    case R.id.side_teacher_settings:
+                        onNavigationMenuSelected(13);
+                        break;
+                    case R.id.side_teacher_sync:
+                        onNavigationMenuSelected(14);
+                        break;
+                    case R.id.side_teacher_signout:
+                        onNavigationMenuSelected(15);
+                        break;
+                }
+                return true;
+            }
+        });
 
         String name = PreferenceStorage.getName(getApplicationContext());
         Log.d(TAG, "user name value" + name);
@@ -250,29 +311,25 @@ public class TeacherDashBoardActivity extends AppCompatActivity implements Dialo
 
         mDrawerLayout.setDrawerListener(mDrawerToggle);
 
-        navDrawerList = (ListView) findViewById(R.id.nav_drawer_options_list);
-
-        NavDrawerAdapter navDrawerAdapter = new NavDrawerAdapter(getApplicationContext(), R.layout.nav_list_item, values);
-        navListAdapter = new ArrayAdapter<String>(this, R.layout.nav_list_item, values);
-        navDrawerList.setAdapter(navDrawerAdapter);
+//        navDrawerList = (ListView) findViewById(R.id.nav_drawer_options_list);
+//
+//        NavDrawerAdapter navDrawerAdapter = new NavDrawerAdapter(getApplicationContext(), R.layout.nav_list_item, values);
+//        navListAdapter = new ArrayAdapter<String>(this, R.layout.nav_list_item, values);
+//        navDrawerList.setAdapter(navDrawerAdapter);
 
         imgNavProfileImage = (ImageView) findViewById(R.id.img_profile_image);
-        navDrawerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                onNavigationMenuSelected(position);
-                mDrawerLayout.closeDrawer(Gravity.LEFT);
-            }
-        });
+//        navDrawerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//            @Override
+//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+//                onNavigationMenuSelected(position);
+//                mDrawerLayout.closeDrawer(Gravity.LEFT);
+//            }
+//        });
     }
 
     private void onNavigationMenuSelected(int position) {
 
-        if (position == 0) {
-            Intent navigationIntent = new Intent(this, ProfileActivityNew.class);
-            navigationIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-            startActivity(navigationIntent);
-        } else if (position == 1) {
+        if (position == 1) {
             Intent navigationIntent = new Intent(this, AttendanceStatusActivity.class);
             navigationIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(navigationIntent);

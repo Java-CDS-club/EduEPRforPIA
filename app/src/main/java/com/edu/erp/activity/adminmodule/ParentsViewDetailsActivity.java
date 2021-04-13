@@ -203,10 +203,10 @@ public class ParentsViewDetailsActivity extends AppCompatActivity implements ISe
             Picasso.get().load(url).placeholder(R.drawable.ic_father).error(R.drawable.ic_father).into(fatherInfo);
         }
         if (((url != null) && !(url.isEmpty()))) {
-            Picasso.get().load(url).placeholder(R.drawable.ic_mother_deselect).error(R.drawable.ic_mother_deselect).into(motherInfo);
+            Picasso.get().load(url).placeholder(R.drawable.ic_mother).error(R.drawable.ic_mother).into(motherInfo);
         }
         if (((url != null) && !(url.isEmpty()))) {
-            Picasso.get().load(url).placeholder(R.drawable.ic_guardian_deselect).error(R.drawable.ic_guardian_deselect).into(guardianImg);
+            Picasso.get().load(url).placeholder(R.drawable.ic_guardian_1).error(R.drawable.ic_guardian_1).into(guardianImg);
         }
     }
 
@@ -231,13 +231,13 @@ public class ParentsViewDetailsActivity extends AppCompatActivity implements ISe
         String url = PreferenceStorage.getMotherImg(this);
 
         if (((url != null) && !(url.isEmpty()))) {
-            Picasso.get().load(url).placeholder(R.drawable.ic_father_deselect).error(R.drawable.ic_father_deselect).into(fatherInfo);
+            Picasso.get().load(url).placeholder(R.drawable.ic_father).error(R.drawable.ic_father).into(fatherInfo);
         }
         if (((url != null) && !(url.isEmpty()))) {
             Picasso.get().load(url).placeholder(R.drawable.ic_mother).error(R.drawable.ic_mother).into(motherInfo);
         }
         if (((url != null) && !(url.isEmpty()))) {
-            Picasso.get().load(url).placeholder(R.drawable.ic_guardian_deselect).error(R.drawable.ic_guardian_deselect).into(guardianImg);
+            Picasso.get().load(url).placeholder(R.drawable.ic_guardian_1).error(R.drawable.ic_guardian_1).into(guardianImg);
         }
     }
 
@@ -262,10 +262,10 @@ public class ParentsViewDetailsActivity extends AppCompatActivity implements ISe
         String url = PreferenceStorage.getGuardianImg(this);
 
         if (((url != null) && !(url.isEmpty()))) {
-            Picasso.get().load(url).placeholder(R.drawable.ic_father_deselect).error(R.drawable.ic_father_deselect).into(fatherInfo);
+            Picasso.get().load(url).placeholder(R.drawable.ic_father).error(R.drawable.ic_father).into(fatherInfo);
         }
         if (((url != null) && !(url.isEmpty()))) {
-            Picasso.get().load(url).placeholder(R.drawable.ic_mother_deselect).error(R.drawable.ic_mother_deselect).into(motherInfo);
+            Picasso.get().load(url).placeholder(R.drawable.ic_mother).error(R.drawable.ic_mother).into(motherInfo);
         }
         if (((url != null) && !(url.isEmpty()))) {
             Picasso.get().load(url).placeholder(R.drawable.ic_guardian_1).error(R.drawable.ic_guardian_1).into(guardianImg);
