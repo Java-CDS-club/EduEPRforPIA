@@ -56,6 +56,7 @@ public class GuardianInfoActivity extends AppCompatActivity implements DialogCli
         GIncome.setText("");
         GMobile.setText("");
         GOfficePhone.setText("");
+
         GHomePhone.setText("");
 
         GName.setText(PreferenceStorage.getGuardianName(getApplicationContext()));
